@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // ===================== HERO SLIDER =====================
     const slides = document.querySelectorAll('.slide');
     const dots = document.querySelectorAll('.dot');
+
     const prevBtn = document.querySelector('.custom-prev-btn');
     const nextBtn = document.querySelector('.custom-next-btn');
 
@@ -174,7 +175,6 @@ document.addEventListener('DOMContentLoaded', function () {
         // Services bottom text
         const servicesBottom = document.querySelector('.services-bottom');
         if (servicesBottom) servicesBottom.classList.add('fade-up');
-
 
         // Footer sections
         const footerBrand = document.querySelector('.footer-brand');
