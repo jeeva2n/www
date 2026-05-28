@@ -53,8 +53,13 @@ include $base . '/includes/config.php';
             </div>
         </div>
 
-        <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
-        <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        <button class="custom-prev-btn">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <button class="custom-next-btn">
+            <i class="fas fa-chevron-right"></i>
+        </button>
 
         <div class="slide-dots">
             <span class="dot active"></span>
@@ -175,10 +180,9 @@ include $base . '/includes/config.php';
         <div class="services-bottom">
             <p>
                 Innovative IT solutions tailored for the NDT-related field.
-                <a href="https://dakstools.com" target="_blank" rel="noopener noreferrer" >Find your solution</a>
+                <a href="https://dakstools.com" target="_blank" rel="noopener noreferrer">Find your solution</a>
             </p>
         </div>
-
     </section>
 
     <!-- ===================== INDUSTRIES SECTION ===================== -->
@@ -299,177 +303,171 @@ include $base . '/includes/config.php';
             </div>
         </div>
 
-        <!-- Bottom Text -->
-        <div class="case-bottom">
-            <p>Learn how our customized NDT and IT solutions help companies improve efficiency and performance. <a href="https://dakstools.com" target="_blank" rel="noopener noreferrer">Read our case studies</a></p>
+    </section>
+
+    <!-- ===================== VIDEO SECTION ===================== -->
+    <section class="video-section" id="videoSection">
+
+        <!-- Autoplay Background Video -->
+        <video
+            class="video-bg-video"
+            id="bgVideo"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+            poster="assets/images/video-bg.jpg">
+            <source src="assets/videos/alpha-sonix.mp4" type="video/mp4">
+        </video>
+
+        <!-- Dark Blue Overlay -->
+        <div class="video-overlay"></div>
+
+        <!-- Content -->
+        <div class="video-content">
+            <p class="video-sub">Engineering Style</p>
+            <h2 class="video-title">INSPECTION EXCELLENCE</h2>
+            <p class="video-desc">Committed to precision testing, quality assurance, and asset integrity.</p>
+
+            <!-- Play Button - opens fullscreen modal -->
+            <button class="video-play-btn" id="videoPlayBtn">
+                <i class="fas fa-play"></i>
+            </button>
+        </div>
+
+        <!-- Fullscreen Modal with sound -->
+        <div class="video-modal" id="videoModal">
+            <div class="video-modal-overlay" id="videoModalOverlay"></div>
+            <div class="video-modal-box">
+                <button class="video-modal-close" id="videoModalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="video-modal-inner">
+                    <video
+                        id="mainVideo"
+                        controls
+                        width="100%"
+                        poster="assets/images/video-bg.jpg">
+                        <source src="assets/videos/alpha-sonix.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
         </div>
 
     </section>
 
-   <!-- ===================== VIDEO SECTION ===================== -->
-<section class="video-section" id="videoSection">
+    <!-- ===================== TESTIMONIALS SECTION ===================== -->
+    <section class="testimonials-section">
 
-    <!-- Autoplay Background Video -->
-    <video
-        class="video-bg-video"
-        id="bgVideo"
-        autoplay
-        muted
-        loop
-        playsinline
-        preload="auto"
-        poster="assets/images/video-bg.jpg">
-        <source src="assets/videos/alpha-sonix.mp4" type="video/mp4">
-    </video>
+        <!-- Heading -->
+        <div class="testimonials-heading">
+            <span class="testi-label">TESTIMONIALS</span>
+            <h2>What our customers say</h2>
+        </div>
 
-    <!-- Dark Blue Overlay -->
-    <div class="video-overlay"></div>
+        <!-- Slider Wrapper -->
+        <div class="testi-slider-wrapper">
+            <div class="testi-track" id="testiTrack">
 
-    <!-- Content -->
-    <div class="video-content">
-        <p class="video-sub">Engineering Style</p>
-        <h2 class="video-title">INSPECTION EXCELLENCE</h2>
-        <p class="video-desc">Committed to precision testing, quality assurance, and asset integrity.</p>
+                <!-- Slide 1 - 3 cards -->
+                <div class="testi-slide">
 
-        <!-- Play Button - opens fullscreen modal -->
-        <button class="video-play-btn" id="videoPlayBtn">
-            <i class="fas fa-play"></i>
-        </button>
-    </div>
+                    <!-- Card 1 - Blue top border -->
+                    <div class="testi-card border-blue">
+                        <div class="testi-logo">
+                            <i class="fas fa-hard-hat testi-logo-icon red"></i>
+                            <span class="testi-company-name">AlphaNDT</span>
+                        </div>
+                        <p class="testi-quote">"Alpha Sonix has been an outstanding inspection partner. Their certified NDT engineers ensure every weld and structure meets the highest safety standards. We trust them completely."</p>
+                        <div class="testi-author">
+                            <strong>Rajesh Kumar</strong>
+                            <span>Plant Manager - Reliance Industries</span>
+                        </div>
+                    </div>
 
-    <!-- Fullscreen Modal with sound -->
-    <div class="video-modal" id="videoModal">
-        <div class="video-modal-overlay" id="videoModalOverlay"></div>
-        <div class="video-modal-box">
-            <button class="video-modal-close" id="videoModalClose">
-                <i class="fas fa-times"></i>
-            </button>
-            <div class="video-modal-inner">
-                <video
-                    id="mainVideo"
-                    controls
-                    width="100%"
-                    poster="assets/images/video-bg.jpg">
-                    <source src="assets/videos/alpha-sonix.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
+                    <!-- Card 2 - Cyan top border -->
+                    <div class="testi-card border-cyan">
+                        <div class="testi-logo">
+                            <i class="fas fa-shield-alt testi-logo-icon cyan"></i>
+                            <span class="testi-company-name">SafeInspect</span>
+                        </div>
+                        <p class="testi-quote">"Alpha Sonix are always accommodating our diverse inspection needs and we feel like they are a part of our team rather than an external service provider."</p>
+                        <div class="testi-author">
+                            <strong>Anil Mehta</strong>
+                            <span>CEO - ONGC Petrochemicals</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 - Red top border -->
+                    <div class="testi-card border-red">
+                        <div class="testi-logo">
+                            <i class="fas fa-industry testi-logo-icon blue"></i>
+                            <span class="testi-company-name">IndusTech</span>
+                        </div>
+                        <p class="testi-quote">"Being a managed NDT client has improved our uptime, increased our operational productivity and systematized our inspection and maintenance schedules."</p>
+                        <div class="testi-author">
+                            <strong>Suresh Patel</strong>
+                            <span>Director - Bharat Heavy Electricals</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Slide 2 - 3 more cards -->
+                <div class="testi-slide">
+
+                    <!-- Card 4 -->
+                    <div class="testi-card border-blue">
+                        <div class="testi-logo">
+                            <i class="fas fa-anchor testi-logo-icon blue"></i>
+                            <span class="testi-company-name">MarineCore</span>
+                        </div>
+                        <p class="testi-quote">"Their marine inspection team is highly professional and thorough. Alpha Sonix helped us achieve full regulatory compliance across all our offshore vessels."</p>
+                        <div class="testi-author">
+                            <strong>Vikram Singh</strong>
+                            <span>Fleet Manager - Shipping Corp of India</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="testi-card border-cyan">
+                        <div class="testi-logo">
+                            <i class="fas fa-fire testi-logo-icon red"></i>
+                            <span class="testi-company-name">HeatPro</span>
+                        </div>
+                        <p class="testi-quote">"The PWHT services provided by Alpha Sonix reduced our weld failure rate significantly. Their team is responsive, accurate and always on schedule."</p>
+                        <div class="testi-author">
+                            <strong>Priya Nair</strong>
+                            <span>QA Head - Tata Projects</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="testi-card border-red">
+                        <div class="testi-logo">
+                            <i class="fas fa-building testi-logo-icon cyan"></i>
+                            <span class="testi-company-name">StructurePro</span>
+                        </div>
+                        <p class="testi-quote">"Alpha Sonix rope access team completed our flare stack inspection safely and efficiently with zero incidents. Highly recommended for high-risk inspection work."</p>
+                        <div class="testi-author">
+                            <strong>Mohammed Ali</strong>
+                            <span>HSE Manager - L&T Construction</span>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </div>
-    </div>
 
-</section>
-
-<!-- ===================== TESTIMONIALS SECTION ===================== -->
-<section class="testimonials-section">
-
-    <!-- Heading -->
-    <div class="testimonials-heading">
-        <span class="testi-label">TESTIMONIALS</span>
-        <h2>What our customers say</h2>
-    </div>
-
-    <!-- Slider Wrapper -->
-    <div class="testi-slider-wrapper">
-        <div class="testi-track" id="testiTrack">
-
-            <!-- Slide 1 - 3 cards -->
-            <div class="testi-slide">
-
-                <!-- Card 1 - Blue top border -->
-                <div class="testi-card border-blue">
-                    <div class="testi-logo">
-                        <i class="fas fa-hard-hat testi-logo-icon red"></i>
-                        <span class="testi-company-name">AlphaNDT</span>
-                    </div>
-                    <p class="testi-quote">"Alpha Sonix has been an outstanding inspection partner. Their certified NDT engineers ensure every weld and structure meets the highest safety standards. We trust them completely."</p>
-                    <div class="testi-author">
-                        <strong>Rajesh Kumar</strong>
-                        <span>Plant Manager - Reliance Industries</span>
-                    </div>
-                </div>
-
-                <!-- Card 2 - Cyan top border -->
-                <div class="testi-card border-cyan">
-                    <div class="testi-logo">
-                        <i class="fas fa-shield-alt testi-logo-icon cyan"></i>
-                        <span class="testi-company-name">SafeInspect</span>
-                    </div>
-                    <p class="testi-quote">"Alpha Sonix are always accommodating our diverse inspection needs and we feel like they are a part of our team rather than an external service provider."</p>
-                    <div class="testi-author">
-                        <strong>Anil Mehta</strong>
-                        <span>CEO - ONGC Petrochemicals</span>
-                    </div>
-                </div>
-
-                <!-- Card 3 - Red top border -->
-                <div class="testi-card border-red">
-                    <div class="testi-logo">
-                        <i class="fas fa-industry testi-logo-icon blue"></i>
-                        <span class="testi-company-name">IndusTech</span>
-                    </div>
-                    <p class="testi-quote">"Being a managed NDT client has improved our uptime, increased our operational productivity and systematized our inspection and maintenance schedules."</p>
-                    <div class="testi-author">
-                        <strong>Suresh Patel</strong>
-                        <span>Director - Bharat Heavy Electricals</span>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Slide 2 - 3 more cards -->
-            <div class="testi-slide">
-
-                <!-- Card 4 -->
-                <div class="testi-card border-blue">
-                    <div class="testi-logo">
-                        <i class="fas fa-anchor testi-logo-icon blue"></i>
-                        <span class="testi-company-name">MarineCore</span>
-                    </div>
-                    <p class="testi-quote">"Their marine inspection team is highly professional and thorough. Alpha Sonix helped us achieve full regulatory compliance across all our offshore vessels."</p>
-                    <div class="testi-author">
-                        <strong>Vikram Singh</strong>
-                        <span>Fleet Manager - Shipping Corp of India</span>
-                    </div>
-                </div>
-
-                <!-- Card 5 -->
-                <div class="testi-card border-cyan">
-                    <div class="testi-logo">
-                        <i class="fas fa-fire testi-logo-icon red"></i>
-                        <span class="testi-company-name">HeatPro</span>
-                    </div>
-                    <p class="testi-quote">"The PWHT services provided by Alpha Sonix reduced our weld failure rate significantly. Their team is responsive, accurate and always on schedule."</p>
-                    <div class="testi-author">
-                        <strong>Priya Nair</strong>
-                        <span>QA Head - Tata Projects</span>
-                    </div>
-                </div>
-
-                <!-- Card 6 -->
-                <div class="testi-card border-red">
-                    <div class="testi-logo">
-                        <i class="fas fa-building testi-logo-icon cyan"></i>
-                        <span class="testi-company-name">StructurePro</span>
-                    </div>
-                    <p class="testi-quote">"Alpha Sonix rope access team completed our flare stack inspection safely and efficiently with zero incidents. Highly recommended for high-risk inspection work."</p>
-                    <div class="testi-author">
-                        <strong>Mohammed Ali</strong>
-                        <span>HSE Manager - L&T Construction</span>
-                    </div>
-                </div>
-
-            </div>
-
+        <!-- Dots -->
+        <div class="testi-dots">
+            <span class="testi-dot active"></span>
+            <span class="testi-dot"></span>
         </div>
-    </div>
-
-    <!-- Dots -->
-    <div class="testi-dots">
-        <span class="testi-dot active"></span>
-        <span class="testi-dot"></span>
-    </div>
-
-</section>
+    </section>
 
     <script src="/www/assets/js/script.js"></script>
     <?php include dirname(__FILE__) . '/includes/footer.php'; ?>

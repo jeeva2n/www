@@ -20,6 +20,78 @@ body {
     overflow-x: hidden;
 }
 
+/* ===================== NEW ===================== */
+.slide-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        120deg,
+        rgba(0,110,130,0.65) 0%,
+        rgba(0,70,110,0.55) 50%,
+        rgba(10,30,90,0.45) 100%
+    );
+    z-index: 1;
+}
+
+/* LEFT BUTTON */
+.custom-prev-btn {
+    position: absolute;
+    left: -28px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 90px;
+    height: 90px;
+
+    background: #f3f3f3;
+    border: none;
+
+    border-radius: 0 50px 50px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    z-index: 20;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+/* RIGHT BUTTON */
+.custom-next-btn {
+    position: absolute;
+    right: -28px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 90px;
+    height: 90px;
+
+    background: #f3f3f3;
+    border: none;
+
+    border-radius: 50px 0 0 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    z-index: 20;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+/* ICON STYLE */
+.custom-prev-btn i,
+.custom-next-btn i {
+    font-size: 28px;
+    color: #6b7280;
+}
+
+/* ===================== /NEW ===================== */
+
 /* ===================== TOP BAR ===================== */
 .top-bar {
     background: #fff;
@@ -1253,30 +1325,6 @@ body {
     font-size: 18px;
 }
 
-/* ===================== CASE BOTTOM ===================== */
-.case-bottom {
-    background: #f0f2f5;
-    text-align: center;
-    padding: 30px 20px;
-    margin-top: 0;
-}
-
-.case-bottom p {
-    font-size: 14px;
-    color: #666;
-}
-
-.case-bottom p a {
-    color: #111;
-    font-weight: 700;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    transition: color 0.2s;
-}
-
-.case-bottom p a:hover {
-    color: #0277bd;
-}
 
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 1100px) {

@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // ===================== MOBILE MENU =====================
     const mobileBtn = document.getElementById('mobileMenuBtn');
-    const mainNav  = document.getElementById('mainNav');
+    const mainNav = document.getElementById('mainNav');
 
     if (mobileBtn && mainNav) {
 
@@ -38,9 +38,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // ===================== HERO SLIDER =====================
     const slides = document.querySelectorAll('.slide');
-    const dots   = document.querySelectorAll('.dot');
-    const prevBtn = document.querySelector('.prev-btn');
-    const nextBtn = document.querySelector('.next-btn');
+    const dots = document.querySelectorAll('.dot');
+    const prevBtn = document.querySelector('.custom-prev-btn');
+    const nextBtn = document.querySelector('.custom-next-btn');
 
     if (!slides.length) return;
 
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
     startAuto(); // Auto-change every 2 seconds
 
     // ===================== ACTIVE NAV =====================
-    const path  = window.location.pathname;
+    const path = window.location.pathname;
     const links = document.querySelectorAll('.nav-menu > li > a');
 
     links.forEach(function (link) {
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // ===================== SCROLL ANIMATIONS =====================
-    
+
     // Add animation classes to elements
     function addAnimationClasses() {
         // Company section elements
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const companyRight = document.querySelector('.company-right');
         if (companyLeft) companyLeft.classList.add('fade-left');
         if (companyRight) companyRight.classList.add('fade-right');
-        
+
         // Company cards
         const companyCards = document.querySelectorAll('.company-card');
         companyCards.forEach((card, index) => {
@@ -109,11 +109,11 @@ document.addEventListener('DOMContentLoaded', function () {
             if (index === 1) card.classList.add('delay-2');
             if (index === 2) card.classList.add('delay-3');
         });
-        
+
         // Services section heading
         const servicesHeading = document.querySelector('.services-heading');
         if (servicesHeading) servicesHeading.classList.add('fade-up');
-        
+
         // Service cards
         const serviceCards = document.querySelectorAll('.service-card');
         serviceCards.forEach((card, index) => {
@@ -122,11 +122,11 @@ document.addEventListener('DOMContentLoaded', function () {
             if (index === 1) card.classList.add('delay-2');
             if (index === 2) card.classList.add('delay-3');
         });
-        
+
         // Industries section
         const industriesTop = document.querySelector('.industries-top');
         if (industriesTop) industriesTop.classList.add('fade-up');
-        
+
         // Industry cards
         const industryCards = document.querySelectorAll('.industry-card');
         industryCards.forEach((card, index) => {
@@ -137,11 +137,11 @@ document.addEventListener('DOMContentLoaded', function () {
             if (index === 3) card.classList.add('delay-4');
             if (index === 4) card.classList.add('delay-5');
         });
-        
+
         // Case studies section
         const caseHeading = document.querySelector('.case-studies-heading');
         if (caseHeading) caseHeading.classList.add('fade-up');
-        
+
         // Case cards
         const caseCards = document.querySelectorAll('.case-card');
         caseCards.forEach((card, index) => {
@@ -150,11 +150,11 @@ document.addEventListener('DOMContentLoaded', function () {
             if (index === 1) card.classList.add('delay-2');
             if (index === 2) card.classList.add('delay-3');
         });
-        
+
         // Testimonials section
         const testimonialsHeading = document.querySelector('.testimonials-heading');
         if (testimonialsHeading) testimonialsHeading.classList.add('fade-up');
-        
+
         // Testimonial cards
         const testiCards = document.querySelectorAll('.testi-card');
         testiCards.forEach((card, index) => {
@@ -166,19 +166,16 @@ document.addEventListener('DOMContentLoaded', function () {
             if (index === 4) card.classList.add('delay-5');
             if (index === 5) card.classList.add('delay-1');
         });
-        
+
         // Company bottom text
         const companyBottom = document.querySelector('.company-bottom');
         if (companyBottom) companyBottom.classList.add('fade-up');
-        
+
         // Services bottom text
         const servicesBottom = document.querySelector('.services-bottom');
         if (servicesBottom) servicesBottom.classList.add('fade-up');
-        
-        // Case bottom text
-        const caseBottom = document.querySelector('.case-bottom');
-        if (caseBottom) caseBottom.classList.add('fade-up');
-        
+
+
         // Footer sections
         const footerBrand = document.querySelector('.footer-brand');
         const footerCols = document.querySelectorAll('.footer-col');
@@ -190,17 +187,17 @@ document.addEventListener('DOMContentLoaded', function () {
             if (index === 2) col.classList.add('delay-3');
         });
     }
-    
+
     // Intersection Observer for scroll animations
     const animatedElements = document.querySelectorAll('.fade-up, .fade-left, .fade-right, .scale-up');
-    
+
     const observerOptions = {
         threshold: 0.15,
         rootMargin: '0px 0px -50px 0px'
     };
-    
-    const animationObserver = new IntersectionObserver(function(entries) {
-        entries.forEach(function(entry) {
+
+    const animationObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
             if (entry.isIntersecting) {
                 entry.target.classList.add('animated');
                 // Optionally unobserve after animation
@@ -208,36 +205,35 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }, observerOptions);
-    
+
     // Add classes first
     addAnimationClasses();
-    
+
     // Then observe all animated elements
-    setTimeout(function() {
+    setTimeout(function () {
         const allAnimated = document.querySelectorAll('.fade-up, .fade-left, .fade-right, .scale-up');
-        allAnimated.forEach(function(el) {
+        allAnimated.forEach(function (el) {
             animationObserver.observe(el);
         });
     }, 100);
-    
+
     // Also observe sections for reveal animation
     const sections = document.querySelectorAll('.company-section, .services-section, .industries-section, .case-studies-section, .testimonials-section');
-    sections.forEach(function(section) {
+    sections.forEach(function (section) {
         section.classList.add('section-reveal');
         animationObserver.observe(section);
     });
-    
+
     // ===================== BACKGROUND VIDEO AUTOPLAY ON SCROLL =====================
     const videoSection = document.getElementById('videoSection');
-    const bgVideo      = document.getElementById('bgVideo');
+    const bgVideo = document.getElementById('bgVideo');
     const videoPlayBtn = document.getElementById('videoPlayBtn');
-    const videoModal   = document.getElementById('videoModal');
+    const videoModal = document.getElementById('videoModal');
     const videoModalClose = document.getElementById('videoModalClose');
-    const videoModalOver  = document.getElementById('videoModalOverlay');
-    const mainVideo    = document.getElementById('mainVideo');
+    const videoModalOver = document.getElementById('videoModalOverlay');
+    const mainVideo = document.getElementById('mainVideo');
 
     if (videoSection && bgVideo) {
-
         // Intersection Observer - triggers when section scrolls into view
         const videoObserver = new IntersectionObserver(function (entries) {
             entries.forEach(function (entry) {
@@ -284,7 +280,7 @@ document.addEventListener('DOMContentLoaded', function () {
             document.body.style.overflow = 'hidden';
 
             // Start modal video from beginning with sound
-            mainVideo.muted  = false;
+            mainVideo.muted = false;
             mainVideo.volume = 1;
             mainVideo.currentTime = 0;
             mainVideo.play();
@@ -321,15 +317,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // ===================== TESTIMONIALS SLIDER =====================
     const testiTrack = document.getElementById('testiTrack');
-    const testiDots  = document.querySelectorAll('.testi-dot');
+    const testiDots = document.querySelectorAll('.testi-dot');
 
     if (testiTrack && testiDots.length) {
 
-        let testiCurrent  = 0;
-        let testiTotal    = testiDots.length;
+        let testiCurrent = 0;
+        let testiTotal = testiDots.length;
         let testiTimer;
-        let testiStartX   = 0;
-        let testiIsDrag   = false;
+        let testiStartX = 0;
+        let testiIsDrag = false;
 
         // Go to slide
         function testiGoTo(index) {
@@ -367,8 +363,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Touch / swipe support
         testiTrack.addEventListener('touchstart', function (e) {
-            testiStartX  = e.touches[0].clientX;
-            testiIsDrag  = true;
+            testiStartX = e.touches[0].clientX;
+            testiIsDrag = true;
         }, { passive: true });
 
         testiTrack.addEventListener('touchend', function (e) {
@@ -419,12 +415,12 @@ document.addEventListener('DOMContentLoaded', function () {
         // Start
         testiStartAuto();
     }
-    
+
     // ===================== ADDITIONAL POLISH =====================
     // Navbar background change on scroll
     const header = document.querySelector('.main-header');
     if (header) {
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             if (window.scrollY > 50) {
                 header.style.boxShadow = '0 4px 20px rgba(0,0,0,0.12)';
             } else {
@@ -432,14 +428,14 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
-    
+
     // Preload images for smoother animations
     const allImages = document.querySelectorAll('img');
-    allImages.forEach(function(img) {
+    allImages.forEach(function (img) {
         if (img.complete) {
             img.classList.add('loaded');
         } else {
-            img.addEventListener('load', function() {
+            img.addEventListener('load', function () {
                 img.classList.add('loaded');
             });
         }
