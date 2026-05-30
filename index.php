@@ -26,7 +26,7 @@ include $base . '/includes/config.php';
                 <div class="slide-overlay"></div>
                 <div class="hero-content">
                     <p class="hero-sub">Excellence in every inspection</p>
-                    <h1>accuracy in every<br>result</h1>
+                    <h1>Accuracy in every<br>result</h1>
                     <div class="hero-line"></div>
                     <a href="#" class="cta-link">MAKE IT STRESS FREE &nbsp;<i class="fas fa-arrow-right"></i></a>
                 </div>
@@ -165,7 +165,7 @@ include $base . '/includes/config.php';
         </div>
 
         <div class="services-bottom">
-            <p>Innovative IT solutions tailored for the NDT-related field.<a href="https://dakstools.com" target="_blank" rel="noopener noreferrer">Find your solution</a></p>
+            <p>Innovative IT solutions tailored for the NDT-related field. <a href="https://dakstools.com" target="_blank" rel="noopener noreferrer">Find your solution</a></p>
         </div>
     </section>
 
@@ -296,6 +296,7 @@ include $base . '/includes/config.php';
                         <div class="testi-author"><strong>Suresh Patel</strong><span>Director - Bharat Heavy Electricals</span></div>
                     </div>
                 </div>
+                
                 <div class="testi-slide">
                     <div class="testi-card border-blue">
                         <div class="testi-logo"><i class="fas fa-anchor testi-logo-icon blue"></i><span class="testi-company-name">MarineCore</span></div>
