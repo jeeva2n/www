@@ -1,13 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    // ===================== MOBILE MENU - COMPLETELY REWRITTEN =====================
+    // ===================== MOBILE MENU =====================
     const mobileBtn = document.getElementById('mobileMenuBtn');
     const body = document.body;
     let mobileMenuOpen = false;
 
-    // ---- Build Sidebar HTML ----
     function createMobileNavigation() {
-        // Remove existing if any
         const existingOverlay = document.getElementById('mobileNavOverlay');
         const existingSidebar = document.getElementById('mobileNavSidebar');
         if (existingOverlay) existingOverlay.remove();
@@ -32,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 <li>
                     <a href="/www/index.php"><span>Home</span></a>
                 </li>
-
                 <li class="has-dropdown">
                     <a href="#" class="mobile-dropdown-trigger">
                         <span>Company</span>
@@ -53,7 +50,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         </ul>
                     </div>
                 </li>
-
                 <li class="has-dropdown">
                     <a href="#" class="mobile-dropdown-trigger">
                         <span>Industrial Inspections</span>
@@ -141,7 +137,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         </ul>
                     </div>
                 </li>
-
                 <li class="has-dropdown">
                     <a href="#" class="mobile-dropdown-trigger">
                         <span>Industrial Heat Treatment</span>
@@ -167,7 +162,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         </ul>
                     </div>
                 </li>
-
                 <li class="has-dropdown">
                     <a href="#" class="mobile-dropdown-trigger">
                         <span>Business Division</span>
@@ -182,7 +176,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         </ul>
                     </div>
                 </li>
-
                 <li>
                     <a href="/www/contact.php"><span>Contact Us</span></a>
                 </li>
@@ -191,14 +184,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         body.appendChild(overlay);
         body.appendChild(sidebar);
-
         return { overlay, sidebar };
     }
 
-    // ---- Init ----
     const { overlay, sidebar } = createMobileNavigation();
 
-    // ---- Open / Close helpers ----
     function openMobileMenu() {
         mobileMenuOpen = true;
         overlay.classList.add('active');
@@ -208,6 +198,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (mobileBtn) {
             mobileBtn.classList.add('active');
             mobileBtn.innerHTML = '<i class="fas fa-times"></i>';
+            mobileBtn.setAttribute('aria-expanded', 'true');
         }
     }
 
@@ -220,8 +211,8 @@ document.addEventListener('DOMContentLoaded', function () {
         if (mobileBtn) {
             mobileBtn.classList.remove('active');
             mobileBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            mobileBtn.setAttribute('aria-expanded', 'false');
         }
-        // Reset all open dropdowns
         sidebar.querySelectorAll('.has-dropdown.mobile-open').forEach(function (item) {
             item.classList.remove('mobile-open');
             const icon = item.querySelector('.mobile-dropdown-trigger i');
@@ -233,7 +224,6 @@ document.addEventListener('DOMContentLoaded', function () {
         mobileMenuOpen ? closeMobileMenu() : openMobileMenu();
     }
 
-    // ---- Hamburger button ----
     if (mobileBtn) {
         mobileBtn.addEventListener('click', function (e) {
             e.preventDefault();
@@ -242,27 +232,22 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // ---- Close button (inside sidebar) ----
-    // Use event delegation on sidebar so it always works
+    // Close button - event delegation
     sidebar.addEventListener('click', function (e) {
-        const closeBtn = e.target.closest('#mobileNavClose');
-        if (closeBtn) {
+        if (e.target.closest('#mobileNavClose')) {
             e.preventDefault();
             e.stopPropagation();
             closeMobileMenu();
         }
     });
 
-    // ---- Overlay click ----
-    overlay.addEventListener('click', function () {
-        closeMobileMenu();
-    });
+    // Overlay click
+    overlay.addEventListener('click', closeMobileMenu);
 
-    // ---- Dropdown triggers (event delegation) ----
+    // Dropdown triggers - event delegation
     sidebar.addEventListener('click', function (e) {
         const trigger = e.target.closest('.mobile-dropdown-trigger');
         if (!trigger) return;
-
         e.preventDefault();
         e.stopPropagation();
 
@@ -270,7 +255,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const isOpen   = parentLi.classList.contains('mobile-open');
         const icon     = trigger.querySelector('i');
 
-        // Close all open dropdowns
         sidebar.querySelectorAll('.has-dropdown.mobile-open').forEach(function (item) {
             if (item !== parentLi) {
                 item.classList.remove('mobile-open');
@@ -279,59 +263,39 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
 
-        // Toggle this one
         if (isOpen) {
             parentLi.classList.remove('mobile-open');
             if (icon) icon.style.transform = '';
         } else {
             parentLi.classList.add('mobile-open');
             if (icon) icon.style.transform = 'rotate(180deg)';
-
-            // Smooth scroll submenu into view
             setTimeout(function () {
                 const submenu = parentLi.querySelector('.mobile-submenu');
-                if (submenu) {
-                    submenu.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-                }
+                if (submenu) submenu.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
             }, 300);
         }
     });
 
-    // ---- Submenu link clicks → close menu ----
+    // Submenu links close menu
     sidebar.addEventListener('click', function (e) {
-        const link = e.target.closest('.mobile-submenu a');
-        if (link) {
-            closeMobileMenu();
-        }
+        if (e.target.closest('.mobile-submenu a')) closeMobileMenu();
     });
 
-    // ---- Plain (non-dropdown) menu item clicks → close menu ----
+    // Plain nav links close menu
     sidebar.addEventListener('click', function (e) {
         const link = e.target.closest('.mobile-nav-menu > li > a:not(.mobile-dropdown-trigger)');
-        if (link) {
-            closeMobileMenu();
-        }
+        if (link) closeMobileMenu();
     });
 
-    // ---- Escape key ----
-    document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape') {
-            closeMobileMenu();
-            closeVideoModal();
-        }
-    });
-
-    // ---- Prevent touch-scroll bleed through overlay ----
-    overlay.addEventListener('touchmove', function (e) {
-        e.preventDefault();
-    }, { passive: false });
+    // Prevent touch scroll bleed
+    overlay.addEventListener('touchmove', function (e) { e.preventDefault(); }, { passive: false });
 
 
     // ===================== HERO SLIDER =====================
-    const slides   = document.querySelectorAll('.slide');
-    const dots     = document.querySelectorAll('.dot');
-    const prevBtn  = document.querySelector('.custom-prev-btn');
-    const nextBtn  = document.querySelector('.custom-next-btn');
+    const slides  = document.querySelectorAll('.slide');
+    const dots    = document.querySelectorAll('.dot');
+    const prevBtn = document.querySelector('.custom-prev-btn');
+    const nextBtn = document.querySelector('.custom-next-btn');
 
     if (slides.length > 0) {
         let current = 0;
@@ -345,7 +309,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (dots[current]) dots[current].classList.add('active');
         }
 
-        function startAuto()  { timer = setInterval(function () { goTo(current + 1); }, 4000); }
+        function startAuto()  { timer = setInterval(function () { goTo(current + 1); }, 5000); }
         function stopAuto()   { clearInterval(timer); }
         function resetAuto()  { stopAuto(); startAuto(); }
 
@@ -355,15 +319,29 @@ document.addEventListener('DOMContentLoaded', function () {
             dot.addEventListener('click', function () { goTo(i); resetAuto(); });
         });
 
+        // Touch swipe
+        let touchStartX = 0;
+        const hero = document.querySelector('.hero');
+        if (hero) {
+            hero.addEventListener('touchstart', function (e) {
+                touchStartX = e.touches[0].clientX;
+            }, { passive: true });
+            hero.addEventListener('touchend', function (e) {
+                const diff = touchStartX - e.changedTouches[0].clientX;
+                if (Math.abs(diff) > 50) {
+                    goTo(diff > 0 ? current + 1 : current - 1);
+                    resetAuto();
+                }
+            }, { passive: true });
+        }
+
         startAuto();
     }
 
 
     // ===================== ACTIVE NAV =====================
-    const path     = window.location.pathname;
-    const navLinks = document.querySelectorAll('.nav-menu > li > a');
-
-    navLinks.forEach(function (link) {
+    const path = window.location.pathname;
+    document.querySelectorAll('.nav-menu > li > a').forEach(function (link) {
         link.classList.remove('active');
         const href = link.getAttribute('href');
         if (href && href !== '#' && path.endsWith(href.split('/').pop())) {
@@ -379,39 +357,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     // ===================== SCROLL ANIMATIONS =====================
-    function addAnimationClasses() {
-        const pairs = [
-            ['.company-left',         'fade-left'],
-            ['.company-right',        'fade-right'],
-            ['.services-heading',     'fade-up'],
-            ['.industries-top',       'fade-up'],
-            ['.case-studies-heading', 'fade-up'],
-            ['.testimonials-heading', 'fade-up'],
-            ['.company-bottom',       'fade-up'],
-            ['.services-bottom',      'fade-up'],
-            ['.footer-brand',         'fade-right'],
-        ];
-
-        pairs.forEach(function (pair) {
-            const el = document.querySelector(pair[0]);
-            if (el) el.classList.add(pair[1]);
-        });
-
-        const delays = ['delay-1', 'delay-2', 'delay-3', 'delay-4', 'delay-5'];
-
-        ['.company-card', '.service-card', '.industry-card', '.case-card', '.testi-card'].forEach(function (sel) {
-            document.querySelectorAll(sel).forEach(function (el, i) {
-                el.classList.add('scale-up');
-                if (delays[i % delays.length]) el.classList.add(delays[i % delays.length]);
-            });
-        });
-
-        document.querySelectorAll('.footer-col').forEach(function (col, i) {
-            col.classList.add('fade-left');
-            if (delays[i]) col.classList.add(delays[i]);
-        });
-    }
-
     const observerOpts = { threshold: 0.12, rootMargin: '0px 0px -40px 0px' };
 
     const animObserver = new IntersectionObserver(function (entries) {
@@ -423,30 +368,73 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }, observerOpts);
 
-    addAnimationClasses();
-
     setTimeout(function () {
         document.querySelectorAll('.fade-up, .fade-left, .fade-right, .scale-up').forEach(function (el) {
             animObserver.observe(el);
         });
+        document.querySelectorAll(
+            '.company-section, .services-section, .industries-section, .case-studies-section, .testimonials-section'
+        ).forEach(function (section) {
+            section.classList.add('section-reveal');
+            animObserver.observe(section);
+        });
     }, 100);
 
-    document.querySelectorAll(
-        '.company-section, .services-section, .industries-section, .case-studies-section, .testimonials-section'
-    ).forEach(function (section) {
-        section.classList.add('section-reveal');
-        animObserver.observe(section);
+
+    // ===================== SEARCH BAR =====================
+    const searchToggle    = document.getElementById('searchToggle');
+    const headerSearchBar = document.getElementById('headerSearchBar');
+    const searchClose     = document.getElementById('headerSearchClose');
+    const searchInput     = document.getElementById('headerSearchInput');
+
+    function openSearch() {
+        if (!headerSearchBar) return;
+        headerSearchBar.classList.add('open');
+        setTimeout(function () { if (searchInput) searchInput.focus(); }, 200);
+    }
+
+    function closeSearch() {
+        if (!headerSearchBar) return;
+        headerSearchBar.classList.remove('open');
+        if (searchInput) searchInput.value = '';
+    }
+
+    if (searchToggle) {
+        searchToggle.addEventListener('click', function (e) {
+            e.stopPropagation();
+            headerSearchBar.classList.contains('open') ? closeSearch() : openSearch();
+        });
+    }
+
+    if (searchClose) searchClose.addEventListener('click', closeSearch);
+
+    document.addEventListener('click', function (e) {
+        if (
+            headerSearchBar &&
+            headerSearchBar.classList.contains('open') &&
+            !headerSearchBar.contains(e.target) &&
+            searchToggle && !searchToggle.contains(e.target)
+        ) {
+            closeSearch();
+        }
     });
 
 
     // ===================== VIDEO SECTION =====================
-    const videoSection   = document.getElementById('videoSection');
-    const bgVideo        = document.getElementById('bgVideo');
-    const videoPlayBtn   = document.getElementById('videoPlayBtn');
-    const videoModal     = document.getElementById('videoModal');
-    const videoModalClose= document.getElementById('videoModalClose');
-    const videoModalOver = document.getElementById('videoModalOverlay');
-    const mainVideo      = document.getElementById('mainVideo');
+    const videoSection    = document.getElementById('videoSection');
+    const bgVideo         = document.getElementById('bgVideo');
+    const videoPlayBtn    = document.getElementById('videoPlayBtn');
+    const videoModal      = document.getElementById('videoModal');
+    const videoModalClose = document.getElementById('videoModalClose');
+    const videoModalOver  = document.getElementById('videoModalOverlay');
+    const mainVideo       = document.getElementById('mainVideo');
+
+    function closeVideoModal() {
+        if (!videoModal) return;
+        videoModal.classList.remove('open');
+        body.style.overflow = '';
+        if (mainVideo) { mainVideo.pause(); mainVideo.currentTime = 0; mainVideo.muted = true; }
+    }
 
     if (videoSection && bgVideo) {
         const vidObs = new IntersectionObserver(function (entries) {
@@ -464,21 +452,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             });
         }, { threshold: 0.25 });
-
         vidObs.observe(videoSection);
-        bgVideo.muted  = true;
+        bgVideo.muted = true;
         bgVideo.volume = 0;
-    }
-
-    function closeVideoModal() {
-        if (!videoModal) return;
-        videoModal.classList.remove('open');
-        body.style.overflow = '';
-        if (mainVideo) {
-            mainVideo.pause();
-            mainVideo.currentTime = 0;
-            mainVideo.muted = true;
-        }
     }
 
     if (videoPlayBtn && videoModal && mainVideo) {
@@ -493,7 +469,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     if (videoModalClose) videoModalClose.addEventListener('click', closeVideoModal);
-    if (videoModalOver)  videoModalOver.addEventListener('click',  closeVideoModal);
+    if (videoModalOver)  videoModalOver.addEventListener('click', closeVideoModal);
 
 
     // ===================== TESTIMONIALS SLIDER =====================
@@ -518,40 +494,28 @@ document.addEventListener('DOMContentLoaded', function () {
             testiTimer = setInterval(function () { testiGoTo(testiCurrent + 1); }, 5000);
         }
 
-        function testiResetAuto() {
-            clearInterval(testiTimer);
-            testiStartAuto();
-        }
+        function testiResetAuto() { clearInterval(testiTimer); testiStartAuto(); }
 
         testiDots.forEach(function (dot, i) {
             dot.addEventListener('click', function () { testiGoTo(i); testiResetAuto(); });
         });
 
-        // Touch support
         testiTrack.addEventListener('touchstart', function (e) {
-            dragStartX = e.touches[0].clientX;
-            isDragging = true;
+            dragStartX = e.touches[0].clientX; isDragging = true;
         }, { passive: true });
 
         testiTrack.addEventListener('touchend', function (e) {
             if (!isDragging) return;
             const diff = dragStartX - e.changedTouches[0].clientX;
-            if (Math.abs(diff) > 50) {
-                testiGoTo(diff > 0 ? testiCurrent + 1 : testiCurrent - 1);
-                testiResetAuto();
-            }
+            if (Math.abs(diff) > 50) { testiGoTo(diff > 0 ? testiCurrent + 1 : testiCurrent - 1); testiResetAuto(); }
             isDragging = false;
         }, { passive: true });
 
-        // Mouse drag
         testiTrack.addEventListener('mousedown',  function (e) { dragStartX = e.clientX; isDragging = true; });
         testiTrack.addEventListener('mouseup',    function (e) {
             if (!isDragging) return;
             const diff = dragStartX - e.clientX;
-            if (Math.abs(diff) > 60) {
-                testiGoTo(diff > 0 ? testiCurrent + 1 : testiCurrent - 1);
-                testiResetAuto();
-            }
+            if (Math.abs(diff) > 60) { testiGoTo(diff > 0 ? testiCurrent + 1 : testiCurrent - 1); testiResetAuto(); }
             isDragging = false;
         });
 
@@ -562,7 +526,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 
-    // ===================== HEADER SCROLL EFFECT =====================
+    // ===================== HEADER SCROLL =====================
     const header = document.querySelector('.main-header');
     if (header) {
         window.addEventListener('scroll', function () {
@@ -572,7 +536,18 @@ document.addEventListener('DOMContentLoaded', function () {
         }, { passive: true });
     }
 
-    // ===================== IMAGE LAZY LOAD =====================
+
+    // ===================== ESCAPE KEY =====================
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+            closeMobileMenu();
+            closeVideoModal();
+            closeSearch();
+        }
+    });
+
+
+    // ===================== IMAGE LOADED =====================
     document.querySelectorAll('img').forEach(function (img) {
         if (img.complete) {
             img.classList.add('loaded');
@@ -581,61 +556,4 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-});
-// ===================== SEARCH BAR TOGGLE =====================
-const searchToggle    = document.getElementById('searchToggle');
-const headerSearchBar = document.getElementById('headerSearchBar');
-const searchClose     = document.getElementById('headerSearchClose');
-const searchInput     = document.getElementById('headerSearchInput');
-
-function openSearch() {
-    if (!headerSearchBar) return;
-    headerSearchBar.classList.add('open');
-    // Focus input after transition
-    setTimeout(function () {
-        if (searchInput) searchInput.focus();
-    }, 200);
-}
-
-function closeSearch() {
-    if (!headerSearchBar) return;
-    headerSearchBar.classList.remove('open');
-    if (searchInput) searchInput.value = '';
-}
-
-if (searchToggle) {
-    searchToggle.addEventListener('click', function (e) {
-        e.stopPropagation();
-        if (headerSearchBar.classList.contains('open')) {
-            closeSearch();
-        } else {
-            openSearch();
-        }
-    });
-}
-
-if (searchClose) {
-    searchClose.addEventListener('click', closeSearch);
-}
-
-// Close search on outside click
-document.addEventListener('click', function (e) {
-    if (
-        headerSearchBar &&
-        headerSearchBar.classList.contains('open') &&
-        !headerSearchBar.contains(e.target) &&
-        e.target !== searchToggle &&
-        !searchToggle.contains(e.target)
-    ) {
-        closeSearch();
-    }
-});
-
-// Close search on Escape
-document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') {
-        closeSearch();
-        closeMobileMenu();
-        closeVideoModal();
-    }
 });
