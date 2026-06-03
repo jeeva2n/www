@@ -65,14 +65,14 @@
                                     <li><a href="/www/pages/advanced-ndt-services/long-range-ut.php">Long Range Ultrasonic Testing (LRUT)</a></li>
                                     <li><a href="/www/pages/advanced-ndt-services/short-range-ut.php">Short Range Ultrasonic Testing (SRUT)</a></li>
                                     <li><a href="/www/pages/advanced-ndt-services/remote-visual-inspection.php">Remote Visual Inspection / Videoscope</a></li>
-                                    <li><a href="/www/pages/advanced-ndt-services/mfl-tank-floor.php">Magnetic Flux Leakage Tank Floor</a></li>
-                                    <li><a href="/www/pages/advanced-ndt-services/rfect.php">Remote Field Eddy Current Tube</a></li>
-                                    <li><a href="/www/pages/advanced-ndt-services/ect.php">Eddy Current Tube Inspection (ECT)</a></li>
-                                    <li><a href="/www/pages/advanced-ndt-services/iris.php">Internal Rotary Inspection System (IRIS)</a></li>
-                                    <li><a href="/www/pages/advanced-ndt-services/mfl-tube.php">Magnetic Flux Leakage Tube</a></li>
-                                    <li><a href="/www/pages/advanced-ndt-services/nft-tube.php">Near-Field Testing Tube</a></li>
+                                    <li><a href="/www/pages/advanced-ndt-services/magnetic-flux-leakage.php">Magnetic Flux Leakage Tank Floor</a></li>
+                                    <li><a href="/www/pages/advanced-ndt-services/remote-field-eddy-current.php">Remote Field Eddy Current Tube</a></li>
+                                    <li><a href="/www/pages/advanced-ndt-services/eddy-current-tube.php">Eddy Current Tube Inspection (ECT)</a></li>
+                                    <li><a href="/www/pages/advanced-ndt-services/iris-tube-inspection.php">Internal Rotary Inspection System (IRIS)</a></li>
+                                    <li><a href="/www/pages/advanced-ndt-services/magnetic-flux-leakage-tube.php">Magnetic Flux Leakage Tube</a></li>
+                                    <li><a href="/www/pages/advanced-ndt-services/near-field-testing.php">Near-Field Testing Tube</a></li>
                                     <li><a href="/www/pages/advanced-ndt-services/infrared-thermography.php">Infrared Thermography</a></li>
-                                    <li><a href="/www/pages/advanced-ndt-services/acfm.php">Alternating Current Field Measurement</a></li>
+                                    <li><a href="/www/pages/advanced-ndt-services/alternating-current-field-measurement.php">Alternating Current Field Measurement</a></li>
                                 </ul>
                             </div>
 
