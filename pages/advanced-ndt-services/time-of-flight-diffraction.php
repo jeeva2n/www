@@ -6,8 +6,9 @@ include $base . '/includes/config.php';
 $page_title = "Time of Flight Diffraction (TOFD) Testing Services | Alpha Sonix NDT Solutions";
 $meta_description = "Expert TOFD inspection services for accurate flaw depth sizing and weld defect detection. ISO certified Time of Flight Diffraction testing with ASNT Level III technicians. Fast, precise, and code-compliant.";
 $meta_keywords = "TOFD testing, time of flight diffraction, weld inspection, flaw sizing, crack depth measurement, ultrasonic testing, NDT services, defect detection, pipeline inspection, pressure vessel testing";
-$canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/tofd.php";
+$canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/time-of-flight-diffraction.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

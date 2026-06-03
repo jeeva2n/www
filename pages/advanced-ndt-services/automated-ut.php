@@ -6,7 +6,7 @@ include $base . '/includes/config.php';
 $page_title = "Automated Ultrasonic Testing (AUT) Services | Alpha Sonix NDT Solutions";
 $meta_description = "Professional AUT inspection services with robotic scanners and automated UT systems. High-speed, consistent weld and pipeline inspection. ISO certified with 100% volumetric coverage and digital reporting.";
 $meta_keywords = "AUT testing, automated ultrasonic testing, mechanized UT, robotic inspection, pipeline scanning, weld inspection, NDT automation, high-speed inspection, ultrasonic scanner, tank floor inspection";
-$canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/aut.php";
+$canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/automated-ut.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -889,10 +889,10 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/aut.php";
             <div class="cta-content">
                 <h2>Ready to Accelerate Your Inspection Program?</h2>
                 <p>Experience 10x productivity gains with automated ultrasonic testing technology</p>
-                <div class="cta-buttons">
+                <center>
                     <a href="tel:+914445015884" class="btn btn-white"><i class="fas fa-phone"></i> Call: +91 44 4501 5884</a>
                     <a href="mailto:info@alphasonix.com" class="btn btn-outline"><i class="fas fa-envelope"></i> Request Demo</a>
-                </div>
+                </center>
                 <div class="cta-features">
                     <span><i class="fas fa-check"></i> Free On-Site Demo</span>
                     <span><i class="fas fa-check"></i> ROI Analysis</span>
@@ -932,7 +932,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/aut.php";
                 <a href="/www/pages/advanced-ndt-services/lrut.php" class="related-card">
                     <div class="related-icon">
                         <i class="fas fa-long-arrow-alt-right"></i>
-                    </div>
+                    </div> 
                     <h3>LRUT</h3>
                     <p>Long Range UT for pipeline screening up to 100m</p>
                     <span class="learn-more">Learn More <i class="fas fa-arrow-right"></i></span>

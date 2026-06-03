@@ -62,9 +62,9 @@
                                     <li><a href="/www/pages/advanced-ndt-services/phased-array-ut.php">Phased Array Ultrasonic Testing (PAUT)</a></li>
                                     <li><a href="/www/pages/advanced-ndt-services/time-of-flight-diffraction.php">Time of Flight Diffraction (ToFD)</a></li>
                                     <li><a href="/www/pages/advanced-ndt-services/automated-ut.php">Automated Ultrasonic Testing (AUT)</a></li>
-                                    <li><a href="/www/pages/advanced-ndt-services/lrut.php">Long Range Ultrasonic Testing (LRUT)</a></li>
-                                    <li><a href="/www/pages/advanced-ndt-services/srut.php">Short Range Ultrasonic Testing (SRUT)</a></li>
-                                    <li><a href="/www/pages/advanced-ndt-services/rvi.php">Remote Visual Inspection / Videoscope</a></li>
+                                    <li><a href="/www/pages/advanced-ndt-services/long-range-ut.php">Long Range Ultrasonic Testing (LRUT)</a></li>
+                                    <li><a href="/www/pages/advanced-ndt-services/short-range-ut.php">Short Range Ultrasonic Testing (SRUT)</a></li>
+                                    <li><a href="/www/pages/advanced-ndt-services/remote-visual-inspection.php">Remote Visual Inspection / Videoscope</a></li>
                                     <li><a href="/www/pages/advanced-ndt-services/mfl-tank-floor.php">Magnetic Flux Leakage Tank Floor</a></li>
                                     <li><a href="/www/pages/advanced-ndt-services/rfect.php">Remote Field Eddy Current Tube</a></li>
                                     <li><a href="/www/pages/advanced-ndt-services/ect.php">Eddy Current Tube Inspection (ECT)</a></li>
