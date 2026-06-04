@@ -4,8 +4,8 @@ include $base . '/includes/config.php';
 
 // SEO Meta Data
 $page_title = "Remote Visual Inspection (RVI) & Videoscope Services | Alpha Sonix NDT Solutions";
-$meta_description = "Professional RVI and videoscope inspection services for internal examination of pipes, vessels, turbines, and confined spaces. HD visual documentation with borescopes, fiberscopes, and articulating videoscopes.";
-$meta_keywords = "RVI inspection, remote visual inspection, videoscope, borescope, endoscope, fiberscope, internal inspection, turbine inspection, pipeline camera, visual testing, NDT camera inspection";
+$meta_description = "Remote Visual Inspection (RVI) using videoscopes, borescopes and industrial endoscopes to examine internal surfaces of pipes, vessels, turbines and confined spaces. HD/4K photo & video documentation, measurement tools and clear reporting—without major dismantling.";
+$meta_keywords = "RVI inspection, remote visual inspection, videoscope, borescope, industrial endoscope, fiberscope, internal inspection, turbine borescope inspection, pipeline internal camera, visual testing, NDT visual inspection";
 $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visual-inspection.php";
 ?>
 <!DOCTYPE html>
@@ -60,7 +60,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
             }
         },
         "areaServed": "IN",
-        "description": "Professional remote visual inspection services using advanced videoscopes, borescopes, and endoscopes for internal examination of inaccessible areas, equipment, and confined spaces."
+        "description": "Remote Visual Inspection (RVI) services using videoscopes, borescopes and industrial endoscopes for internal inspection of inaccessible areas, with HD/4K documentation and clear reporting."
     }
     </script>
 </head>
@@ -84,11 +84,11 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                     <span>RVI / Videoscope</span>
                 </div>
                 <h1 class="page-title">Remote Visual Inspection (RVI)</h1>
-                <p class="page-subtitle">Advanced videoscope and borescope technology for internal examination of pipes, vessels, turbines, and inaccessible areas</p>
+                <p class="page-subtitle">See inside pipes, vessels, turbines and confined spaces using HD/4K videoscopes—capture clear evidence, reduce dismantling, and make faster maintenance decisions</p>
                 <div class="hero-badges">
-                    <span class="badge"><i class="fas fa-video"></i> HD/4K Video Capture</span>
-                    <span class="badge"><i class="fas fa-ruler"></i> 1mm-15mm Probe Diameter</span>
-                    <span class="badge"><i class="fas fa-expand-arrows-alt"></i> Up to 30m Working Length</span>
+                    <span class="badge"><i class="fas fa-video"></i> HD / 4K Image & Video</span>
+                    <span class="badge"><i class="fas fa-ruler"></i> Small-Diameter Access Options</span>
+                    <span class="badge"><i class="fas fa-expand-arrows-alt"></i> Long Reach Probes (Application Dependent)</span>
                 </div>
             </div>
         </div>
@@ -102,29 +102,29 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                     <div class="overview-icon">
                         <i class="fas fa-eye"></i>
                     </div>
-                    <h3>Visual Access</h3>
-                    <p>Inspect internal surfaces without disassembly—pipes, vessels, turbines, engines</p>
+                    <h3>Internal Visibility</h3>
+                    <p>Access internal surfaces through ports and openings to inspect corrosion, deposits, cracks, wear and foreign objects—without full disassembly where feasible.</p>
                 </div>
                 <div class="overview-card">
                     <div class="overview-icon">
                         <i class="fas fa-camera"></i>
                     </div>
-                    <h3>HD Documentation</h3>
-                    <p>Record high-definition photo and video evidence with measurement capabilities</p>
+                    <h3>Documented Evidence</h3>
+                    <p>Capture sharp photos and video with annotations and measurement tools to support engineering review, client acceptance and audit requirements.</p>
                 </div>
                 <div class="overview-card">
                     <div class="overview-icon">
                         <i class="fas fa-coins"></i>
                     </div>
-                    <h3>Cost Savings</h3>
-                    <p>Eliminate expensive teardown and reassembly—80% cost reduction vs disassembly</p>
+                    <h3>Reduced Downtime & Scope</h3>
+                    <p>RVI can help avoid unnecessary teardown by confirming condition early and prioritizing repair locations—especially during shutdowns and breakdowns.</p>
                 </div>
                 <div class="overview-card">
                     <div class="overview-icon">
                         <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3>Safe Inspection</h3>
-                    <p>Examine hazardous, confined, or hard-to-reach areas without human entry</p>
+                    <h3>Safer Access</h3>
+                    <p>Inspect confined or hazardous areas with minimal human entry where possible—supporting safer work planning and reduced exposure.</p>
                 </div>
             </div>
         </div>
@@ -137,39 +137,39 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                 <div class="what-is-content">
                     <span class="section-label">VISUAL INSPECTION TECHNOLOGY</span>
                     <h2>What is Remote Visual Inspection (RVI)?</h2>
-                    <p class="lead">Remote Visual Inspection (RVI) uses advanced optical instruments—videoscopes, borescopes, fiberscopes, and industrial endoscopes—to visually examine internal surfaces, confined spaces, and inaccessible areas without requiring disassembly, system shutdown, or human entry.</p>
+                    <p class="lead">Remote Visual Inspection (RVI) is a visual examination method that uses optical instruments—videoscopes, borescopes, fiberscopes and industrial endoscopes—to inspect areas that are inaccessible to direct line-of-sight inspection.</p>
                     
-                    <p>RVI technology employs miniature cameras, illumination sources, and articulating probe tips to navigate complex geometries, capture high-definition images and video, and provide real-time visual feedback to inspectors. Modern digital videoscopes offer features such as 4K ultra-high-definition imaging, 360° articulation, integrated measurement tools, UV fluorescence detection, and wireless streaming to remote experts.</p>
+                    <p>Modern RVI systems use high-resolution camera sensors, controlled illumination and articulating probe tips to navigate complex geometry and provide real-time visual feedback. Inspectors can record images/video, annotate findings, and (where equipped) apply measurement tools for length/area/depth estimation.</p>
 
-                    <p>The technique is indispensable across industries for detecting surface defects (cracks, corrosion, erosion, foreign object debris), verifying cleanliness and assembly quality, confirming component condition before costly maintenance, and documenting internal equipment status for regulatory compliance and asset management.</p>
+                    <p>RVI is widely used as a first-line method to confirm internal condition and guide follow-up NDT. Where sizing or subsurface evaluation is required, RVI findings are typically complemented with UT/PAUT/TOFD, PT/MT, or other suitable methods.</p>
                     
                     <div class="feature-list">
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
                             <div>
                                 <strong>Non-Intrusive Access</strong>
-                                <p>Inspect through existing ports, openings, or small drilled access holes (1-15mm)</p>
+                                <p>Inspect through ports, nozzles, manways, drain points, and small access openings (probe diameter dependent).</p>
                             </div>
                         </div>
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
                             <div>
-                                <strong>Real-Time Visualization</strong>
-                                <p>Instant assessment with live video feedback and immediate decision-making capability</p>
+                                <strong>Real-Time Decisions</strong>
+                                <p>Live video enables immediate assessment, faster troubleshooting and better planning for repairs and follow-up NDT.</p>
                             </div>
                         </div>
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
                             <div>
-                                <strong>Permanent Documentation</strong>
-                                <p>Digital photo/video archive with annotations, measurements, and GPS coordinates</p>
+                                <strong>Clear Documentation</strong>
+                                <p>Recorded media with location references and annotations supports audits, client review and trending over time.</p>
                             </div>
                         </div>
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
                             <div>
-                                <strong>Versatile Applications</strong>
-                                <p>From 1mm diameter medical-grade scopes to 15mm industrial probes for harsh environments</p>
+                                <strong>Flexible Coverage</strong>
+                                <p>Rigid, flexible and articulating probe options help cover straight runs, bends and restricted geometry.</p>
                             </div>
                         </div>
                     </div>
@@ -177,8 +177,8 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                     <div class="tech-highlight-box">
                         <i class="fas fa-industry"></i>
                         <div>
-                            <strong>Industry Standard:</strong>
-                            <p>RVI is the primary inspection method for turbine engines (aviation, power generation), pressure vessels, pipelines, and confined spaces per ASME, API, ASTM, and aerospace OEM specifications. Over 90% of turbine maintenance decisions rely on borescope findings, preventing billions in unnecessary engine removals annually.</p>
+                            <strong>Best Use of RVI:</strong>
+                            <p>RVI is ideal for internal condition confirmation, defect screening and evidence capture. For critical acceptance decisions, we help integrate RVI with the right follow-up NDT technique for verification and sizing.</p>
                         </div>
                     </div>
 
@@ -192,32 +192,32 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <img src="/www/assets/images/services/rvi-videoscope.jpg" alt="RVI Videoscope">
                         <div class="visual-caption">
                             <i class="fas fa-info-circle"></i>
-                            <span>High-definition articulating videoscope with 4-way steering and integrated LED illumination</span>
+                            <span>Articulating videoscope for detailed internal inspection and documentation</span>
                         </div>
                     </div>
                     <div class="stats-box">
                         <div class="stat-item">
-                            <span class="stat-number">4K UHD</span>
-                            <span class="stat-label">Image Resolution</span>
+                            <span class="stat-number">HD / 4K</span>
+                            <span class="stat-label">Image Options</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-number">30m</span>
-                            <span class="stat-label">Max Working Length</span>
+                            <span class="stat-number">Up to 30m</span>
+                            <span class="stat-label">Probe Length (System Dependent)</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-number">1000+</span>
-                            <span class="stat-label">Inspections/Year</span>
+                            <span class="stat-number">Measurement</span>
+                            <span class="stat-label">Tools (System Dependent)</span>
                         </div>
                     </div>
                     
                     <div class="rvi-benefits">
-                        <h4><i class="fas fa-star"></i> Key Benefits</h4>
+                        <h4><i class="fas fa-star"></i> Practical Benefits</h4>
                         <ul class="benefit-list">
-                            <li><i class="fas fa-check"></i> Immediate results (no lab processing)</li>
-                            <li><i class="fas fa-check"></i> Equipment remains operational during inspection</li>
-                            <li><i class="fas fa-check"></i> Minimal surface preparation required</li>
-                            <li><i class="fas fa-check"></i> Safe for hazardous/confined environments</li>
-                            <li><i class="fas fa-check"></i> Shareable data for remote expert consultation</li>
+                            <li><i class="fas fa-check"></i> Fast verification of internal condition</li>
+                            <li><i class="fas fa-check"></i> Reduced dismantling and reassembly scope</li>
+                            <li><i class="fas fa-check"></i> Safer approach for confined/hazardous areas</li>
+                            <li><i class="fas fa-check"></i> Shareable media for remote expert review</li>
+                            <li><i class="fas fa-check"></i> Strong documentation for maintenance records</li>
                         </ul>
                     </div>
                 </div>
@@ -231,7 +231,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
             <div class="section-header center">
                 <span class="section-label">WHY CHOOSE RVI</span>
                 <h2>Key Advantages of Remote Visual Inspection</h2>
-                <p>Critical visibility without operational disruption or safety risks</p>
+                <p>Better visibility, faster decisions, and strong documentation—without unnecessary disruption</p>
             </div>
 
             <div class="advantages-grid">
@@ -239,16 +239,16 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                     <div class="advantage-icon blue">
                         <i class="fas fa-wrench"></i>
                     </div>
-                    <h3>No Disassembly Required</h3>
-                    <p>Inspect internal components through existing access ports (inspection hatches, drain plugs, instrumentation taps) or small drilled holes without removing insulation, piping, or equipment covers. Turbine engines inspected without engine removal from aircraft/genset—saving weeks of downtime and $500,000+ per event. Heat exchangers examined without bundle extraction. Pressure vessels assessed without manway entry permits.</p>
+                    <h3>Minimize Dismantling</h3>
+                    <p>Inspect internal areas through access points where feasible—helping reduce teardown scope, scaffolding, and reassembly time compared with intrusive inspection approaches.</p>
                 </div>
 
                 <div class="advantage-card">
                     <div class="advantage-icon green">
                         <i class="fas fa-tachometer-alt"></i>
                     </div>
-                    <h3>Rapid Inspection Speed</h3>
-                    <p>Complete internal examination in hours versus days/weeks for disassembly-based inspection. Aircraft engine borescope inspection: 2-4 hours vs 200+ hours for engine removal and teardown. Pipeline internal survey: 100m/day vs excavation-based approach requiring months. Immediate findings enable same-day maintenance decisions, optimizing turnaround schedules and reducing lost production revenue.</p>
+                    <h3>Faster Turnaround</h3>
+                    <p>RVI can provide quick internal confirmation during shutdowns or breakdowns, enabling faster maintenance decisions and better repair planning.</p>
                 </div>
 
                 <div class="advantage-card">
@@ -256,31 +256,31 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <i class="fas fa-video"></i>
                     </div>
                     <h3>Permanent Visual Record</h3>
-                    <p>High-definition photo (up to 12MP) and video (4K UHD) documentation provides irrefutable evidence of equipment condition. Time-stamped digital files archived for regulatory compliance (ASME, API, FAA), warranty claims, insurance purposes, and litigation support. Compare baseline to periodic inspections for damage progression tracking. Share images with OEMs, insurance adjusters, or engineering consultants instantly via cloud upload.</p>
+                    <p>High-quality images and video provide clear evidence of condition—useful for client review, OEM consultation, trending, and maintenance history.</p>
                 </div>
 
                 <div class="advantage-card">
                     <div class="advantage-icon orange">
                         <i class="fas fa-ruler-combined"></i>
                     </div>
-                    <h3>Integrated Measurement</h3>
-                    <p>On-screen digital measurement tools provide accurate defect sizing without physical access. Stereo measurement systems achieve ±2% accuracy for critical dimensions. Phase measurement for precise depth assessment. Pit depth, crack length, corrosion extent, gap width, and foreign object size quantified in real-time. Measurement data exported to CAD systems or integrated into inspection reports per ASME PCC-2 or API 579-1 fitness-for-service assessments.</p>
+                    <h3>Measurement Support</h3>
+                    <p>Where equipped, RVI measurement tools help estimate defect size (length/area/depth). For critical sizing, we recommend follow-up UT/PAUT/TOFD as required.</p>
                 </div>
 
                 <div class="advantage-card">
                     <div class="advantage-icon red">
                         <i class="fas fa-hand-holding-usd"></i>
                     </div>
-                    <h3>Massive Cost Reduction</h3>
-                    <p>Typical cost savings: 70-90% versus disassembly-based inspection. RVI turbine inspection: $5,000-15,000 vs $500,000+ engine removal. Heat exchanger inspection: $3,000-8,000 vs $50,000-150,000 bundle pull. Vessel internal survey: $10,000-25,000 vs $100,000-300,000 for manway entry with scaffolding, confined space permits, and gas freeing. ROI achieved on first inspection; multiplied across fleet.</p>
+                    <h3>Cost-Effective Decision Making</h3>
+                    <p>RVI helps confirm condition early, prioritize repair locations, and reduce unnecessary work—often improving overall inspection economics on complex assets.</p>
                 </div>
 
                 <div class="advantage-card">
                     <div class="advantage-icon teal">
                         <i class="fas fa-hard-hat"></i>
                     </div>
-                    <h3>Enhanced Safety</h3>
-                    <p>Eliminates human entry into confined spaces, tanks, vessels, and hazardous atmospheres. No scaffolding, hot work, or working at heights for external access. Reduces exposure to toxic gases (H₂S, benzene, CO), high temperatures, radiation, and explosive atmospheres. Complies with OSHA confined space regulations (29 CFR 1910.146) by enabling inspection without permit-required entry. Zero confined space fatalities with RVI approach.</p>
+                    <h3>Improved Safety</h3>
+                    <p>Supports inspection planning with reduced exposure in confined spaces, at height, or in hazardous environments where full access would increase risk and permits.</p>
                 </div>
             </div>
         </div>
@@ -292,7 +292,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
             <div class="section-header center">
                 <span class="section-label">RVI TECHNOLOGY</span>
                 <h2>Videoscope & Borescope Equipment</h2>
-                <p>Comprehensive fleet for all inspection requirements</p>
+                <p>We select the right probe diameter, length, articulation and optics for your access and inspection objective</p>
             </div>
 
             <div class="equipment-comparison">
@@ -306,31 +306,27 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                             <img src="/www/assets/images/services/rvi-rigid-borescope.jpg" alt="Rigid Borescope">
                         </div>
                         
-                        <h4>Technology</h4>
-                        <p>Precision optical lens system (Hopkins rod lens) providing superior image quality and resolution. Straight or angled viewing direction (0°, 30°, 45°, 70°, 90°, 110°).</p>
+                        <h4>Best For</h4>
+                        <p>High-clarity inspection where straight-line access is available and image quality is the top priority.</p>
                         
-                        <h4>Specifications</h4>
+                        <h4>Typical Specifications</h4>
                         <ul class="spec-list">
-                            <li><strong>Diameter:</strong> 1mm to 12mm</li>
-                            <li><strong>Length:</strong> 50mm to 1000mm</li>
-                            <li><strong>Viewing Angle:</strong> Fixed (0° to 110°)</li>
-                            <li><strong>Image Quality:</strong> Highest resolution and clarity</li>
-                            <li><strong>Illumination:</strong> Fiber optic or LED</li>
-                            <li><strong>Durability:</strong> Rugged metal construction</li>
+                            <li><strong>Diameter:</strong> Small to medium (application dependent)</li>
+                            <li><strong>Length:</strong> Short to medium</li>
+                            <li><strong>Viewing Direction:</strong> Fixed (straight or angled)</li>
+                            <li><strong>Image Quality:</strong> Excellent optical clarity</li>
                         </ul>
                         
-                        <h4>Best Applications</h4>
+                        <h4>Common Uses</h4>
                         <ul class="app-list">
-                            <li><i class="fas fa-check"></i> Turbine blade inspection (aerospace, power gen)</li>
-                            <li><i class="fas fa-check"></i> Engine cylinder bores and combustion chambers</li>
-                            <li><i class="fas fa-check"></i> Hydraulic/pneumatic valve bodies</li>
-                            <li><i class="fas fa-check"></i> Small diameter tubes and drilled passages</li>
-                            <li><i class="fas fa-check"></i> Precision manufacturing QC (aerospace parts)</li>
+                            <li><i class="fas fa-check"></i> Precision component inspection</li>
+                            <li><i class="fas fa-check"></i> Small bores and drilled passages</li>
+                            <li><i class="fas fa-check"></i> Turbine/engine access ports (straight view)</li>
                         </ul>
                         
                         <div class="equipment-note">
-                            <strong>Advantages:</strong> Superior optics, robust construction, autoclavable (medical)<br>
-                            <strong>Limitations:</strong> Fixed viewing direction, limited length, straight-line access only
+                            <strong>Strength:</strong> High optical clarity<br>
+                            <strong>Consideration:</strong> Straight access only
                         </div>
                     </div>
                 </div>
@@ -345,31 +341,27 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                             <img src="/www/assets/images/services/rvi-fiberscope.jpg" alt="Flexible Fiberscope">
                         </div>
                         
-                        <h4>Technology</h4>
-                        <p>Fiber optic imaging bundle (10,000-100,000 individual fibers) transmits image from distal tip. Flexible insertion tube navigates bends and complex paths.</p>
+                        <h4>Best For</h4>
+                        <p>Routing through bends and longer paths where a flexible insertion tube is required.</p>
                         
-                        <h4>Specifications</h4>
+                        <h4>Typical Specifications</h4>
                         <ul class="spec-list">
-                            <li><strong>Diameter:</strong> 2mm to 10mm</li>
-                            <li><strong>Length:</strong> 1m to 30m</li>
-                            <li><strong>Articulation:</strong> 2-way or 4-way tip steering (up to 180°)</li>
-                            <li><strong>Image Quality:</strong> Good (limited by fiber count)</li>
-                            <li><strong>Illumination:</strong> Fiber optic light transmission</li>
-                            <li><strong>Bending Radius:</strong> Navigates tight turns</li>
+                            <li><strong>Diameter:</strong> Small to medium</li>
+                            <li><strong>Length:</strong> Long reach options available</li>
+                            <li><strong>Articulation:</strong> Tip steering (model dependent)</li>
+                            <li><strong>Image Quality:</strong> Good (fiber dependent)</li>
                         </ul>
                         
-                        <h4>Best Applications</h4>
+                        <h4>Common Uses</h4>
                         <ul class="app-list">
-                            <li><i class="fas fa-check"></i> Heat exchanger tube bundle internal inspection</li>
-                            <li><i class="fas fa-check"></i> Piping systems with bends and elbows</li>
-                            <li><i class="fas fa-check"></i> Pressure vessel nozzle and manway inspection</li>
-                            <li><i class="fas fa-check"></i> Aircraft engine combustor and turbine sections</li>
-                            <li><i class="fas fa-check"></i> HVAC ductwork and industrial ventilation</li>
+                            <li><i class="fas fa-check"></i> Piping with bends and elbows</li>
+                            <li><i class="fas fa-check"></i> Heat exchanger access inspection</li>
+                            <li><i class="fas fa-check"></i> Nozzles and restricted pathways</li>
                         </ul>
                         
                         <div class="equipment-note">
-                            <strong>Advantages:</strong> Flexible routing, long working length, cost-effective<br>
-                            <strong>Limitations:</strong> Lower resolution than rigid/digital, fiber breakage over time
+                            <strong>Strength:</strong> Flexible routing<br>
+                            <strong>Consideration:</strong> Lower resolution than digital videoscopes
                         </div>
                     </div>
                 </div>
@@ -384,31 +376,28 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                             <img src="/www/assets/images/services/rvi-videoscope.jpg" alt="Articulating Videoscope">
                         </div>
                         
-                        <h4>Technology</h4>
-                        <p>High-definition digital camera sensor (CCD/CMOS) at probe tip with LED illumination. Joystick-controlled articulation for precise tip positioning. Digital image processing and recording.</p>
+                        <h4>Best For</h4>
+                        <p>High-resolution digital inspection with recording, articulation, and measurement—ideal for detailed documentation and engineering review.</p>
                         
-                        <h4>Specifications</h4>
+                        <h4>Typical Specifications</h4>
                         <ul class="spec-list">
-                            <li><strong>Diameter:</strong> 3mm to 15mm</li>
-                            <li><strong>Length:</strong> 1m to 30m (longer custom available)</li>
-                            <li><strong>Articulation:</strong> 4-way (360° rotation), some 360° continuous</li>
-                            <li><strong>Image Quality:</strong> HD (1080p) to 4K UHD</li>
-                            <li><strong>Illumination:</strong> High-intensity LED (adjustable)</li>
-                            <li><strong>Features:</strong> Measurement, recording, UV, 3D phase</li>
+                            <li><strong>Diameter:</strong> Multiple probe sizes available</li>
+                            <li><strong>Length:</strong> Short to long reach (system dependent)</li>
+                            <li><strong>Articulation:</strong> 4-way / enhanced steering (model dependent)</li>
+                            <li><strong>Image Quality:</strong> HD to 4K (system dependent)</li>
+                            <li><strong>Features:</strong> Recording, measurement options, changeable optics (system dependent)</li>
                         </ul>
                         
-                        <h4>Best Applications</h4>
+                        <h4>Common Uses</h4>
                         <ul class="app-list">
-                            <li><i class="fas fa-check"></i> Gas turbine hot section (combustor, turbine blades)</li>
-                            <li><i class="fas fa-check"></i> Large bore piping and pipeline internal survey</li>
-                            <li><i class="fas fa-check"></i> Pressure vessel weld and corrosion assessment</li>
-                            <li><i class="fas fa-check"></i> Storage tank internal floor and shell inspection</li>
-                            <li><i class="fas fa-check"></i> Critical component detailed documentation</li>
+                            <li><i class="fas fa-check"></i> Turbine hot-section checks</li>
+                            <li><i class="fas fa-check"></i> Vessel internals and weld areas</li>
+                            <li><i class="fas fa-check"></i> Pipeline and piping internal assessments</li>
                         </ul>
                         
                         <div class="equipment-note">
-                            <strong>Advantages:</strong> Best image quality, integrated measurement, digital recording, versatile<br>
-                            <strong>Limitations:</strong> Higher cost, larger diameter than fiberscopes
+                            <strong>Strength:</strong> Best documentation + flexibility<br>
+                            <strong>Consideration:</strong> Probe selection must match access constraints
                         </div>
                     </div>
                 </div>
@@ -416,38 +405,34 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                 <div class="equipment-type-card">
                     <div class="equipment-type-header industrial">
                         <i class="fas fa-hard-hat"></i>
-                        <h3>Industrial Endoscopes</h3>
+                        <h3>Industrial Endoscopes (Rugged Options)</h3>
                     </div>
                     <div class="equipment-type-body">
                         <div class="equipment-image-placeholder">
                             <img src="/www/assets/images/services/rvi-industrial-endoscope.jpg" alt="Industrial Endoscope">
                         </div>
                         
-                        <h4>Technology</h4>
-                        <p>Ruggedized videoscope systems designed for harsh industrial environments. Chemical-resistant, high-temperature capable, explosion-proof options. Wireless image transmission for remote/hazardous areas.</p>
+                        <h4>Best For</h4>
+                        <p>Harsh environments, challenging access, and industrial service conditions where protection rating and robustness are critical.</p>
                         
-                        <h4>Specifications</h4>
+                        <h4>Typical Specifications</h4>
                         <ul class="spec-list">
-                            <li><strong>Diameter:</strong> 5mm to 15mm (heavy-duty construction)</li>
-                            <li><strong>Length:</strong> 2m to 20m</li>
-                            <li><strong>Temperature:</strong> -20°C to +150°C (some to 600°C)</li>
-                            <li><strong>Protection:</strong> IP67 waterproof, chemical resistant</li>
-                            <li><strong>Certifications:</strong> ATEX/IECEx explosion-proof</li>
-                            <li><strong>Power:</strong> Battery (8+ hours) or AC powered</li>
+                            <li><strong>Protection:</strong> Water/chemical resistant options (system dependent)</li>
+                            <li><strong>Temperature:</strong> Elevated temperature solutions (application dependent)</li>
+                            <li><strong>Length/Diameter:</strong> Selected to match access and objective</li>
+                            <li><strong>Options:</strong> Intrinsically safe solutions where required (project dependent)</li>
                         </ul>
                         
-                        <h4>Best Applications</h4>
+                        <h4>Common Uses</h4>
                         <ul class="app-list">
-                            <li><i class="fas fa-check"></i> Petrochemical reactor vessel internals</li>
-                            <li><i class="fas fa-check"></i> Power plant boiler tube and waterwall inspection</li>
-                            <li><i class="fas fa-check"></i> Offshore platform confined space examination</li>
-                            <li><i class="fas fa-check"></i> Nuclear containment and piping (radiation environments)</li>
-                            <li><i class="fas fa-check"></i> Mining equipment and underground infrastructure</li>
+                            <li><i class="fas fa-check"></i> Petrochemical and power plant applications</li>
+                            <li><i class="fas fa-check"></i> Boiler and duct inspection support</li>
+                            <li><i class="fas fa-check"></i> Confined space and high-risk areas (planning dependent)</li>
                         </ul>
                         
                         <div class="equipment-note">
-                            <strong>Advantages:</strong> Extreme environment capability, intrinsically safe, ruggedized<br>
-                            <strong>Limitations:</strong> Larger/heavier than standard videoscopes, higher rental cost
+                            <strong>Strength:</strong> Rugged for field conditions<br>
+                            <strong>Consideration:</strong> System selection depends on environment and access
                         </div>
                     </div>
                 </div>
@@ -461,15 +446,15 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
             <div class="section-header center">
                 <span class="section-label">RVI APPLICATIONS</span>
                 <h2>Industries & Applications We Serve</h2>
-                <p>Visual inspection expertise across critical equipment and infrastructure</p>
+                <p>RVI supports maintenance decisions, troubleshooting, and documentation across a wide range of assets</p>
             </div>
 
             <div class="applications-tabs">
                 <div class="tabs-nav">
-                    <button class="tab-btn active" data-tab="turbine">Turbine Inspection</button>
-                    <button class="tab-btn" data-tab="vessel">Pressure Vessels</button>
-                    <button class="tab-btn" data-tab="pipeline">Pipelines</button>
-                    <button class="tab-btn" data-tab="aerospace">Aerospace</button>
+                    <button class="tab-btn active" data-tab="turbine">Turbines</button>
+                    <button class="tab-btn" data-tab="vessel">Vessels & Exchangers</button>
+                    <button class="tab-btn" data-tab="pipeline">Pipelines & Piping</button>
+                    <button class="tab-btn" data-tab="aerospace">Aerospace / Engines</button>
                 </div>
 
                 <div class="tabs-content">
@@ -481,33 +466,21 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                             </div>
                             <div class="tab-text">
                                 <h3>Gas & Steam Turbine Inspection</h3>
-                                <p>RVI borescope inspection is mandatory for gas turbine maintenance per OEM specifications (GE, Siemens, Alstom, Rolls-Royce). Enables condition-based maintenance decisions, preventing unnecessary overhauls while detecting critical damage requiring immediate action. Power generation and aviation industries rely entirely on borescope findings for multi-million dollar maintenance decisions.</p>
+                                <p>RVI borescope inspections support condition-based maintenance by confirming damage mechanisms and documenting hot-section condition for planning. Findings can be reviewed against OEM acceptance guidance where available.</p>
                                 
                                 <ul class="checkmark-list">
-                                    <li><i class="fas fa-check"></i> <strong>Hot Section Components:</strong> Combustor liners, transition pieces, flame holders</li>
-                                    <li><i class="fas fa-check"></i> <strong>Turbine Blades & Vanes:</strong> Erosion, oxidation, thermal fatigue cracks, coating loss</li>
-                                    <li><i class="fas fa-check"></i> <strong>Compressor:</strong> FOD (foreign object damage), blade tip rubs, fouling deposits</li>
-                                    <li><i class="fas fa-check"></i> <strong>Rotor & Stator:</strong> Disk cracks, labyrinth seal wear, attachment points</li>
-                                    <li><i class="fas fa-check"></i> <strong>Cooling Air Passages:</strong> Blockage detection, internal corrosion</li>
-                                    <li><i class="fas fa-check"></i> <strong>Exhaust Section:</strong> Diffuser cracks, strut damage, liner condition</li>
-                                    <li><i class="fas fa-check"></i> <strong>Bearing Compartments:</strong> Oil carbon buildup, seal degradation</li>
-                                    <li><i class="fas fa-check"></i> <strong>Fuel Nozzles:</strong> Carbon deposits, tip erosion, flow passage obstructions</li>
+                                    <li><i class="fas fa-check"></i> Combustor liners, transition pieces, flame holders</li>
+                                    <li><i class="fas fa-check"></i> Turbine blades/vanes: oxidation, coating loss, erosion, cracking indications</li>
+                                    <li><i class="fas fa-check"></i> Compressor: FOD, tip rubs, fouling deposits</li>
+                                    <li><i class="fas fa-check"></i> Seals, shrouds, attachment points (access dependent)</li>
+                                    <li><i class="fas fa-check"></i> Cooling passages and blockage checks (access dependent)</li>
                                 </ul>
 
-                                <div class="app-case-study">
-                                    <h4><i class="fas fa-bolt"></i> Case Study: Power Plant GT Avoided Outage</h4>
-                                    <p><strong>Situation:</strong> 250 MW combined cycle plant scheduled major inspection (5,000 operating hours)</p>
-                                    <p><strong>Borescope Findings:</strong> Stage 1 turbine blades showed acceptable oxidation, no cracking detected</p>
-                                    <p><strong>Decision:</strong> Extended operation to 8,000 hours based on visual evidence</p>
-                                    <p><strong>Savings:</strong> Deferred $4.2M overhaul + avoided $1.8M revenue loss from extended outage</p>
-                                </div>
-
                                 <div class="standards">
-                                    <strong>Applicable Standards:</strong>
-                                    <span class="standard-tag">ASTM E2656</span>
-                                    <span class="standard-tag">ASME PTC 46</span>
-                                    <span class="standard-tag">ISO 15548-1</span>
-                                    <span class="standard-tag">OEM Service Bulletins</span>
+                                    <strong>Typical References:</strong>
+                                    <span class="standard-tag">OEM Guidelines</span>
+                                    <span class="standard-tag">ASTM / ISO VT Practices (as applicable)</span>
+                                    <span class="standard-tag">Site Acceptance Criteria</span>
                                 </div>
                             </div>
                         </div>
@@ -520,34 +493,22 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                                 <img src="/www/assets/images/services/rvi-vessel.jpg" alt="Pressure Vessel RVI">
                             </div>
                             <div class="tab-text">
-                                <h3>Pressure Vessel & Heat Exchanger Inspection</h3>
-                                <p>RVI enables internal condition assessment of pressure-containing equipment without vessel entry, bundle extraction, or extensive scaffolding. Supports API 510 risk-based inspection programs by providing visual evidence of corrosion, cracking, and mechanical damage for remaining life calculations and fitness-for-service evaluations.</p>
+                                <h3>Pressure Vessels & Heat Exchangers</h3>
+                                <p>RVI supports internal condition assessment to identify corrosion, deposits, wear, and obvious mechanical damage—helping plan cleaning, repair scope, and targeted follow-up NDT.</p>
                                 
                                 <ul class="checkmark-list">
-                                    <li><i class="fas fa-check"></i> <strong>Internal Surfaces:</strong> Shell corrosion, pitting, blistering, weld integrity</li>
-                                    <li><i class="fas fa-check"></i> <strong>Heat Exchanger Tubes:</strong> Internal fouling, erosion, corrosion, plugging</li>
-                                    <li><i class="fas fa-check"></i> <strong>Tube Sheets:</strong> Ligament cracking, tube-to-tubesheet joint condition</li>
-                                    <li><i class="fas fa-check"></i> <strong>Nozzles & Penetrations:</strong> Weld toe cracks, erosion at impingement zones</li>
-                                    <li><i class="fas fa-check"></i> <strong>Internals:</strong> Tray damage (columns), catalyst bed (reactors), baffle condition</li>
-                                    <li><i class="fas fa-check"></i> <strong>Cladding & Linings:</strong> Disbondment, cracking, wear-through to base metal</li>
-                                    <li><i class="fas fa-check"></i> <strong>Manways & Flanges:</strong> Gasket seating surfaces, bolt hole damage</li>
-                                    <li><i class="fas fa-check"></i> <strong>Support Systems:</strong> Saddle attachment welds, skirt corrosion</li>
+                                    <li><i class="fas fa-check"></i> Internal surface condition and corrosion evidence</li>
+                                    <li><i class="fas fa-check"></i> Nozzles, impingement zones, and attachment areas (access dependent)</li>
+                                    <li><i class="fas fa-check"></i> Exchanger bundle/tube access screening (where feasible)</li>
+                                    <li><i class="fas fa-check"></i> Internals condition checks (trays/baffles) where accessible</li>
                                 </ul>
 
-                                <div class="app-highlight">
-                                    <i class="fas fa-industry"></i>
-                                    <div>
-                                        <strong>API 510 Integration:</strong>
-                                        <p>RVI satisfies API 510 internal inspection requirements for vessels with inaccessible internals or where full entry is impractical. Visual evidence combined with external UT thickness surveys provides comprehensive integrity assessment, enabling inspection interval optimization and risk category re-classification for extended run lengths.</p>
-                                    </div>
-                                </div>
-
                                 <div class="standards">
-                                    <strong>Applicable Standards:</strong>
+                                    <strong>Typical References:</strong>
                                     <span class="standard-tag">API 510</span>
                                     <span class="standard-tag">API 572</span>
-                                    <span class="standard-tag">ASME Sec VIII</span>
-                                    <span class="standard-tag">NBIC Part 3</span>
+                                    <span class="standard-tag">ASME Sec V (VT as applicable)</span>
+                                    <span class="standard-tag">Site Specs</span>
                                 </div>
                             </div>
                         </div>
@@ -561,33 +522,20 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                             </div>
                             <div class="tab-text">
                                 <h3>Pipeline & Piping Internal Inspection</h3>
-                                <p>Videoscope inspection provides direct visual assessment of pipeline internal condition, supplementing or replacing intelligent pig runs for un-piggable lines. Detects internal corrosion, scale buildup, deformation, blockages, and mechanical damage. Critical for pre-commissioning verification, integrity management, and fitness-for-service assessments.</p>
+                                <p>Videoscope inspections provide direct visual confirmation of internal condition—useful for troubleshooting, pre-commissioning checks, and un-piggable lines (access dependent).</p>
                                 
                                 <ul class="checkmark-list">
-                                    <li><i class="fas fa-check"></i> <strong>Internal Corrosion:</strong> Pitting, general metal loss, MIC, top-of-line corrosion</li>
-                                    <li><i class="fas fa-check"></i> <strong>Weld Quality:</strong> Girth weld internal profiles, lack of penetration, high-low</li>
-                                    <li><i class="fas fa-check"></i> <strong>Mechanical Damage:</strong> Dents, gouges, wrinkles from installation or ground movement</li>
-                                    <li><i class="fas fa-check"></i> <strong>Scale & Deposits:</strong> Paraffin, asphaltene, sulfur, iron sulfide accumulation</li>
-                                    <li><i class="fas fa-check"></i> <strong>Flow Restrictions:</strong> Valve seats, control valve internals, restriction orifices</li>
-                                    <li><i class="fas fa-check"></i> <strong>Pipe Condition:</strong> Ovality, collapse, buckling from external loading</li>
-                                    <li><i class="fas fa-check"></i> <strong>Foreign Objects:</strong> Construction debris, weld spatter, valve components</li>
-                                    <li><i class="fas fa-check"></i> <strong>Pre-Commissioning:</strong> Cleanliness verification, fabrication quality acceptance</li>
+                                    <li><i class="fas fa-check"></i> Internal corrosion evidence, pitting, deposits and scale</li>
+                                    <li><i class="fas fa-check"></i> Blockage and restriction confirmation</li>
+                                    <li><i class="fas fa-check"></i> Debris/foreign objects and construction cleanliness checks</li>
+                                    <li><i class="fas fa-check"></i> Internal weld profile observations (access dependent)</li>
                                 </ul>
 
-                                <div class="app-highlight">
-                                    <i class="fas fa-project-diagram"></i>
-                                    <div>
-                                        <strong>Un-Piggable Line Solution:</strong>
-                                        <p>Many pipelines cannot accommodate intelligent pigs due to: diameter restrictions, tight-radius bends, multi-diameter sections, or lack of launcher/receiver facilities. Videoscope inspection from existing access points (block valves, tees, vents) provides internal visual data for these challenging systems without costly pipeline modifications or excavation campaigns.</p>
-                                    </div>
-                                </div>
-
                                 <div class="standards">
-                                    <strong>Applicable Standards:</strong>
-                                    <span class="standard-tag">API 1163</span>
+                                    <strong>Typical References:</strong>
                                     <span class="standard-tag">ASME B31.4/B31.8</span>
-                                    <span class="standard-tag">NACE SP0206</span>
-                                    <span class="standard-tag">ISO 13623</span>
+                                    <span class="standard-tag">API 1163 (program integration)</span>
+                                    <span class="standard-tag">Client Integrity Specs</span>
                                 </div>
                             </div>
                         </div>
@@ -600,34 +548,21 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                                 <img src="/www/assets/images/services/rvi-aerospace.jpg" alt="Aerospace Borescope">
                             </div>
                             <div class="tab-text">
-                                <h3>Aerospace & Aviation Engine Inspection</h3>
-                                <p>Borescope inspection is the cornerstone of aircraft engine maintenance, enabling on-wing condition assessment without engine removal. FAA, EASA, and OEM maintenance programs mandate borescope inspections at specific intervals. Findings determine whether engine continues service, requires maintenance, or necessitates removal—driving multi-million dollar decisions.</p>
+                                <h3>Aerospace & Engine Borescope Support</h3>
+                                <p>RVI supports detailed inspection of engine sections and critical components where borescope access is available. Findings are typically reviewed against maintenance manuals and OEM criteria.</p>
                                 
                                 <ul class="checkmark-list">
-                                    <li><i class="fas fa-check"></i> <strong>Compressor Section:</strong> FOD, blade erosion, tip rubs, airfoil cracks</li>
-                                    <li><i class="fas fa-check"></i> <strong>Combustion Chamber:</strong> Liner cracks, cooling hole blockage, hot spots, fuel nozzle deposits</li>
-                                    <li><i class="fas fa-check"></i> <strong>High-Pressure Turbine:</strong> Blade coating loss, oxidation, sulfidation, trailing edge cracks</li>
-                                    <li><i class="fas fa-check"></i> <strong>Low-Pressure Turbine:</strong> Disk post cracks, blade attachment wear, seal rubs</li>
-                                    <li><i class="fas fa-check"></i> <strong>Engine Mounts & Structure:</strong> Attachment lug cracks, support beam damage</li>
-                                    <li><i class="fas fa-check"></i> <strong>Auxiliary Systems:</strong> APU (auxiliary power unit) internal condition</li>
-                                    <li><i class="fas fa-check"></i> <strong>Landing Gear:</strong> Actuator cylinders, brake assemblies, strut internals</li>
-                                    <li><i class="fas fa-check"></i> <strong>Airframe:</strong> Wing spar boxes, control surface hinges, fuel tank internals</li>
+                                    <li><i class="fas fa-check"></i> Compressor and turbine sections (access dependent)</li>
+                                    <li><i class="fas fa-check"></i> Combustion chamber liner condition (access dependent)</li>
+                                    <li><i class="fas fa-check"></i> FOD evidence, rubs, deposits, coating condition</li>
+                                    <li><i class="fas fa-check"></i> Documentation for maintenance decision support</li>
                                 </ul>
 
-                                <div class="app-case-study">
-                                    <h4><i class="fas fa-plane"></i> Case Study: Commercial Fleet Engine Management</h4>
-                                    <p><strong>Airline:</strong> Regional carrier with 50-aircraft fleet (CFM56 engines)</p>
-                                    <p><strong>Program:</strong> Quarterly borescope inspections per OEM recommendations</p>
-                                    <p><strong>Result:</strong> Early detection of HPT blade oxidation enabled planned shop visit vs in-flight shutdown</p>
-                                    <p><strong>Impact:</strong> Prevented $12M+ unscheduled engine removal, avoided flight delays/cancellations</p>
-                                </div>
-
                                 <div class="standards">
-                                    <strong>Applicable Standards:</strong>
-                                    <span class="standard-tag">FAA AC 43.13-1B</span>
-                                    <span class="standard-tag">EASA Part-M</span>
-                                    <span class="standard-tag">SAE ARP 4914</span>
-                                    <span class="standard-tag">OEM Manuals (CMM, SRM)</span>
+                                    <strong>Typical References:</strong>
+                                    <span class="standard-tag">OEM Manuals</span>
+                                    <span class="standard-tag">Maintenance Program Requirements</span>
+                                    <span class="standard-tag">Client Acceptance Criteria</span>
                                 </div>
                             </div>
                         </div>
@@ -643,67 +578,64 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
             <div class="section-header center">
                 <span class="section-label">TECHNICAL CAPABILITIES</span>
                 <h2>RVI Service Capabilities</h2>
-                <p>Comprehensive visual inspection solutions for all requirements</p>
+                <p>Probe selection and deliverables are matched to your access constraints and inspection objective</p>
             </div>
 
             <div class="capabilities-grid">
                 <div class="capability-box">
                     <div class="capability-header">
                         <i class="fas fa-camera"></i>
-                        <h3>Imaging Capabilities</h3>
+                        <h3>Imaging</h3>
                     </div>
                     <ul class="capability-list">
-                        <li><span class="cap-label">Resolution:</span> HD (1080p) to 4K UHD (3840×2160)</li>
-                        <li><span class="cap-label">Still Images:</span> Up to 12 megapixel capture</li>
-                        <li><span class="cap-label">Video Recording:</span> MP4/AVI format, 30-60 fps</li>
-                        <li><span class="cap-label">Live Streaming:</span> WiFi/Bluetooth to tablet/smartphone</li>
-                        <li><span class="cap-label">Image Enhancement:</span> Brightness, contrast, sharpness adjustment</li>
-                        <li><span class="cap-label">Special Modes:</span> UV fluorescence, polarization, WLI</li>
+                        <li><span class="cap-label">Resolution:</span> HD to 4K (system dependent)</li>
+                        <li><span class="cap-label">Still Images:</span> High-quality captures with annotation</li>
+                        <li><span class="cap-label">Video:</span> Recorded inspection clips for review</li>
+                        <li><span class="cap-label">Lighting:</span> Adjustable illumination for clarity and contrast</li>
+                        <li><span class="cap-label">Enhancement:</span> Image adjustment tools (system dependent)</li>
+                        <li><span class="cap-label">Special Options:</span> UV/filters where required (project dependent)</li>
                     </ul>
                 </div>
 
                 <div class="capability-box">
                     <div class="capability-header">
                         <i class="fas fa-ruler-combined"></i>
-                        <h3>Measurement Features</h3>
+                        <h3>Measurement</h3>
                     </div>
                     <ul class="capability-list">
-                        <li><span class="cap-label">2D Measurement:</span> Length, area, angle on-screen</li>
-                        <li><span class="cap-label">Stereo Measurement:</span> ±2% accuracy for depth/width</li>
-                        <li><span class="cap-label">Phase Measurement:</span> Precise depth of pits/cracks</li>
-                        <li><span class="cap-label">Comparison:</span> Side-by-side before/after images</li>
-                        <li><span class="cap-label">Point-to-Point:</span> Distance measurement tools</li>
-                        <li><span class="cap-label">Export:</span> CAD-compatible measurement data</li>
+                        <li><span class="cap-label">On-Screen Tools:</span> Length/area/angle (system dependent)</li>
+                        <li><span class="cap-label">Stereo/3D:</span> Depth estimation options (system dependent)</li>
+                        <li><span class="cap-label">Accuracy:</span> Application dependent (requires correct setup and reference)</li>
+                        <li><span class="cap-label">Reporting:</span> Measurement overlays and notes in report</li>
+                        <li><span class="cap-label">Recommendation:</span> UT/PAUT/TOFD for critical sizing where required</li>
                     </ul>
                 </div>
 
                 <div class="capability-box">
                     <div class="capability-header">
                         <i class="fas fa-cog"></i>
-                        <h3>Equipment Range</h3>
+                        <h3>Probe Range</h3>
                     </div>
                     <ul class="capability-list">
-                        <li><span class="cap-label">Probe Diameters:</span> 1mm to 15mm</li>
-                        <li><span class="cap-label">Working Lengths:</span> 50mm to 30 meters</li>
-                        <li><span class="cap-label">Articulation:</span> 2-way, 4-way, 360° continuous</li>
-                        <li><span class="cap-label">Viewing Angles:</span> 0° to 120° (direction of view)</li>
-                        <li><span class="cap-label">Temperature Range:</span> -20°C to +600°C</li>
-                        <li><span class="cap-label">Protection:</span> IP67 waterproof, ATEX explosion-proof</li>
+                        <li><span class="cap-label">Diameters:</span> Multiple probe sizes (application dependent)</li>
+                        <li><span class="cap-label">Lengths:</span> Short to long reach options</li>
+                        <li><span class="cap-label">Articulation:</span> 2-way / 4-way / enhanced steering (model dependent)</li>
+                        <li><span class="cap-label">Viewing:</span> Straight and angled optics options</li>
+                        <li><span class="cap-label">Environment:</span> Rugged systems for industrial conditions (project dependent)</li>
                     </ul>
                 </div>
 
                 <div class="capability-box">
                     <div class="capability-header">
                         <i class="fas fa-clipboard-list"></i>
-                        <h3>Reporting & Documentation</h3>
+                        <h3>Reporting</h3>
                     </div>
                     <ul class="capability-list">
-                        <li><span class="cap-label">Digital Reports:</span> PDF with annotated images/video links</li>
-                        <li><span class="cap-label">Finding Classification:</span> Severity per OEM/code criteria</li>
-                        <li><span class="cap-label">GPS Tagging:</span> Location stamps for field inspections</li>
-                        <li><span class="cap-label">Archive:</span> Cloud storage with 10-year retention</li>
-                        <li><span class="cap-label">Client Portal:</span> Secure access to all inspection data</li>
-                        <li><span class="cap-label">Expert Review:</span> Remote consultation with OEM engineers</li>
+                        <li><span class="cap-label">Deliverable:</span> PDF report with annotated images</li>
+                        <li><span class="cap-label">Media:</span> Photo/video files provided as agreed</li>
+                        <li><span class="cap-label">Findings Log:</span> Location reference + description + recommendation</li>
+                        <li><span class="cap-label">Turnaround:</span> As agreed (urgent reporting supported)</li>
+                        <li><span class="cap-label">Archiving:</span> Digital retention per project/client requirements</li>
                     </ul>
                 </div>
 
@@ -713,12 +645,11 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <h3>Service Options</h3>
                     </div>
                     <ul class="capability-list">
-                        <li><span class="cap-label">Field Services:</span> Onsite inspection with certified technicians</li>
-                        <li><span class="cap-label">Equipment Rental:</span> Self-service with training</li>
-                        <li><span class="cap-label">24/7 Availability:</span> Emergency/breakdown response</li>
-                        <li><span class="cap-label">Turnaround:</span> Same-day mobilization available</li>
-                        <li><span class="cap-label">Training:</span> Operator training and certification</li>
-                        <li><span class="cap-label">Custom Solutions:</span> Special probe design and fabrication</li>
+                        <li><span class="cap-label">Onsite Services:</span> Field inspection with qualified personnel</li>
+                        <li><span class="cap-label">Shutdown Support:</span> Integrated with turnaround schedules</li>
+                        <li><span class="cap-label">Emergency Response:</span> Breakdown support (as available)</li>
+                        <li><span class="cap-label">Rental:</span> Equipment rental options (project dependent)</li>
+                        <li><span class="cap-label">Follow-Up NDT:</span> UT/PAUT/TOFD/PT/MT coordination as required</li>
                     </ul>
                 </div>
 
@@ -728,12 +659,11 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <h3>Quality & Compliance</h3>
                     </div>
                     <ul class="capability-list">
-                        <li><span class="cap-label">Certification:</span> ISO 9001:2015 quality management</li>
-                        <li><span class="cap-label">Technicians:</strong> ASNT VT Level II/III certified</li>
-                        <li><span class="cap-label">Calibration:</span> Annual traceable to NIST standards</li>
-                        <li><span class="cap-label">Procedures:</span> Per ASTM E2389, ISO 15548, ASME PCC-2</li>
-                        <li><span class="cap-label">Data Security:</span> GDPR/SOC 2 compliant storage</li>
-                        <li><span class="cap-label">Insurance:</strong> $10M liability coverage</li>
+                        <li><span class="cap-label">Quality System:</span> ISO 9001:2015 aligned processes (company dependent)</li>
+                        <li><span class="cap-label">Personnel:</span> VT-qualified inspectors as per applicable program</li>
+                        <li><span class="cap-label">Procedures:</span> Aligned to ASME/API/ISO and project specifications</li>
+                        <li><span class="cap-label">Calibration:</span> Equipment checks and verification as required</li>
+                        <li><span class="cap-label">Data Handling:</span> Controlled sharing and secure storage options available</li>
                     </ul>
                 </div>
             </div>
@@ -746,7 +676,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
             <div class="section-header center">
                 <span class="section-label">WHY ALPHA SONIX</span>
                 <h2>Your RVI Technology Partner</h2>
-                <p>Experience, equipment, and expertise for critical visual inspections</p>
+                <p>Practical field experience, the right equipment selection, and reports written for clear maintenance and engineering decisions</p>
             </div>
 
             <div class="why-choose-grid">
@@ -754,48 +684,48 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                     <div class="why-icon">
                         <i class="fas fa-video"></i>
                     </div>
-                    <h3>Comprehensive Equipment Fleet</h3>
-                    <p>50+ videoscopes, borescopes, and endoscopes from leading manufacturers (Olympus, GE, Waygate, MISTRAS). Probe diameters 1-15mm, lengths to 30m. HD/4K imaging, UV fluorescence, 3D phase measurement, wireless systems.</p>
+                    <h3>Application-Matched Equipment</h3>
+                    <p>We select probe diameter, length, articulation and optics based on access, environment and the defect mechanism you want to confirm.</p>
                 </div>
 
                 <div class="why-card">
                     <div class="why-icon">
                         <i class="fas fa-user-tie"></i>
                     </div>
-                    <h3>Certified Technicians</h3>
-                    <p>ASNT VT Level II/III certified visual inspection specialists. OEM-trained on major turbine platforms (GE, Siemens, Alstom). Average 10+ years RVI experience. FAA-approved for aircraft engine borescope inspection.</p>
+                    <h3>Qualified Inspectors</h3>
+                    <p>VT-qualified personnel with experience interpreting corrosion, wear, cracking indications and service-related damage mechanisms across industrial assets.</p>
                 </div>
 
                 <div class="why-card">
                     <div class="why-icon">
                         <i class="fas fa-industry"></i>
                     </div>
-                    <h3>Industry Expertise</h3>
-                    <p>1000+ turbine inspections (aero-derivative, heavy-duty, industrial). 500+ pressure vessel/heat exchanger surveys. 300+ pipeline internal examinations. Deep knowledge of OEM acceptance criteria and damage mechanisms.</p>
+                    <h3>Industry-Focused Workflows</h3>
+                    <p>Inspection planning and documentation aligned to shutdown realities—access, permits, safety controls and deliverables that your maintenance team can act on.</p>
                 </div>
 
                 <div class="why-card">
                     <div class="why-icon">
                         <i class="fas fa-clock"></i>
                     </div>
-                    <h3>Rapid Response</h3>
-                    <p>24/7 emergency mobilization for critical inspections. Same-day deployment within service area. Equipped field vehicles for immediate response. Minimize downtime with efficient inspection execution.</p>
+                    <h3>Responsive Execution</h3>
+                    <p>Fast mobilization (where possible), clear communication on access requirements, and efficient inspection execution to support critical-path work.</p>
                 </div>
 
                 <div class="why-card">
                     <div class="why-icon">
                         <i class="fas fa-chart-line"></i>
                     </div>
-                    <h3>Advanced Reporting</h3>
-                    <p>Detailed reports with HD images/video, severity classification, repair recommendations, and trending analysis. Client portal access with cloud storage. Remote expert consultation via live video streaming from inspection site.</p>
+                    <h3>Clear Reporting</h3>
+                    <p>Annotated images/video references, structured findings tables, and practical next steps—repair, clean, monitor, or verify with advanced NDT.</p>
                 </div>
 
                 <div class="why-card">
                     <div class="why-icon">
                         <i class="fas fa-handshake"></i>
                     </div>
-                    <h3>Turnkey Solutions</h3>
-                    <p>Complete project management including access planning, scaffolding coordination, confined space entry support, and integration with turnaround schedules. Equipment rental with training for client self-operation also available.</p>
+                    <h3>Turnkey Support</h3>
+                    <p>We can coordinate complementary NDT methods (PAUT/TOFD/UT, PT/MT) when RVI identifies areas requiring confirmation or sizing.</p>
                 </div>
             </div>
         </div>
@@ -812,11 +742,11 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
             <div class="faq-container">
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>What is the difference between a borescope and videoscope?</h3>
+                        <h3>What is the difference between a borescope and a videoscope?</h3>
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>"Borescope" is a general term for optical inspection instruments. It includes: (1) Rigid borescopes with rod lens optics viewing through eyepiece or camera, (2) Flexible fiberscopes using fiber optic image bundles, (3) Videoscopes with digital camera sensors at the probe tip. "Videoscope" specifically refers to digital instruments with electronic imaging—offering superior image quality (HD/4K), recording capability, measurement tools, and easier documentation compared to traditional optical borescopes. Modern industrial inspection primarily uses videoscopes for their digital advantages.</p>
+                        <p><strong>Borescope</strong> is a general term for inspection scopes (rigid or flexible). A <strong>videoscope</strong> is a borescope with a digital camera sensor at the probe tip—typically offering easier recording, better documentation, and advanced features such as measurement and image enhancement (model dependent).</p>
                     </div>
                 </div>
 
@@ -826,17 +756,17 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>RVI costs vary by application, equipment, and duration: Turbine borescope inspection: $3,000-12,000 (depending on engine size, access complexity); Pressure vessel internal survey: $5,000-20,000 (vessel size, number of nozzles); Pipeline internal inspection: $2,000-8,000 per inspection point + $200-500/meter for extended survey; Equipment rental: $1,500-5,000/week depending on probe specifications. While RVI has upfront costs, savings are massive: turbine inspection eliminates $500,000+ engine removal; vessel inspection avoids $100,000-300,000 entry preparation and bundle extraction. ROI typically 10:1 to 50:1.</p>
+                        <p>Cost depends on access, probe selection, inspection duration, reporting requirements, and whether shutdown support or special environments are involved. Share your component details and access points and we will provide a clear scope-based quotation.</p>
                     </div>
                 </div>
 
                 <div class="faq-item">
                     <div class="faq-question">
-                        <h3>What minimum size opening is required for RVI?</h3>
+                        <h3>What minimum opening is required for RVI?</h3>
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Minimum access depends on probe diameter and articulation mechanism: Ultra-miniature scopes: 1-2mm opening (medical-grade); Standard industrial: 4-6mm typical (borescope ports, drain plugs, 1/4" NPT taps); Heavy-duty videoscopes: 8-15mm (inspection hatches, 1/2"-3/4" ports); Articulating probes: Add 1-2mm clearance for articulation housing. If existing access is insufficient, we can drill small inspection ports (typically 6-12mm) which are easily plugged/welded afterward—still far less invasive than equipment disassembly. Many vessels, turbines, and systems have factory-installed borescope ports for this purpose.</p>
+                        <p>The minimum opening depends on the selected probe diameter and articulation mechanism. Many industrial inspections can be performed through small ports, drain points, or access openings. If access is not available, we can advise practical options during feasibility review.</p>
                     </div>
                 </div>
 
@@ -846,7 +776,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Measurement accuracy depends on technology used: 2D on-screen measurement (single camera): ±5-10% for length/area when target distance is known; Stereo measurement (dual cameras): ±2-3% for 3D dimensions—suitable for most industrial assessments; Phase measurement (structured light): ±1-2% for depth measurements—approaching conventional UT accuracy; Comparison measurement: <±1mm when comparing to reference standards or previous inspections. For critical measurements requiring ±0.1mm accuracy, videoscope identifies defect location/extent then focused conventional NDT (UT/PAUT) performs precise sizing. This combination optimizes efficiency and accuracy.</p>
+                        <p>Accuracy depends on the measurement method (2D/stereo/3D), target distance, lighting, and setup. Measurement tools are excellent for screening and reporting, but critical sizing decisions typically require confirmation using UT/PAUT/TOFD where applicable.</p>
                     </div>
                 </div>
 
@@ -856,7 +786,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>RVI excels at detecting: Surface-breaking cracks: Visible cracks >0.1mm opening width (aided by dye penetrant pre-treatment if needed); Corrosion/erosion: Pitting, general metal loss, coating loss, discoloration from overheating; Mechanical damage: Dents, gouges, impact marks, deformation; Fouling/deposits: Scale, carbon, foreign objects, blockages; Assembly issues: Missing parts, incorrect installation, contact/rubs. RVI limitations: Cannot detect sub-surface defects (requires UT/RT/ET); Crack depth measurement limited (use PAUT/TOFD for through-wall sizing); Small tight cracks in low-contrast conditions challenging (UV fluorescence helps). RVI is often first-line screening directing focused advanced NDT to specific areas requiring detailed characterization.</p>
+                        <p>RVI is effective for <strong>surface-visible</strong> conditions such as corrosion, wear, deposits, foreign objects, deformation, and many surface-breaking crack indications (visibility depends on lighting, contrast, and access). RVI cannot detect subsurface defects; those require UT/RT/ET or other suitable methods.</p>
                     </div>
                 </div>
 
@@ -866,7 +796,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Yes, comprehensive rental program available: (1) Equipment + Operator: Turnkey service with our certified technician performing inspection, analysis, and reporting; (2) Equipment Rental Only: Rent videoscope with comprehensive training for your personnel (4-8 hour course covering equipment operation, image interpretation basics, maintenance); (3) Long-term Rental: Extended rental (months) for clients with ongoing inspection needs—we provide training, technical support, and periodic equipment maintenance. Rental includes: complete system with all accessories, carry case, calibration certificate, user manual, 24/7 technical support hotline. This enables clients to perform routine inspections in-house while calling us for complex assessments requiring advanced expertise.</p>
+                        <p>Yes—rental and training options can be arranged depending on the equipment type and your application. For critical inspections, we recommend service with qualified personnel to ensure correct access strategy, documentation and interpretation.</p>
                     </div>
                 </div>
 
@@ -876,7 +806,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Comprehensive RVI reports include: (1) Executive summary with inspection scope, access points, findings summary, recommendations; (2) Annotated images showing each defect/area of interest with measurement overlays and severity classification; (3) Video recordings of complete inspection path for future reference; (4) Comparison images if baseline/previous inspection data available; (5) Defect register table with location, size, type, severity, and recommended action; (6) Technical appendix with equipment specs, calibration data, technician qualifications, applicable standards. Deliverables: PDF report + digital media files (photos/videos) + cloud portal access. Turnaround: Preliminary findings same-day; final report within 48-72 hours. Data retained 10+ years for trending analysis.</p>
+                        <p>We provide a structured report with annotated images, findings log, location references, and recommended next steps. Photo/video files can be delivered in agreed formats along with the report.</p>
                     </div>
                 </div>
 
@@ -886,7 +816,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Inspection duration varies by application: Turbine borescope (single engine): 2-6 hours depending on sections inspected and findings; Heat exchanger tube bundle (100 tubes): 4-8 hours for systematic examination; Pressure vessel internal survey: 3-12 hours based on vessel size, nozzle count, and areas of interest; Pipeline internal inspection: 50-150 meters/day depending on diameter, surface condition, and defect documentation requirements. Compare to alternatives: Engine removal and teardown: 200+ hours; Heat exchanger bundle extraction: 40-80 hours; Vessel entry with scaffolding: 80-120+ hours. RVI delivers 90-95% time savings while providing visual evidence previously unavailable without disassembly.</p>
+                        <p>Duration depends on access, inspection length, and documentation requirements. Some inspections are completed within hours; larger or more complex equipment may require longer. We confirm expected duration during planning once scope and access points are defined.</p>
                     </div>
                 </div>
             </div>
@@ -897,16 +827,16 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
     <section class="cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>See Inside Without Taking Apart</h2>
-                <p>High-definition visual inspection with 80% cost savings vs disassembly</p>
+                <h2>See Inside Without Unnecessary Tear-Down</h2>
+                <p>Request an RVI inspection plan with the right probe selection, clear deliverables, and follow-up recommendations where needed</p>
                 <center>
                     <a href="tel:+914445015884" class="btn btn-white"><i class="fas fa-phone"></i> Call: +91 44 4501 5884</a>
                     <a href="mailto:info@alphasonix.com" class="btn btn-outline"><i class="fas fa-envelope"></i> Request RVI Service</a>
                 </center>
                 <div class="cta-features">
-                    <span><i class="fas fa-check"></i> Same-Day Mobilization</span>
-                    <span><i class="fas fa-check"></i> Free Feasibility Assessment</span>
-                    <span><i class="fas fa-check"></i> Equipment Rental Available</span>
+                    <span><i class="fas fa-check"></i> Feasibility & Access Review</span>
+                    <span><i class="fas fa-check"></i> HD/4K Documentation</span>
+                    <span><i class="fas fa-check"></i> Clear Follow-Up Guidance</span>
                 </div>
             </div>
         </div>
@@ -917,7 +847,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
         <div class="container">
             <div class="section-header center">
                 <h2>Complementary Inspection Services</h2>
-                <p>Complete NDT solutions for asset integrity</p>
+                <p>Combine methods for stronger confirmation, sizing, and integrity decisions</p>
             </div>
 
             <div class="related-grid">
@@ -926,7 +856,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <i class="fas fa-eye"></i>
                     </div>
                     <h3>Visual Testing (VT)</h3>
-                    <p>Conventional visual inspection and examination services</p>
+                    <p>Visual examination for welds, surfaces, and general condition checks</p>
                     <span class="learn-more">Learn More <i class="fas fa-arrow-right"></i></span>
                 </a>
 
@@ -935,7 +865,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <i class="fas fa-grip-horizontal"></i>
                     </div>
                     <h3>PAUT</h3>
-                    <p>Phased Array UT for precise defect sizing and characterization</p>
+                    <p>Advanced UT imaging for confirmation and characterization of internal indications</p>
                     <span class="learn-more">Learn More <i class="fas fa-arrow-right"></i></span>
                 </a>
 
@@ -944,7 +874,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <i class="fas fa-radiation"></i>
                     </div>
                     <h3>Radiography</h3>
-                    <p>Internal volumetric examination with X-ray and gamma ray</p>
+                    <p>Volumetric inspection where specified by code or client requirement</p>
                     <span class="learn-more">Learn More <i class="fas fa-arrow-right"></i></span>
                 </a>
 
@@ -953,7 +883,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/remote-visu
                         <i class="fas fa-thermometer-half"></i>
                     </div>
                     <h3>Infrared Thermography</h3>
-                    <p>Thermal imaging for electrical, mechanical, and building diagnostics</p>
+                    <p>Thermal imaging for electrical and mechanical condition monitoring</p>
                     <span class="learn-more">Learn More <i class="fas fa-arrow-right"></i></span>
                 </a>
             </div>

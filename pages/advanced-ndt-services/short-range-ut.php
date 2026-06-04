@@ -3,9 +3,9 @@ $base = dirname(dirname(dirname(__FILE__)));
 include $base . '/includes/config.php';
 
 // SEO Meta Data
-$page_title = "Short Range Ultrasonic Testing (SRUT) Services | Alpha Sonix NDT Solutions";
-$meta_description = "Professional SRUT guided wave inspection for detailed weld examination up to 3 meters. High-resolution near-field testing for HAZ, root, and cap defects. ISO certified short-range UT services.";
-$meta_keywords = "SRUT testing, short range ultrasonic testing, near-field guided wave, weld inspection, HAZ testing, high resolution UT, focused inspection, guided wave testing, pipeline weld assessment, heat affected zone inspection";
+$page_title = "SRUT Services | Short-Range Guided Wave Ultrasonic Testing | Alpha Sonix NDT Solutions";
+$meta_description = "Short-Range Guided Wave Ultrasonic Testing (SRUT) for focused inspection of welds and heat-affected zones (HAZ) in piping and components. Ideal for confirming LRUT indications and screening critical joints within a 0–3 m zone with recorded, reviewable data.";
+$meta_keywords = "SRUT, short range ultrasonic testing, short-range guided wave testing, guided wave UT, near field guided wave, weld inspection, HAZ inspection, follow-up after LRUT, pipeline weld assessment, hot tap weld inspection, integrity management NDT";
 $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range-ut.php";
 ?>
 <!DOCTYPE html>
@@ -60,7 +60,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
             }
         },
         "areaServed": "IN",
-        "description": "Professional Short Range Ultrasonic Testing services using high-frequency guided waves for detailed weld and heat-affected zone inspection up to 3 meters from test location."
+        "description": "Short Range Ultrasonic Testing (SRUT) using higher-frequency guided waves for focused weld and heat-affected zone inspection, typically within 0–3 meters from the test location, supporting integrity assessments and LRUT follow-up."
     }
     </script>
 </head>
@@ -84,11 +84,11 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                     <span>SRUT</span>
                 </div>
                 <h1 class="page-title">Short Range Ultrasonic Testing (SRUT)</h1>
-                <p class="page-subtitle">High-resolution guided wave inspection for detailed weld assessment and heat-affected zone examination up to 3 meters</p>
+                <p class="page-subtitle">Short-range guided wave inspection for targeted weld and HAZ screening—ideal for confirming LRUT indications and prioritizing follow-up NDT</p>
                 <div class="hero-badges">
-                    <span class="badge"><i class="fas fa-microscope"></i> High Resolution Detection</span>
-                    <span class="badge"><i class="fas fa-ruler-horizontal"></i> 0-3m Focused Range</span>
-                    <span class="badge"><i class="fas fa-crosshairs"></i> ±2mm Defect Sizing</span>
+                    <span class="badge"><i class="fas fa-microscope"></i> High-Sensitivity Guided Wave Screening</span>
+                    <span class="badge"><i class="fas fa-ruler-horizontal"></i> Focused 0–3 m Inspection Zone</span>
+                    <span class="badge"><i class="fas fa-file-alt"></i> Recorded, Reviewable Results</span>
                 </div>
             </div>
         </div>
@@ -102,29 +102,29 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                     <div class="overview-icon">
                         <i class="fas fa-search-plus"></i>
                     </div>
-                    <h3>Superior Resolution</h3>
-                    <p>Detect defects down to 1mm using high-frequency guided waves (100-500 kHz)</p>
+                    <h3>Focused Sensitivity</h3>
+                    <p>Higher-frequency guided waves enhance sensitivity to localized indications near welds and in heat-affected zones (capability depends on geometry, material, and access).</p>
                 </div>
                 <div class="overview-card">
                     <div class="overview-icon">
                         <i class="fas fa-fire"></i>
                     </div>
-                    <h3>HAZ Inspection</h3>
-                    <p>Comprehensive heat-affected zone examination for cracking and microstructural damage</p>
+                    <h3>Weld & HAZ Priority</h3>
+                    <p>Designed for areas where cracks and fabrication/service-related damage often initiate—weld toes, fusion lines, and adjacent HAZ regions.</p>
                 </div>
                 <div class="overview-card">
                     <div class="overview-icon">
                         <i class="fas fa-chart-area"></i>
                     </div>
-                    <h3>Circumferential Coverage</h3>
-                    <p>360° weld inspection including root, fill, cap, and parent material zones</p>
+                    <h3>360° Circumferential Coverage</h3>
+                    <p>Guided waves provide full circumferential inspection around the pipe section within range, including lower quadrants that are difficult to access.</p>
                 </div>
                 <div class="overview-card">
                     <div class="overview-icon">
                         <i class="fas fa-bolt"></i>
                     </div>
-                    <h3>Rapid Assessment</h3>
-                    <p>Complete weld inspection in 15-30 minutes including setup and data analysis</p>
+                    <h3>Efficient Field Workflow</h3>
+                    <p>Practical for shutdown windows and campaign work—rapid setup, scanning, and on-site screening results with structured reporting.</p>
                 </div>
             </div>
         </div>
@@ -137,39 +137,39 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                 <div class="what-is-content">
                     <span class="section-label">FOCUSED GUIDED WAVE TECHNOLOGY</span>
                     <h2>What is Short Range Ultrasonic Testing (SRUT)?</h2>
-                    <p class="lead">Short Range Ultrasonic Testing (SRUT) is a specialized guided wave technique using high-frequency ultrasonic waves (100-500 kHz) to perform detailed inspection of welds and heat-affected zones (HAZ) within 0-3 meters from the test collar, providing superior resolution for critical defect detection compared to long-range methods.</p>
+                    <p class="lead">Short Range Ultrasonic Testing (SRUT) is a short-range guided wave technique used to screen localized sections of piping—particularly welds and heat-affected zones—using higher-frequency guided waves than traditional long-range guided wave testing.</p>
                     
-                    <p>SRUT bridges the gap between Long Range UT (LRUT) screening and conventional spot ultrasonic testing. While LRUT uses low frequencies (20-100 kHz) to screen 100+ meters with moderate sensitivity, SRUT employs higher frequencies for exceptional resolution over shorter distances—ideal for focused inspection of specific welds identified by LRUT or for critical joint assessment where detailed characterization is essential.</p>
+                    <p>SRUT is typically selected when you need more detail than long-range screening can provide, without immediately deploying full conventional UT/PAUT over large areas. It is especially useful as a <strong>follow-up tool</strong> after LRUT flags an area of interest, or when specific “high priority” joints (repairs, hot taps, tie-ins) require enhanced screening.</p>
 
-                    <p>The technique uses the same guided wave physics as LRUT but operates in a different frequency regime. Higher frequencies provide better spatial resolution and sensitivity to small defects, enabling detection of tight cracks, shallow pitting, and subtle HAZ degradation that lower-frequency LRUT may miss. SRUT is particularly valuable for inspecting girth welds, repair welds, and critical connections on pipelines, pressure vessels, and storage tanks.</p>
+                    <p>In practical integrity programs, SRUT helps narrow down “where to look” by improving near-field sensitivity and delivering recorded signals that can be reviewed and compared over time. Where code acceptance requires precise characterization or through-wall sizing, SRUT findings are commonly verified using <strong>PAUT/TOFD</strong> or conventional UT.</p>
                     
                     <div class="feature-list">
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
                             <div>
-                                <strong>High-Frequency Guided Waves</strong>
-                                <p>100-500 kHz operation provides millimeter-scale defect detection capability</p>
+                                <strong>Higher-Frequency Guided Waves</strong>
+                                <p>Operates at higher guided-wave frequencies than LRUT to improve resolution in the near field (frequency selection depends on diameter, thickness, and attenuation).</p>
                             </div>
                         </div>
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
                             <div>
-                                <strong>Near-Field Focus</strong>
-                                <p>Optimized for 0-3m range with enhanced sensitivity to weld and HAZ defects</p>
+                                <strong>Near-Field Optimization</strong>
+                                <p>Designed for focused inspection close to the collar location—typically within 0–3 m—where critical weld and HAZ indications are targeted.</p>
                             </div>
                         </div>
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
                             <div>
-                                <strong>Multi-Zone Inspection</strong>
-                                <p>Simultaneously assesses weld metal, fusion line, HAZ, and base material</p>
+                                <strong>Weld-Adjacent Screening</strong>
+                                <p>Screens weld metal, fusion boundaries, HAZ, and adjacent base material for relevant changes and reflectors that may require follow-up.</p>
                             </div>
                         </div>
                         <div class="feature-item">
                             <i class="fas fa-check-circle"></i>
                             <div>
-                                <strong>Complementary to LRUT</strong>
-                                <p>Provides detailed follow-up for LRUT-identified anomalies requiring characterization</p>
+                                <strong>Built for LRUT Follow-Up</strong>
+                                <p>Supports a tiered strategy: LRUT for long-range screening → SRUT for focused confirmation → PAUT/TOFD for characterization and sizing where needed.</p>
                             </div>
                         </div>
                     </div>
@@ -177,8 +177,8 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                     <div class="tech-highlight-box">
                         <i class="fas fa-lightbulb"></i>
                         <div>
-                            <strong>Key Advantage:</strong>
-                            <p>SRUT detects defects 2-3x smaller than LRUT while maintaining 360° circumferential coverage—combining the comprehensive inspection of guided waves with the resolution approaching conventional UT. This makes SRUT ideal for integrity management programs requiring both coverage and sensitivity.</p>
+                            <strong>Where SRUT Fits Best:</strong>
+                            <p>SRUT is most effective when you need <strong>guided-wave coverage with better near-field sensitivity</strong>—to confirm anomalies, prioritize excavation/insulation removal, and direct advanced UT to the right location.</p>
                         </div>
                     </div>
 
@@ -192,21 +192,21 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <img src="/www/assets/images/services/srut-collar.jpg" alt="SRUT Collar Installation">
                         <div class="visual-caption">
                             <i class="fas fa-info-circle"></i>
-                            <span>SRUT high-frequency transducer array positioned adjacent to weld for detailed HAZ inspection</span>
+                            <span>SRUT collar positioned near a weld to focus guided-wave screening on the weld/HAZ region</span>
                         </div>
                     </div>
                     <div class="stats-box">
                         <div class="stat-item">
-                            <span class="stat-number">1mm</span>
-                            <span class="stat-label">Min Defect Size</span>
+                            <span class="stat-number">0–3 m</span>
+                            <span class="stat-label">Typical Focused Range</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-number">0-3m</span>
-                            <span class="stat-label">Inspection Range</span>
+                            <span class="stat-number">360°</span>
+                            <span class="stat-label">Circumferential Coverage</span>
                         </div>
                         <div class="stat-item">
                             <span class="stat-number">500+</span>
-                            <span class="stat-label">Welds Inspected</span>
+                            <span class="stat-label">Welds Screened</span>
                         </div>
                     </div>
                     
@@ -215,20 +215,21 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <div class="freq-bars">
                             <div class="freq-bar">
                                 <div class="freq-label">LRUT</div>
-                                <div class="freq-range lrut">20-100 kHz</div>
-                                <div class="freq-desc">Long Range, Lower Resolution</div>
+                                <div class="freq-range lrut">~15–80 kHz</div>
+                                <div class="freq-desc">Long Range, Screening Resolution</div>
                             </div>
                             <div class="freq-bar">
                                 <div class="freq-label">SRUT</div>
-                                <div class="freq-range srut">100-500 kHz</div>
-                                <div class="freq-desc">Short Range, High Resolution</div>
+                                <div class="freq-range srut">~80–300 kHz</div>
+                                <div class="freq-desc">Short Range, Higher Resolution</div>
                             </div>
                             <div class="freq-bar">
                                 <div class="freq-label">Conventional UT</div>
-                                <div class="freq-range conventional">2-10 MHz</div>
-                                <div class="freq-desc">Localized, Highest Resolution</div>
+                                <div class="freq-range conventional">~2–10 MHz</div>
+                                <div class="freq-desc">Local Examination & Sizing</div>
                             </div>
                         </div>
+                        <small style="display:block; margin-top:10px; opacity:0.85;">Note: Actual operating frequency depends on pipe geometry, material attenuation, and inspection objective.</small>
                     </div>
                 </div>
             </div>
@@ -241,7 +242,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
             <div class="section-header center">
                 <span class="section-label">WHY CHOOSE SRUT</span>
                 <h2>Key Advantages of Short Range Ultrasonic Testing</h2>
-                <p>Optimal balance of coverage, resolution, and inspection efficiency</p>
+                <p>Designed for high-priority weld screening where near-field sensitivity and practical field execution matter</p>
             </div>
 
             <div class="advantages-grid">
@@ -249,48 +250,48 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                     <div class="advantage-icon blue">
                         <i class="fas fa-microscope"></i>
                     </div>
-                    <h3>Exceptional Defect Sensitivity</h3>
-                    <p>Detects defects down to 1-2mm depth and length—significantly smaller than LRUT's 5-10% CSA threshold. Identifies tight cracks (<0.5mm opening), shallow pitting, lack of fusion, and incipient HAZ cracking missed by lower-frequency techniques. Probability of Detection (POD) >95% for defects >2mm per validation studies. Ideal for critical welds requiring high-confidence inspection.</p>
+                    <h3>Higher Near-Field Sensitivity vs LRUT</h3>
+                    <p>Short-range operation allows higher guided-wave frequencies, improving sensitivity to localized reflectors near welds and fittings (performance depends on pipe features and acoustic conditions).</p>
                 </div>
 
                 <div class="advantage-card">
                     <div class="advantage-icon green">
                         <i class="fas fa-bullseye"></i>
                     </div>
-                    <h3>Precise Defect Localization</h3>
-                    <p>Pinpoints defect axial position within ±2-5mm accuracy and identifies circumferential location to nearest clock position (e.g., 6 o'clock bottom-of-line). Provides reliable distance from weld centerline for directing focused conventional UT/PAUT to exact defect zone. Eliminates exploratory scanning across entire weld length. Enables targeted repair planning with minimal metal removal.</p>
+                    <h3>Practical Location Guidance</h3>
+                    <p>Helps identify the axial position and circumferential sector of relevant indications, directing follow-up PAUT/UT to the right zone and reducing unnecessary exploratory scanning.</p>
                 </div>
 
                 <div class="advantage-card">
                     <div class="advantage-icon purple">
                         <i class="fas fa-fire-alt"></i>
                     </div>
-                    <h3>Comprehensive HAZ Coverage</h3>
-                    <p>Inspects entire heat-affected zone (typically 5-25mm from fusion line) where stress corrosion cracking (SCC), hydrogen cracking, and reheat cracking preferentially initiate. Detects HAZ defects before they propagate into weld or base metal. Critical for high-strength steels, sour service environments, and post-weld heat treatment (PWHT) verification. Addresses blind spot of many conventional UT procedures.</p>
+                    <h3>Weld & HAZ Focus</h3>
+                    <p>Supports inspection programs targeting weld-adjacent damage mechanisms (e.g., HAZ cracking in susceptible service), where early detection and monitoring are valuable.</p>
                 </div>
 
                 <div class="advantage-card">
                     <div class="advantage-icon orange">
                         <i class="fas fa-sync-alt"></i>
                     </div>
-                    <h3>360° Circumferential Inspection</h3>
-                    <p>Single collar installation provides complete pipe circumference coverage—no rotation or repositioning required. Detects defects at any clock position including inaccessible bottom-of-line (6 o'clock) where internal corrosion and settlement-induced stresses concentrate. Eliminates blind zones inherent to conventional UT's sectoral coverage. Ensures no unexamined regions remain in critical welds.</p>
+                    <h3>360° Coverage from One Setup</h3>
+                    <p>Guided waves examine the full circumference within range—helpful for bottom-of-line regions and areas with restricted access where conventional scanning is difficult.</p>
                 </div>
 
                 <div class="advantage-card">
                     <div class="advantage-icon red">
                         <i class="fas fa-route"></i>
                     </div>
-                    <h3>Bidirectional Examination</h3>
-                    <p>Inspects up to 3 meters in both directions from single test location—total 6m coverage per setup. Assesses multiple welds from strategically positioned collar (e.g., scan two adjacent girth welds from mid-spool location). Reduces number of test points required versus spot UT while maintaining high resolution. Optimizes inspection economics on multi-weld systems.</p>
+                    <h3>Bidirectional Screening</h3>
+                    <p>From a single collar position, SRUT can screen in both directions within the short-range zone—supporting efficient coverage across spools and near-weld regions.</p>
                 </div>
 
                 <div class="advantage-card">
                     <div class="advantage-icon teal">
                         <i class="fas fa-clock"></i>
                     </div>
-                    <h3>Rapid Inspection Speed</h3>
-                    <p>Complete weld inspection in 15-30 minutes including collar installation, data acquisition, and preliminary analysis. Faster than multi-angle conventional UT requiring 60-90 minutes per weld with multiple probe positions. Ideal for turnaround projects with limited inspection windows. Maintains production schedule while delivering comprehensive integrity data. Enables high-volume screening campaigns.</p>
+                    <h3>Efficient Campaign Execution</h3>
+                    <p>Well-suited for multi-location inspection programs where speed, repeatability, and recorded results are required—without radiation controls or film delays.</p>
                 </div>
             </div>
         </div>
@@ -302,7 +303,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
             <div class="section-header center">
                 <span class="section-label">TECHNICAL COMPARISON</span>
                 <h2>SRUT vs LRUT: Complementary Technologies</h2>
-                <p>Understanding when to use each guided wave technique</p>
+                <p>LRUT finds “where” to investigate; SRUT helps decide “what next” at the weld/feature level</p>
             </div>
 
             <div class="comparison-grid">
@@ -310,7 +311,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                     <div class="visual-diagram">
                         <img src="/www/assets/images/services/srut-lrut-comparison.jpg" alt="SRUT vs LRUT Range">
                         <div class="diagram-caption">
-                            <strong>Inspection Strategy:</strong> LRUT screens long sections to identify anomaly zones; SRUT provides detailed assessment of specific welds or LRUT-flagged areas
+                            <strong>Inspection Strategy:</strong> LRUT screens long lengths; SRUT provides focused near-field screening of selected welds and LRUT-flagged locations
                         </div>
                     </div>
                 </div>
@@ -327,53 +328,48 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <tbody>
                             <tr>
                                 <td><strong>Frequency Range</strong></td>
-                                <td class="excellent">100-500 kHz</td>
-                                <td>20-100 kHz</td>
+                                <td class="excellent">Higher (near-field optimized)</td>
+                                <td>Lower (long-range optimized)</td>
                             </tr>
                             <tr>
                                 <td><strong>Inspection Range</strong></td>
-                                <td>0-3m (focused near-field)</td>
-                                <td class="excellent">50-100m (extended long-range)</td>
+                                <td>Typically within 0–3 m</td>
+                                <td class="excellent">Typically tens of meters (application dependent)</td>
                             </tr>
                             <tr>
-                                <td><strong>Minimum Defect Size</strong></td>
-                                <td class="excellent">1-2mm depth/length</td>
-                                <td>5-10% CSA loss (~10-20mm extent)</td>
+                                <td><strong>Resolution / Sensitivity</strong></td>
+                                <td class="excellent">Higher in the near field</td>
+                                <td>Screening-level for long range</td>
                             </tr>
                             <tr>
-                                <td><strong>Resolution</strong></td>
-                                <td class="excellent">High (millimeter-scale)</td>
-                                <td>Moderate (centimeter-scale)</td>
-                            </tr>
-                            <tr>
-                                <td><strong>HAZ Sensitivity</strong></td>
-                                <td class="excellent">Excellent (primary application)</td>
-                                <td>Good (larger HAZ defects)</td>
+                                <td><strong>Weld / HAZ Focus</strong></td>
+                                <td class="excellent">Primary use case</td>
+                                <td>Secondary (depends on geometry and distance)</td>
                             </tr>
                             <tr>
                                 <td><strong>Defect Localization</strong></td>
-                                <td class="excellent">±2-5mm accuracy</td>
-                                <td>±0.5-2m accuracy</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Inspection Time</strong></td>
-                                <td>15-30 min per weld</td>
-                                <td class="excellent">2-4 hours per 100-200m</td>
+                                <td class="excellent">Better short-range guidance</td>
+                                <td>Zone identification (broader)</td>
                             </tr>
                             <tr>
                                 <td><strong>Primary Application</strong></td>
-                                <td>Focused weld/HAZ inspection</td>
-                                <td class="excellent">Rapid pipeline screening</td>
+                                <td>Confirmation & prioritization near welds/features</td>
+                                <td class="excellent">Long-length screening of pipe runs</td>
                             </tr>
                             <tr>
-                                <td><strong>Cost per Test</strong></td>
-                                <td>$2,000-5,000</td>
-                                <td>$5,000-15,000 (covers 100-200m)</td>
+                                <td><strong>Reporting Output</strong></td>
+                                <td>Recorded signals, locations, severity ranking</td>
+                                <td class="excellent">Recorded screening results and anomaly zones</td>
                             </tr>
                             <tr>
-                                <td><strong>Typical Use Case</strong></td>
-                                <td>Post-LRUT confirmation, critical welds</td>
-                                <td>Initial screening, buried pipelines</td>
+                                <td><strong>Typical Next Step</strong></td>
+                                <td>PAUT/UT/TOFD for characterization and sizing</td>
+                                <td class="excellent">SRUT or local UT at flagged zones</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Commercial Model</strong></td>
+                                <td>Project dependent (per location / per weld)</td>
+                                <td class="excellent">Project dependent (per test point / per length)</td>
                             </tr>
                         </tbody>
                     </table>
@@ -387,30 +383,30 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <div class="step-num">1</div>
                         <div class="step-content">
                             <h4>LRUT Screening</h4>
-                            <p>Rapidly screen entire pipeline section (100-200m) from accessible test points to identify zones with anomalous reflections indicating potential defects.</p>
+                            <p>Screen long lengths from accessible locations to identify anomaly zones and prioritize areas for closer evaluation.</p>
                         </div>
                     </div>
                     <div class="strategy-arrow"><i class="fas fa-arrow-down"></i></div>
                     <div class="strategy-step">
                         <div class="step-num">2</div>
                         <div class="step-content">
-                            <h4>SRUT Focused Inspection</h4>
-                            <p>Deploy SRUT at LRUT-flagged weld locations or critical joints to perform detailed high-resolution inspection and defect characterization.</p>
+                            <h4>SRUT Focused Screening</h4>
+                            <p>Deploy SRUT at selected welds/features or LRUT-flagged areas for higher-sensitivity near-field assessment and improved location guidance.</p>
                         </div>
                     </div>
                     <div class="strategy-arrow"><i class="fas fa-arrow-down"></i></div>
                     <div class="strategy-step">
                         <div class="step-num">3</div>
                         <div class="step-content">
-                            <h4>Conventional UT/PAUT Verification</h4>
-                            <p>If SRUT confirms significant defect, use spot PAUT/TOFD for precise through-wall sizing and fitness-for-service assessment.</p>
+                            <h4>PAUT / TOFD / UT Verification</h4>
+                            <p>Where SRUT indicates relevant reflections, use advanced UT techniques for characterization, sizing, and code/spec acceptance decisions.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="strategy-note">
                     <i class="fas fa-info-circle"></i>
-                    <p><strong>Cost-Optimized Approach:</strong> This three-tier strategy maximizes efficiency—LRUT rapidly eliminates 90-95% of pipeline from consideration; SRUT focuses on 5-10% requiring detailed assessment; conventional UT applied only to confirmed defects needing precise sizing (typically <1% of total length). Reduces overall inspection costs by 70-80% versus comprehensive conventional UT of entire system.</p>
+                    <p><strong>Program Benefit:</strong> A tiered approach reduces unnecessary excavation/insulation removal and focuses higher-cost detailed UT only where SRUT/LRUT indicate meaningful risk.</p>
                 </div>
             </div>
         </div>
@@ -421,8 +417,8 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
         <div class="container">
             <div class="section-header center">
                 <span class="section-label">SRUT APPLICATIONS</span>
-                <h2>Critical Weld Inspection Applications</h2>
-                <p>Focused guided wave testing for high-integrity joints</p>
+                <h2>Critical Weld Screening Applications</h2>
+                <p>Targeted guided-wave screening for welds, repairs, and susceptibility-driven inspection programs</p>
             </div>
 
             <div class="applications-tabs">
@@ -441,33 +437,31 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                                 <img src="/www/assets/images/services/srut-girth-weld.jpg" alt="SRUT Girth Weld Inspection">
                             </div>
                             <div class="tab-text">
-                                <h3>Pipeline & Vessel Girth Weld Assessment</h3>
-                                <p>SRUT provides comprehensive girth weld inspection for buried pipelines, insulated process piping, and pressure vessel circumferential seams where accessibility challenges limit conventional UT deployment. Particularly valuable for follow-up inspection of LRUT-identified anomalies requiring detailed characterization before excavation decisions.</p>
+                                <h3>Pipeline & Vessel Girth Weld Screening</h3>
+                                <p>SRUT supports efficient screening of selected girth welds and near-weld regions—particularly where access limitations, insulation, or coating make full conventional UT time-consuming. It is also well-suited for confirming LRUT anomaly zones before committing to excavation or major insulation removal.</p>
                                 
                                 <ul class="checkmark-list">
-                                    <li><i class="fas fa-check"></i> Post-LRUT confirmation of flagged anomalies at specific welds</li>
-                                    <li><i class="fas fa-check"></i> Critical tie-in welds (mainline valves, tees, reducers)</li>
-                                    <li><i class="fas fa-check"></i> Repair/modification welds on in-service systems</li>
-                                    <li><i class="fas fa-check"></i> Welds in high-consequence areas (HCA) requiring enhanced inspection</li>
-                                    <li><i class="fas fa-check"></i> Integrity verification post-hydrostatic testing or operational upset</li>
-                                    <li><i class="fas fa-check"></i> Welds with historical leak/failure records in similar service</li>
-                                    <li><i class="fas fa-check"></i> Quality assurance of automated/orbital welding procedures</li>
-                                    <li><i class="fas fa-check"></i> Baseline inspection for crack growth monitoring programs</li>
+                                    <li><i class="fas fa-check"></i> Follow-up screening of LRUT-flagged indications near welds</li>
+                                    <li><i class="fas fa-check"></i> Critical tie-in welds (valves, tees, reducers, sleeves)</li>
+                                    <li><i class="fas fa-check"></i> Welds in high consequence areas (HCA) and high-risk circuits</li>
+                                    <li><i class="fas fa-check"></i> Baseline screening for crack monitoring programs (where applicable)</li>
+                                    <li><i class="fas fa-check"></i> Screening after operational upsets and repairs (as specified)</li>
+                                    <li><i class="fas fa-check"></i> Welds with known history of damage mechanisms in similar service</li>
+                                    <li><i class="fas fa-check"></i> Planning support for targeted PAUT/TOFD deployment</li>
+                                    <li><i class="fas fa-check"></i> Documentation for integrity and audit records</li>
                                 </ul>
 
                                 <div class="app-case-study">
-                                    <h4><i class="fas fa-clipboard-check"></i> Case Study: Post-LRUT Focused Assessment</h4>
-                                    <p><strong>Scenario:</strong> LRUT survey of 5 km buried gas pipeline identified 8 anomalies near weld locations</p>
-                                    <p><strong>SRUT Deployment:</strong> High-resolution inspection of 8 flagged welds in 2 days</p>
-                                    <p><strong>Outcome:</strong> SRUT confirmed 3 welds with significant HAZ cracking requiring excavation; 5 welds cleared (LRUT reflections from geometric features). Saved $150,000 in unnecessary excavations while ensuring real defects addressed.</p>
+                                    <h4><i class="fas fa-clipboard-check"></i> Typical Outcome</h4>
+                                    <p><strong>What SRUT helps achieve:</strong> confirm which welds/features need detailed UT, identify which reflections are geometric, and prioritize the locations most likely to benefit from excavation or local access improvement.</p>
                                 </div>
 
                                 <div class="standards">
-                                    <strong>Applicable Standards:</strong>
-                                    <span class="standard-tag">API 1104</span>
+                                    <strong>Applicable References:</strong>
+                                    <span class="standard-tag">ISO 18211 (Guided Wave)</span>
+                                    <span class="standard-tag">API 1104 (Project Spec)</span>
                                     <span class="standard-tag">ASME B31.4/B31.8</span>
-                                    <span class="standard-tag">ISO 13847</span>
-                                    <span class="standard-tag">DNV-RP-F118</span>
+                                    <span class="standard-tag">DNV-RP-F118 (As Applicable)</span>
                                 </div>
                             </div>
                         </div>
@@ -480,34 +474,34 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                                 <img src="/www/assets/images/services/srut-repair-weld.jpg" alt="Repair Weld SRUT">
                             </div>
                             <div class="tab-text">
-                                <h3>Repair & Modification Weld Verification</h3>
-                                <p>SRUT enables post-repair weld inspection without extensive surface preparation, insulation removal, or system shutdown. Validates repair quality, verifies HAZ integrity after hot tap welding, and monitors repair weld performance over time to detect degradation before re-failure occurs.</p>
+                                <h3>Repair & Modification Weld Verification (Screening)</h3>
+                                <p>SRUT helps screen repairs and modifications where early damage may initiate in the HAZ. It can be applied as a practical integrity check to guide whether additional PAUT/TOFD is required—especially in constrained shutdown windows.</p>
                                 
                                 <ul class="checkmark-list">
-                                    <li><i class="fas fa-check"></i> Hot tap and branch connection welds (line-boring operations)</li>
-                                    <li><i class="fas fa-check"></i> Defect excavation and weld repair verification</li>
-                                    <li><i class="fas fa-check"></i> Sleeve and encirclement repair weld inspection</li>
-                                    <li><i class="fas fa-check"></i> Composite wrap installation quality (overwrap bonding assessment)</li>
-                                    <li><i class="fas fa-check"></i> Post-weld heat treatment (PWHT) effectiveness verification</li>
-                                    <li><i class="fas fa-check"></i> Temporary/permanent repair monitoring (crack arrest verification)</li>
-                                    <li><i class="fas fa-check"></i> Weld overlay and cladding integrity for corrosion protection</li>
-                                    <li><i class="fas fa-check"></i> Fitness-for-service re-assessment per API 579-1</li>
+                                    <li><i class="fas fa-check"></i> Hot tap / branch connection weld screening (as specified)</li>
+                                    <li><i class="fas fa-check"></i> Post-repair screening after excavation and reweld</li>
+                                    <li><i class="fas fa-check"></i> Sleeve and encirclement repair weld areas</li>
+                                    <li><i class="fas fa-check"></i> Local areas around repairs in insulated/coated lines</li>
+                                    <li><i class="fas fa-check"></i> Post-weld monitoring plans in susceptible service (where applicable)</li>
+                                    <li><i class="fas fa-check"></i> Target definition for PAUT/UT confirmation scans</li>
+                                    <li><i class="fas fa-check"></i> Documentation for maintenance closeout records</li>
+                                    <li><i class="fas fa-check"></i> Support for integrity re-assessment workflows</li>
                                 </ul>
 
                                 <div class="app-highlight">
                                     <i class="fas fa-tools"></i>
                                     <div>
-                                        <strong>Hot Tap Integrity:</strong>
-                                        <p>Hot tap welding introduces high residual stresses and rapid cooling that can cause HAZ cracking in high-strength or sour-service steels. SRUT performed 24-48 hours post-weld detects hydrogen-induced cracking before it propagates, enabling timely PWHT or repair before leak occurs. Operators use SRUT as mandatory hot tap QC per company specifications.</p>
+                                        <strong>Repair Quality & Risk Control:</strong>
+                                        <p>When repairs are performed under high restraint or challenging metallurgy/service, SRUT screening can help identify whether the weld/HAZ region requires immediate advanced UT verification.</p>
                                     </div>
                                 </div>
 
                                 <div class="standards">
-                                    <strong>Applicable Standards:</strong>
-                                    <span class="standard-tag">API 1104 App B</span>
+                                    <strong>Applicable References:</strong>
                                     <span class="standard-tag">ASME PCC-2</span>
-                                    <span class="standard-tag">API 579-1</span>
-                                    <span class="standard-tag">NACE SP0472</span>
+                                    <span class="standard-tag">API 579-1/FFS-1</span>
+                                    <span class="standard-tag">NACE / AMPP Practices (As Applicable)</span>
+                                    <span class="standard-tag">ISO 18211</span>
                                 </div>
                             </div>
                         </div>
@@ -520,34 +514,34 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                                 <img src="/www/assets/images/services/srut-haz-cracking.jpg" alt="HAZ Cracking Detection">
                             </div>
                             <div class="tab-text">
-                                <h3>Heat-Affected Zone Cracking Detection</h3>
-                                <p>SRUT's high sensitivity to HAZ defects makes it the method of choice for detecting stress corrosion cracking (SCC), hydrogen-induced cracking (HIC), and reheat cracking in susceptible materials. Particularly critical for high-strength steels (X65-X80), sour service environments (H₂S), and systems with historical cracking incidents.</p>
+                                <h3>HAZ Cracking Screening Programs</h3>
+                                <p>Where materials and service conditions indicate susceptibility, SRUT can support targeted screening of weld-adjacent regions as part of a monitoring plan. It is particularly valuable for directing where detailed UT should be applied.</p>
                                 
                                 <ul class="checkmark-list">
-                                    <li><i class="fas fa-check"></i> Stress corrosion cracking (SCC) in near-neutral pH and high-pH environments</li>
-                                    <li><i class="fas fa-check"></i> Hydrogen-induced cracking (HIC) in sour service (H₂S >50 ppm)</li>
-                                    <li><i class="fas fa-check"></i> Sulfide stress cracking (SSC) in high-strength materials</li>
-                                    <li><i class="fas fa-check"></i> Reheat cracking in CrMo steels post-PWHT</li>
-                                    <li><i class="fas fa-check"></i> Cold cracking (delayed hydrogen cracking) in restrained welds</li>
-                                    <li><i class="fas fa-check"></i> Corrosion fatigue at cyclic stress concentration points</li>
-                                    <li><i class="fas fa-check"></i> Liquation cracking in heat-resistant alloys</li>
-                                    <li><i class="fas fa-check"></i> Toe cracks and undercut defects</li>
+                                    <li><i class="fas fa-check"></i> Screening for crack-like indications near weld toes and fusion lines</li>
+                                    <li><i class="fas fa-check"></i> Support for SCC/HIC susceptibility-based inspection planning (application dependent)</li>
+                                    <li><i class="fas fa-check"></i> Target definition for follow-up PAUT/TOFD sizing</li>
+                                    <li><i class="fas fa-check"></i> Monitoring trend comparisons using recorded data</li>
+                                    <li><i class="fas fa-check"></i> Screening of prioritized joints (repairs, tie-ins, known hot spots)</li>
+                                    <li><i class="fas fa-check"></i> Weld HAZ regions adjacent to fittings and supports</li>
+                                    <li><i class="fas fa-check"></i> Support for RBI decision making and risk ranking</li>
+                                    <li><i class="fas fa-check"></i> Documentation for integrity case files</li>
                                 </ul>
 
                                 <div class="app-highlight">
                                     <i class="fas fa-exclamation-triangle"></i>
                                     <div>
-                                        <strong>SCC Monitoring:</strong>
-                                        <p>Pipelines in SCC-susceptible regions (coating disbondment, carbonate soils, cathodic protection anomalies) benefit from periodic SRUT surveys of prioritized welds. Early detection of incipient HAZ cracks enables proactive repair before colony growth and catastrophic failure. SRUT baseline + periodic re-inspection tracks crack initiation and growth rates for remaining life calculations.</p>
+                                        <strong>Important Note:</strong>
+                                        <p>SRUT is a screening/targeting tool. Where acceptance decisions depend on precise defect sizing, advanced UT methods (PAUT/TOFD) should be used for confirmation and engineering evaluation.</p>
                                     </div>
                                 </div>
 
                                 <div class="standards">
-                                    <strong>Applicable Standards:</strong>
-                                    <span class="standard-tag">NACE SP0204</span>
+                                    <strong>Applicable References:</strong>
                                     <span class="standard-tag">API 571</span>
+                                    <span class="standard-tag">API 580/581</span>
                                     <span class="standard-tag">ASME B31.8S</span>
-                                    <span class="standard-tag">DNV-RP-F112</span>
+                                    <span class="standard-tag">DNV Practices (As Applicable)</span>
                                 </div>
                             </div>
                         </div>
@@ -560,34 +554,34 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                                 <img src="/www/assets/images/services/srut-tank-weld.jpg" alt="Storage Tank SRUT">
                             </div>
                             <div class="tab-text">
-                                <h3>Storage Tank Shell & Roof Weld Inspection</h3>
-                                <p>SRUT enables efficient inspection of atmospheric storage tank vertical and horizontal shell welds, roof-to-shell junctions, and annular ring connections without tank emptying or extensive scaffolding. Detects weld defects and shell plate cracking from settlement-induced stresses, corrosion, and operational cycling.</p>
+                                <h3>Tank Shell / Roof Weld Screening (Selected Areas)</h3>
+                                <p>For accessible tank welds and shell features, SRUT can support targeted screening of selected weld lines and attachments—helping identify zones that need closer UT/PAUT examination, particularly in integrity-driven maintenance programs.</p>
                                 
                                 <ul class="checkmark-list">
-                                    <li><i class="fas fa-check"></i> Vertical shell seam welds (lap and butt joints)</li>
-                                    <li><i class="fas fa-check"></i> Horizontal shell course welds (circumferential)</li>
-                                    <li><i class="fas fa-check"></i> Roof-to-shell attachment welds (fixed and floating roof)</li>
-                                    <li><i class="fas fa-check"></i> Annular ring bottom plate welds (critical corrosion zone)</li>
-                                    <li><i class="fas fa-check"></i> Shell penetration nozzle welds</li>
-                                    <li><i class="fas fa-check"></i> Settlement-induced cracking at weld/plate interface</li>
-                                    <li><i class="fas fa-check"></i> Corrosion-assisted cracking in bottom shell courses</li>
-                                    <li><i class="fas fa-check"></i> Historical repair weld monitoring</li>
+                                    <li><i class="fas fa-check"></i> Selected shell seam weld areas (where access permits)</li>
+                                    <li><i class="fas fa-check"></i> Roof-to-shell junction and attachments (selected zones)</li>
+                                    <li><i class="fas fa-check"></i> Nozzle and reinforcement pad adjacent regions (screening)</li>
+                                    <li><i class="fas fa-check"></i> Repair weld monitoring (targeted follow-up)</li>
+                                    <li><i class="fas fa-check"></i> Areas affected by settlement-related stress (as identified)</li>
+                                    <li><i class="fas fa-check"></i> Support for inspection prioritization and planning</li>
+                                    <li><i class="fas fa-check"></i> Integration with other tank inspection methods (MFL/UT floors)</li>
+                                    <li><i class="fas fa-check"></i> Recorded data for trending and review</li>
                                 </ul>
 
                                 <div class="app-highlight">
                                     <i class="fas fa-oil-can"></i>
                                     <div>
-                                        <strong>API 653 Compliance:</strong>
-                                        <p>SRUT supports API 653 external inspection requirements by screening shell welds for defects without tank out-of-service time. When combined with floor scanning (MFL/UT), SRUT of critical welds provides comprehensive tank integrity assessment. Enables condition-based inspection interval extension by demonstrating weld integrity between mandatory internal inspections.</p>
+                                        <strong>Integrity Planning Support:</strong>
+                                        <p>Used alongside API 653 inspection planning and other NDT methods, SRUT can help focus detailed UT resources on the most relevant weld zones.</p>
                                     </div>
                                 </div>
 
                                 <div class="standards">
-                                    <strong>Applicable Standards:</strong>
+                                    <strong>Applicable References:</strong>
                                     <span class="standard-tag">API 653</span>
                                     <span class="standard-tag">API 650</span>
                                     <span class="standard-tag">EEMUA 159</span>
-                                    <span class="standard-tag">ISO 16708</span>
+                                    <span class="standard-tag">ISO 18211 (As Applicable)</span>
                                 </div>
                             </div>
                         </div>
@@ -603,7 +597,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
             <div class="section-header center">
                 <span class="section-label">TECHNICAL SPECIFICATIONS</span>
                 <h2>SRUT Capabilities & Parameters</h2>
-                <p>Performance characteristics and operational limits</p>
+                <p>Typical operating ranges (final capability depends on geometry, coating/insulation, features, and procedure qualification)</p>
             </div>
 
             <div class="capabilities-grid">
@@ -613,12 +607,12 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <h3>Pipe Range</h3>
                     </div>
                     <ul class="capability-list">
-                        <li><span class="cap-label">Diameter:</span> 2" (50mm) to 60" (1500mm)</li>
-                        <li><span class="cap-label">Wall Thickness:</span> 3mm to 50mm</li>
-                        <li><span class="cap-label">Optimal Range:</span> 6"-36" diameter, 6-25mm wall</li>
-                        <li><span class="cap-label">Material:</span> Carbon steel, stainless, low alloy</li>
-                        <li><span class="cap-label">Temperature:</span> -40°C to +150°C</li>
-                        <li><span class="cap-label">Pressure:</span> In-service (any pressure)</li>
+                        <li><span class="cap-label">Diameter:</span> Typical coverage from small-bore to large diameter (collar dependent)</li>
+                        <li><span class="cap-label">Wall Thickness:</span> Common piping thickness ranges (application dependent)</li>
+                        <li><span class="cap-label">Materials:</span> Carbon steel and many alloys (attenuation dependent)</li>
+                        <li><span class="cap-label">Surface Condition:</span> Coated/painted surfaces often acceptable with local preparation at collar location</li>
+                        <li><span class="cap-label">Temperature:</span> Subject to couplant/collar limits and safe access</li>
+                        <li><span class="cap-label">Operation:</span> Can be applied in-service where safe access is available</li>
                     </ul>
                 </div>
 
@@ -628,27 +622,27 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <h3>Frequency & Range</h3>
                     </div>
                     <ul class="capability-list">
-                        <li><span class="cap-label">Frequency:</span> 100-500 kHz (diameter dependent)</li>
-                        <li><span class="cap-label">Typical Range:</span> 0-3m each direction (6m total)</li>
-                        <li><span class="cap-label">Small Pipe (2"-6"):</span> 0-1.5m range, 200-500 kHz</li>
-                        <li><span class="cap-label">Medium (8"-24"):</span> 0-3m range, 100-300 kHz</li>
-                        <li><span class="cap-label">Large (30"-60"):</span> 0-3m range, 100-200 kHz</li>
-                        <li><span class="cap-label">Wave Mode:</span> Primarily torsional T(0,1)</li>
+                        <li><span class="cap-label">Frequency:</span> Higher than LRUT (selected to match diameter/thickness)</li>
+                        <li><span class="cap-label">Typical Range:</span> Up to ~3 m each direction (feature dependent)</li>
+                        <li><span class="cap-label">Small Bore:</span> Shorter range with higher frequency</li>
+                        <li><span class="cap-label">Medium / Large Bore:</span> Up to full short-range zone where features allow</li>
+                        <li><span class="cap-label">Wave Mode:</span> Guided wave modes selected per procedure (often torsional modes)</li>
+                        <li><span class="cap-label">Scan Output:</span> A-scan style guided-wave responses with location/severity ranking</li>
                     </ul>
                 </div>
 
                 <div class="capability-box">
                     <div class="capability-header">
                         <i class="fas fa-search"></i>
-                        <h3>Detection Limits</h3>
+                        <h3>Detection Guidance</h3>
                     </div>
                     <ul class="capability-list">
-                        <li><span class="cap-label">Minimum Defect:</span> 1-2mm depth × 5-10mm length</li>
-                        <li><span class="cap-label">Crack Opening:</span> >0.1mm detectable</li>
-                        <li><span class="cap-label">Pitting:</span> Clustered pits >2mm depth</li>
-                        <li><span class="cap-label">Wall Loss:</span> >10% localized thinning</li>
-                        <li><span class="cap-label">POD:</span> >95% for defects >2mm</li>
-                        <li><span class="cap-label">Location Accuracy:</span> ±2-5mm axial</li>
+                        <li><span class="cap-label">Sensitivity:</span> Improved over LRUT in near-field, especially for localized reflectors</li>
+                        <li><span class="cap-label">Best For:</span> Crack-like and localized corrosion-type reflectors near weld zones (application dependent)</li>
+                        <li><span class="cap-label">Limit:</span> SRUT is not a substitute for precise through-wall sizing</li>
+                        <li><span class="cap-label">Follow-Up:</span> PAUT/TOFD/UT recommended for sizing and characterization</li>
+                        <li><span class="cap-label">Location Output:</span> Axial distance + circumferential sector guidance (procedure dependent)</li>
+                        <li><span class="cap-label">Repeatability:</span> Strong for trend comparisons when setup is consistent</li>
                     </ul>
                 </div>
 
@@ -658,42 +652,42 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <h3>Inspection Coverage</h3>
                     </div>
                     <ul class="capability-list">
-                        <li><span class="cap-label">Circumference:</span> 360° (full coverage)</li>
-                        <li><span class="cap-label">Weld Zones:</span> Root, fill, cap, HAZ, base metal</li>
-                        <li><span class="cap-label">HAZ Width:</span> Typically ±10-25mm from fusion line</li>
-                        <li><span class="cap-label">Dead Zone:</span> ±100-200mm from collar center</li>
-                        <li><span class="cap-label">Multiple Welds:</span> Up to 2 welds per setup</li>
-                        <li><span class="cap-label">Data Retention:</span> Complete A-scan archive</li>
+                        <li><span class="cap-label">Circumference:</span> 360° coverage within short-range zone</li>
+                        <li><span class="cap-label">Zones:</span> Weld-adjacent base metal and HAZ within practical distance</li>
+                        <li><span class="cap-label">Near-Field Zone:</span> Collar proximity zones managed per procedure</li>
+                        <li><span class="cap-label">Multiple Features:</span> Inspection performance influenced by nearby supports/fittings</li>
+                        <li><span class="cap-label">Outputs:</span> Plots/screenshots and location diagrams as part of reporting</li>
+                        <li><span class="cap-label">Archiving:</span> Recorded files retained for review and comparison</li>
                     </ul>
                 </div>
 
                 <div class="capability-box">
                     <div class="capability-header">
                         <i class="fas fa-ban"></i>
-                        <h3>Limitations</h3>
+                        <h3>Practical Limitations</h3>
                     </div>
                     <ul class="capability-list">
-                        <li><span class="cap-label">Bends:</span> Sharp elbows (<3D) within range reduce coverage</li>
-                        <li><span class="cap-label">Fittings:</span> Tees, reducers cause signal attenuation</li>
-                        <li><span class="cap-label">Coating:</span> Heavy bitumen (>10mm) reduces range 30-50%</li>
-                        <li><span class="cap-label">Supports:</span> Clamps, shoes within 0.5m interfere</li>
-                        <li><span class="cap-label">Defect Sizing:</span> Provides indication, not precise depth</li>
-                        <li><span class="cap-label">Orientation:</span> Less sensitive to radial cracks</li>
+                        <li><span class="cap-label">Fittings:</span> Tees/reducers/valves can dominate reflections and reduce usable range</li>
+                        <li><span class="cap-label">Bends:</span> Tight elbows reduce transmission; technique must be planned around geometry</li>
+                        <li><span class="cap-label">Supports/Clamps:</span> Close supports may affect signal paths and interpretation</li>
+                        <li><span class="cap-label">Coatings:</span> Very thick/soft coatings may reduce range and require assessment</li>
+                        <li><span class="cap-label">Sizing:</span> Provides screening and location guidance—not acceptance-level sizing</li>
+                        <li><span class="cap-label">Interpretation:</span> Requires experienced analysts to separate geometry vs relevant indications</li>
                     </ul>
                 </div>
 
                 <div class="capability-box">
                     <div class="capability-header">
                         <i class="fas fa-clock"></i>
-                        <h3>Inspection Time</h3>
+                        <h3>Typical Field Workflow</h3>
                     </div>
                     <ul class="capability-list">
-                        <li><span class="cap-label">Surface Prep:</span> 10-20 minutes (local cleaning)</li>
-                        <li><span class="cap-label">Collar Install:</span> 5-10 minutes (mechanical clamp)</li>
-                        <li><span class="cap-label">Calibration:</span> 5 minutes (system check)</li>
-                        <li><span class="cap-label">Data Acquisition:</span> 5-10 minutes (multi-scan avg)</li>
-                        <li><span class="cap-label">Analysis:</span> 10-15 minutes (signal interpretation)</li>
-                        <li><span class="cap-label">Total per Weld:</span> 15-30 minutes average</li>
+                        <li><span class="cap-label">Local Prep:</span> Clean contact area at collar location</li>
+                        <li><span class="cap-label">Collar Install:</span> Quick clamp/array installation</li>
+                        <li><span class="cap-label">System Check:</span> Setup verification and baseline capture</li>
+                        <li><span class="cap-label">Acquisition:</span> Multiple scans/frequencies as required</li>
+                        <li><span class="cap-label">Screening Result:</span> On-site identification of relevant zones for follow-up</li>
+                        <li><span class="cap-label">Reporting:</span> Structured deliverables with location guidance and recommendations</li>
                     </ul>
                 </div>
             </div>
@@ -706,7 +700,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
             <div class="section-header center">
                 <span class="section-label">WHY ALPHA SONIX</span>
                 <h2>Your SRUT Inspection Partner</h2>
-                <p>Expertise and equipment for critical weld assessment</p>
+                <p>Experienced guided-wave capability with disciplined reporting and practical integrity recommendations</p>
             </div>
 
             <div class="why-choose-grid">
@@ -714,32 +708,32 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                     <div class="why-icon">
                         <i class="fas fa-microscope"></i>
                     </div>
-                    <h3>Advanced SRUT Systems</h3>
-                    <p>Latest Guided Ultrasonics and Eddyfi SRUT equipment with multi-frequency capability (100-500 kHz). Collar inventory for 2"-60" pipes. Optimized for HAZ and near-weld defect detection with superior resolution.</p>
+                    <h3>Modern SRUT Capability</h3>
+                    <p>Advanced guided-wave systems with multi-frequency operation and collar options to match a broad range of pipe diameters and inspection objectives.</p>
                 </div>
 
                 <div class="why-card">
                     <div class="why-icon">
                         <i class="fas fa-user-tie"></i>
                     </div>
-                    <h3>Certified Technicians</h3>
-                    <p>ASNT Level II/III certified with specialized SRUT training. Manufacturer certification on all systems. Experience interpreting complex near-field signals and distinguishing geometric features from defects. Average 6+ years SRUT experience.</p>
+                    <h3>Qualified Analysts</h3>
+                    <p>Certified inspection personnel with guided-wave experience—focused on correct setup, reliable interpretation, and clear recommendations for follow-up NDT.</p>
                 </div>
 
                 <div class="why-card">
                     <div class="why-icon">
                         <i class="fas fa-chart-line"></i>
                     </div>
-                    <h3>Post-LRUT Services</h3>
-                    <p>Seamless LRUT-to-SRUT workflow for efficient anomaly confirmation. Integrated data management linking LRUT screening to SRUT focused inspection. Excavation prioritization based on combined LRUT/SRUT severity assessment.</p>
+                    <h3>LRUT-to-SRUT Workflow</h3>
+                    <p>Efficient transition from long-range screening to short-range confirmation—helping clients reduce unnecessary excavation and focus resources on the highest-risk locations.</p>
                 </div>
 
                 <div class="why-card">
                     <div class="why-icon">
                         <i class="fas fa-clipboard-list"></i>
                     </div>
-                    <h3>Comprehensive Reporting</h3>
-                    <p>Detailed reports with distance-amplitude plots, waveform analysis, defect location diagrams, and severity classification per acceptance criteria. Complete A-scan data archive for future reference and trending analysis.</p>
+                    <h3>Clear, Defensible Reporting</h3>
+                    <p>Deliverables include recorded data references, location guidance, indication ranking, and recommended next steps (PAUT/TOFD/UT) aligned with integrity decision making.</p>
                 </div>
 
                 <div class="why-card">
@@ -747,15 +741,15 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-hands-helping"></i>
                     </div>
                     <h3>Engineering Support</h3>
-                    <p>Expert interpretation of challenging signals (near-field complexity). Fitness-for-service consultation per API 579-1. Follow-up inspection strategy recommendations (conventional UT/PAUT if needed). Integration with integrity management programs.</p>
+                    <p>Support for inspection planning, RBI integration, and follow-up strategy selection—ensuring SRUT results translate into practical maintenance actions.</p>
                 </div>
 
                 <div class="why-card">
                     <div class="why-icon">
                         <i class="fas fa-award"></i>
                     </div>
-                    <h3>Proven Performance</h3>
-                    <p>500+ critical welds inspected with SRUT. 98% correlation with follow-up conventional UT validation. Approved for major pipeline operators and petrochemical facilities. Successful HAZ cracking detection preventing failures.</p>
+                    <h3>Field-Proven Delivery</h3>
+                    <p>Proven performance in screening weld-adjacent zones across pipelines and process piping—delivered with consistent documentation and client-ready communication.</p>
                 </div>
             </div>
         </div>
@@ -776,7 +770,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Use SRUT when you need detailed inspection of specific welds or LRUT-flagged anomalies requiring confirmation before excavation. SRUT is ideal for: (1) Post-LRUT focused assessment of indications, (2) Critical welds requiring high-resolution inspection (hot taps, repairs, HCA locations), (3) HAZ cracking detection in susceptible materials, (4) When access permits close proximity to weld (within 3m). Use LRUT for rapid screening of long buried pipeline sections where specific weld locations are unknown or inaccessible.</p>
+                        <p>Use SRUT when the inspection objective is focused near welds or features—typically within a short distance—especially to confirm LRUT indications, screen critical joints (repairs, tie-ins, hot taps), or improve location guidance before detailed UT/PAUT is deployed.</p>
                     </div>
                 </div>
 
@@ -786,7 +780,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>SRUT complements but does not fully replace conventional UT. SRUT advantages: 360° coverage, faster inspection, no rotation/repositioning, excellent HAZ sensitivity. Conventional UT advantages: Precise through-wall depth sizing, detailed defect characterization, acceptance per code criteria (ASME Sec V, API 1104). Typical workflow: SRUT for rapid screening → Conventional UT/PAUT/TOFD for detailed sizing of SRUT-detected indications. Many operators use SRUT as primary method with conventional UT only for confirmed defects requiring precise sizing for fitness-for-service.</p>
+                        <p>SRUT is best treated as a screening and targeting method. For acceptance to welding codes/specifications and for precise characterization and through-wall sizing, PAUT/TOFD or conventional UT is typically required. A common approach is SRUT screening → advanced UT confirmation only where needed.</p>
                     </div>
                 </div>
 
@@ -796,7 +790,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>SRUT provides axial location accuracy of ±2-5mm within 0-3m range. This precision enables directing conventional UT probe to exact defect zone without scanning entire weld. Circumferential location identified to nearest 30-45° sector (clock position). For example, SRUT report states "indication at 0.45m from weld centerline, 5-6 o'clock position"—technician then applies PAUT only to that specific region. Accuracy depends on frequency (higher = better), calibration, and signal-to-noise ratio.</p>
+                        <p>SRUT can provide practical axial location guidance and circumferential sector/clock-position type information within the short-range zone. Accuracy depends on setup, feature density, and signal conditions. The goal is to reliably guide follow-up UT to the correct area—not to replace sizing methods.</p>
                     </div>
                 </div>
 
@@ -806,7 +800,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>SRUT typically detects defects down to 1-2mm depth and 5-10mm length—significantly smaller than LRUT's 5-10% CSA loss threshold. Tight cracks with <0.5mm opening are detectable due to diffraction at crack tips. Performance depends on: defect type (cracks easier than smooth corrosion), orientation (circumferential easier than radial), location (mid-wall easier than surface), and signal-to-noise conditions. Validation studies demonstrate >95% POD for HAZ cracks >2mm depth, which is critical since small HAZ cracks can rapidly propagate to failure in susceptible environments.</p>
+                        <p>Detection depends on defect type, orientation, location, geometry, and noise from features such as weld profiles and fittings. SRUT generally offers better near-field sensitivity than LRUT, but it is not intended to provide “millimeter-accurate” sizing. Where small crack-like indications are suspected, SRUT can help identify suspect zones that warrant PAUT/TOFD confirmation.</p>
                     </div>
                 </div>
 
@@ -816,7 +810,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Impact is less than LRUT due to higher frequencies and shorter propagation distance. Thin hard coatings (FBE, 3-layer polyethylene, tape) have minimal effect. Thick soft coatings (bitumen >10mm, mastic) can reduce range by 30-50% but SRUT's short range (0-3m) usually remains effective. Unlike conventional UT, coating does NOT need removal—only insulation jacket if present. Coating impedance is characterized during calibration and compensated in signal analysis. Disbonded coating may generate reflections but experienced analysts differentiate from metal defects.</p>
+                        <p>Coating condition can influence signal transmission and attenuation, but SRUT is often feasible without full coating removal. Typically, only local preparation at the collar contact location is required. Very thick/soft coatings or complex insulation systems may reduce usable range and should be assessed during planning.</p>
                     </div>
                 </div>
 
@@ -826,7 +820,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>SRUT can propagate through bends but with signal attenuation depending on bend radius: Long-radius bends (5D+): 10-20% signal loss—acceptable coverage beyond bend; Medium bends (3D): 30-40% loss—marginal coverage; Short-radius elbows (1.5D): 60-80% loss—severely limits inspection beyond elbow. If weld of interest is beyond sharp bend, position SRUT collar on opposite side of bend to avoid attenuation. For elbow welds themselves, SRUT can inspect from straight pipe section if weld is within 3m range before bend.</p>
+                        <p>Guided waves can pass through bends, but tighter bends and nearby features can reduce transmission and complicate interpretation. For best reliability, SRUT setups are planned to minimize feature interference and to keep the weld/zone of interest within an effective short-range path.</p>
                     </div>
                 </div>
 
@@ -836,7 +830,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Typical SRUT inspection ranges $2,000-5,000 per weld depending on pipe size, accessibility, mobilization, and reporting requirements. Cost includes collar installation, data acquisition, analysis, and reporting. Compare to conventional multi-angle UT ($1,500-3,000) or PAUT ($2,500-4,500) per weld. SRUT advantage: 360° coverage versus sectoral UT requiring rotation/repositioning, and faster inspection (15-30 min vs 60-90 min). On multi-weld campaigns (>10 welds), volume pricing reduces unit cost. ROI justified by comprehensive coverage and time savings.</p>
+                        <p>Cost depends on pipe size, access, number of locations, mobilization, and reporting requirements. For campaigns, unit cost typically reduces with volume. Share your scope (line class, diameter, weld count, access constraints), and we’ll provide a clear quotation with defined deliverables.</p>
                     </div>
                 </div>
 
@@ -846,7 +840,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Yes, we offer comprehensive SRUT training programs: (1) SRUT Fundamentals (2 days): High-frequency guided wave theory, differences from LRUT, equipment operation, collar installation; (2) Signal Interpretation (1 day): Near-field signal complexity, defect vs feature discrimination, HAZ crack characteristics; (3) Practical Field Training (1 day): Hands-on inspection of live welds, data analysis, reporting. Training includes comparison with LRUT and integration into tiered inspection strategies. ASNT Level II UT certification recommended prerequisite. Custom programs for client-specific procedures and equipment available.</p>
+                        <p>We provide guided-wave training support covering SRUT fundamentals, setup practice, data interpretation principles, and integration with LRUT and advanced UT follow-up. Training scope can be tailored to client procedures and equipment.</p>
                     </div>
                 </div>
             </div>
@@ -857,16 +851,16 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
     <section class="cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>Detect HAZ Cracks Before They Become Failures</h2>
-                <p>High-resolution weld inspection with 360° coverage in 15-30 minutes</p>
+                <h2>Need Focused Weld Screening with Guided Waves?</h2>
+                <p>Use SRUT to confirm anomaly zones, prioritize welds, and direct PAUT/TOFD to the right location</p>
                 <center>
                     <a href="tel:+914445015884" class="btn btn-white"><i class="fas fa-phone"></i> Call: +91 44 4501 5884</a>
                     <a href="mailto:info@alphasonix.com" class="btn btn-outline"><i class="fas fa-envelope"></i> Request SRUT Service</a>
                 </center>
                 <div class="cta-features">
-                    <span><i class="fas fa-check"></i> Free Technical Consultation</span>
-                    <span><i class="fas fa-check"></i> Post-LRUT Follow-Up</span>
-                    <span><i class="fas fa-check"></i> Same-Day Mobilization</span>
+                    <span><i class="fas fa-check"></i> Technical Consultation</span>
+                    <span><i class="fas fa-check"></i> LRUT Follow-Up Support</span>
+                    <span><i class="fas fa-check"></i> Rapid Mobilization</span>
                 </div>
             </div>
         </div>
@@ -877,7 +871,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
         <div class="container">
             <div class="section-header center">
                 <h2>Complementary Weld Inspection Services</h2>
-                <p>Complete integrity solutions from screening to detailed sizing</p>
+                <p>Complete integrity coverage—from long-range screening to acceptance-level sizing</p>
             </div>
 
             <div class="related-grid">
@@ -886,7 +880,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-arrows-alt-h"></i>
                     </div>
                     <h3>LRUT</h3>
-                    <p>Long Range UT for rapid pipeline screening up to 100m</p>
+                    <p>Long-range guided wave screening for rapid pipe run assessment</p>
                     <span class="learn-more">Learn More <i class="fas fa-arrow-right"></i></span>
                 </a>
 
@@ -895,7 +889,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-grip-horizontal"></i>
                     </div>
                     <h3>PAUT</h3>
-                    <p>Phased Array for multi-angle imaging and defect characterization</p>
+                    <p>Advanced ultrasonic imaging for characterization and code-based evaluation</p>
                     <span class="learn-more">Learn More <i class="fas fa-arrow-right"></i></span>
                 </a>
 
@@ -904,7 +898,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-wave-square"></i>
                     </div>
                     <h3>TOFD</h3>
-                    <p>Time of Flight Diffraction for precise through-wall sizing</p>
+                    <p>Accurate through-wall sizing for engineering assessment applications</p>
                     <span class="learn-more">Learn More <i class="fas fa-arrow-right"></i></span>
                 </a>
 
@@ -913,7 +907,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
                         <i class="fas fa-signal"></i>
                     </div>
                     <h3>Conventional UT</h3>
-                    <p>Spot ultrasonic testing for detailed defect verification</p>
+                    <p>Localized UT verification and thickness measurement where required</p>
                     <span class="learn-more">Learn More <i class="fas fa-arrow-right"></i></span>
                 </a>
             </div>
