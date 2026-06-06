@@ -12,6 +12,49 @@ include $base . '/includes/config.php';
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/www/assets/css/style.css">
+    
+    <style>
+        /* ADDED: Zoom animation for hero slides */
+        .slide {
+            overflow: hidden;
+        }
+        
+        .slide-bg-zoom {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            transition: transform 9s ease-out;
+        }
+        
+        .slide.active .slide-bg-zoom {
+            transform: scale(1.08);
+        }
+        
+        .slide.active .hero-content {
+            animation: fadeUp 0.8s ease-out 1.5s forwards;
+        }
+        
+        .hero-content {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        
+        @keyframes fadeUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .slide .slide-bg-zoom {
+            transform: scale(1);
+        }
+        /* END ADDED */
+    </style>
 </head>
 
 <body>
@@ -23,6 +66,7 @@ include $base . '/includes/config.php';
         <div class="slides-wrapper">
 
             <div class="slide active" style="background-image: url('/www/assets/images/hero/12340226673459755598.png');">
+                <div class="slide-bg-zoom" style="background-image: url('/www/assets/images/hero/12340226673459755598.png');"></div>
                 <div class="slide-overlay"></div>
                 <div class="hero-content">
                     <p class="hero-sub">Excellence in every inspection</p>
@@ -33,6 +77,7 @@ include $base . '/includes/config.php';
             </div>
 
             <div class="slide" style="background-image: url('/www/assets/images/hero/13480284272095742427.png');">
+                <div class="slide-bg-zoom" style="background-image: url('/www/assets/images/hero/13480284272095742427.png');"></div>
                 <div class="slide-overlay"></div>
                 <div class="hero-content">
                     <p class="hero-sub">Trusted NDT Solutions</p>
@@ -43,6 +88,7 @@ include $base . '/includes/config.php';
             </div>
 
             <div class="slide" style="background-image: url('/www/assets/images/hero/10600610254314303543.png');">
+                <div class="slide-bg-zoom" style="background-image: url('/www/assets/images/hero/10600610254314303543.png');"></div>
                 <div class="slide-overlay"></div>
                 <div class="hero-content">
                     <p class="hero-sub">Advanced Inspection Technology</p>
@@ -360,4 +406,5 @@ include $base . '/includes/config.php';
 
     <script src="/www/assets/js/script.js"></script>
 </body>
+
 </html>

@@ -19,7 +19,7 @@
                 <!-- HOME -->
                 <li>
                     <a href="/www/index.php"
-                       <?php echo basename($_SERVER['PHP_SELF']) === 'index.php' ? 'class="active"' : ''; ?>>
+                        <?php echo basename($_SERVER['PHP_SELF']) === 'index.php' ? 'class="active"' : ''; ?>>
                         Home
                     </a>
                 </li>
@@ -80,18 +80,27 @@
                             <div class="drop-col">
                                 <h4>Specialized NDT &amp; Asset</h4>
                                 <ul>
-                                    <li><a href="/www/pages/specialized-ndt/painting-coating.php">Painting &amp; Coating Inspections</a></li>
+                                    <li><a href="/www/pages/specialized-ndt/painting-coating-inspections.php">Painting &amp; Coating Inspections</a></li>
                                     <li><a href="/www/pages/specialized-ndt/cathodic-protection.php">Cathodic Protection</a></li>
-                                    <li><a href="/www/pages/specialized-ndt/asset-integrity.php">Asset Integrity Inspection</a></li>
+                                    <li><a href="/www/pages/specialized-ndt/asset-integrity-inspection.php">Asset Integrity Inspection</a></li>
                                     <li><a href="/www/pages/specialized-ndt/octg-inspection.php">OCTG Inspection</a></li>
-                                    <li><a href="/www/pages/specialized-ndt/predictive-maintenance.php">Predictive Maintenance Survey</a></li>
+                                    <li><a href="/www/pages/specialized-ndt/predictive-maintenance-survey.php">Predictive Maintenance Survey</a></li>
                                     <li><a href="/www/pages/specialized-ndt/helium-leak-testing.php">Helium Leak Testing</a></li>
                                 </ul>
                                 <h4 style="margin-top:14px;">Rope Access Services</h4>
                                 <ul>
+                                    <li><a href="/www/pages/rope-access-services/rope-access-et.php">Rope Access Eddy Current Testing (ET)</a></li>
+                                    <li><a href="/www/pages/rope-access-services/rope-access-flare-stack.php">Rope Access Flare Stack Services</a></li>
+                                    <li><a href="/www/pages/rope-access-services/rope-access-mt.php">Rope Access Magnetic Particle Testing (MT)</a></li>
                                     <li><a href="/www/pages/rope-access-services/rope-access-ndt.php">Rope Access NDT</a></li>
-                                    <li><a href="/www/pages/rope-access-services/rope-access-inspection.php">Rope Access Inspection</a></li>
-                                    <li><a href="/www/pages/rope-access-services/confined-space.php">Confined Space Entry</a></li>
+                                    <li><a href="/www/pages/rope-access-services/rope-access-paut-tofd.php">Rope Access PAUT & TOFD</a></li>
+                                    <li><a href="/www/pages/rope-access-services/rope-access-pipeline.php">Rope Access Pipeline Services</a></li>
+                                    <li><a href="/www/pages/rope-access-services/rope-access-pt.php">Rope Access Penetrant Testing (PT)</a></li>
+                                    <li><a href="/www/pages/rope-access-services/rope-access-rt.php">Rope Access Radiographic Testing (RT)</a></li>
+                                    <li><a href="/www/pages/rope-access-services/rope-access-thermal-imaging.php">Rope Access Thermal Imaging</a></li>
+                                    <li><a href="/www/pages/rope-access-services/rope-access-ut.php">Rope Access Ultrasonic Testing (UT)</a></li>
+                                    <li><a href="/www/pages/rope-access-services/rope-access-vt.php">Rope Access Visual Testing (VT)</a></li>
+                                    <li><a href="/www/pages/rope-access-services/rope-access-wind-turbine.php">Rope Access Wind Turbine Services</a></li>
                                 </ul>
                                 <h4 style="margin-top:14px;">Third Party Inspections</h4>
                                 <ul>
@@ -124,17 +133,17 @@
                             <div class="drop-col">
                                 <h4>Lifting Inspection Services</h4>
                                 <ul>
-                                    <li><a href="/www/pages/lifting-inspection/lifting-equipment.php">Lifting Equipment Certification</a></li>
-                                    <li><a href="/www/pages/lifting-inspection/spreader-beam.php">Spreader Beam &amp; Lifting Frame</a></li>
-                                    <li><a href="/www/pages/lifting-inspection/lifting-points.php">Lifting Points &amp; Pad Eye</a></li>
-                                    <li><a href="/www/pages/lifting-inspection/lifting-gear.php">Lifting Gear Inspection</a></li>
-                                    <li><a href="/www/pages/lifting-inspection/mobile-crane.php">Mobile Crane &amp; Crawler Crane</a></li>
-                                    <li><a href="/www/pages/lifting-inspection/gantry-crane.php">Overhead Crane &amp; Gantry Crane</a></li>
-                                    <li><a href="/www/pages/lifting-inspection/load-testing.php">Load Testing Services</a></li>
-                                    <li><a href="/www/pages/lifting-inspection/offshore-crane.php">Offshore Crane &amp; Derrick</a></li>
-                                    <li><a href="/www/pages/lifting-inspection/chain-block.php">Chain Block &amp; Hoist</a></li>
-                                    <li><a href="/www/pages/lifting-inspection/forklift.php">Forklift &amp; Material Handling</a></li>
-                                    <li><a href="/www/pages/lifting-inspection/man-riding.php">Man-Riding Equipment</a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/lifting-equipment-certification.php">Lifting Equipment Inspection &amp; Certification</a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/spreader-beam-inspection.php">Spreader Beam &amp;Lifting Frame Inspection</a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/lifting-points-inspection.php">Lifting Points &amp; Pad Eye Inspection</a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/lifting-gear-inspection.php">Lifting Gear Inspection (Accessories & Loose Lifting Equipment)</a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/mobile-crane-inspection.php">Mobile Crane &amp; Crawler Crane Inspection</a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/overhead-crane-inspection.php">Overhead Crane &amp; Gantry Crane Inspection</a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/load-testing-services.php">Load Testing Services</a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/offshore-crane-inspection.php">Offshore Crane &amp; Derrick Inspection</a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/chain-block-hoist-inspection.php">Chain Block &amp; Hoist Inspection</a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/forklift-inspection.php">Forklift & Material Handling Equipment Inspection </a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/man-riding-equipment.php">Man-Riding Equipment Inspection</a></li>
                                 </ul>
                                 <h4 style="margin-top:14px;">Marine &amp; Boiler</h4>
                                 <ul>
@@ -202,7 +211,7 @@
                 <!-- CONTACT -->
                 <li>
                     <a href="/www/contact.php"
-                       <?php echo basename($_SERVER['PHP_SELF']) === 'contact.php' ? 'class="active"' : ''; ?>>
+                        <?php echo basename($_SERVER['PHP_SELF']) === 'contact.php' ? 'class="active"' : ''; ?>>
                         Contact Us
                     </a>
                 </li>
@@ -246,8 +255,7 @@
                     name="q"
                     id="headerSearchInput"
                     placeholder="Search services, inspections, heat treatment..."
-                    autocomplete="off"
-                />
+                    autocomplete="off" />
                 <button type="submit" aria-label="Search">
                     <i class="fas fa-search"></i>
                 </button>

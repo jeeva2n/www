@@ -74,7 +74,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/eddy-curren
 
 <!-- ===================== PAGE HERO ===================== -->
 <section class="page-hero">
-    <div class="page-hero-bg" style="background-image: url('/www/assets/images/services/ect-hero.jpg');"></div>
+    <div class="page-hero-bg" style="background-image: url('/www/assets/images/ECT/ect1.png');"></div>
     <div class="page-hero-overlay"></div>
     <div class="page-hero-content">
         <div class="container">

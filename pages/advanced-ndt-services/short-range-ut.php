@@ -72,7 +72,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/short-range
 
     <!-- ===================== PAGE HERO ===================== -->
     <section class="page-hero">
-        <div class="page-hero-bg" style="background-image: url('/www/assets/images/services/srut-hero.jpg');"></div>
+        <div class="page-hero-bg" style="background-image: url('/www/assets/images/SRUT/srut1.png');"></div>
         <div class="page-hero-overlay"></div>
         <div class="page-hero-content">
             <div class="container">

@@ -73,7 +73,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/near-field-
 
     <!-- ===================== PAGE HERO ===================== -->
     <section class="page-hero">
-        <div class="page-hero-bg" style="background-image: url('/www/assets/images/services/nft-tube-hero.jpg');"></div>
+        <div class="page-hero-bg" style="background-image: url('/www/assets/images/NFT/nft1.png');"></div>
         <div class="page-hero-overlay"></div>
         <div class="page-hero-content">
             <div class="container">

@@ -73,7 +73,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/infrared-th
 
     <!-- ===================== PAGE HERO ===================== -->
     <section class="page-hero">
-        <div class="page-hero-bg" style="background-image: url('/www/assets/images/services/thermography-hero.jpg');"></div>
+        <div class="page-hero-bg" style="background-image: url('/www/assets/images/IT/it1.png');"></div>
         <div class="page-hero-overlay"></div>
         <div class="page-hero-content">
             <div class="container">
