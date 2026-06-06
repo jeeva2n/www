@@ -53,7 +53,6 @@ include $base . '/includes/config.php';
         .slide .slide-bg-zoom {
             transform: scale(1);
         }
-        /* END ADDED */
     </style>
 </head>
 

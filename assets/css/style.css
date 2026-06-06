@@ -197,6 +197,15 @@ body.mobile-menu-open .main-header {
     transform: rotate(180deg);
 }
 
+/* =========================
+   MEGA DROPDOWN MENU - FIXED ALIGNMENT
+========================= */
+
+/* Fix for mega dropdown - allows centering */
+.main-header .has-dropdown.mega {
+    position: static;
+}
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -204,12 +213,12 @@ body.mobile-menu-open .main-header {
     background: #fff;
     box-shadow: 0 8px 35px rgba(0,0,0,0.13);
     border-top: 3px solid var(--primary-red);
-    min-width: 260px;
     opacity: 0;
     visibility: hidden;
     transform: translateY(8px);
-    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+    transition: all 0.25s ease;
     z-index: 10000;
+    border-radius: 0 0 6px 6px;
 }
 
 .has-dropdown:hover > .dropdown-menu {
@@ -218,54 +227,83 @@ body.mobile-menu-open .main-header {
     transform: translateY(0);
 }
 
+/* INDUSTRIAL INSPECTIONS MEGA MENU - CENTERED UNDER PARENT */
 .mega-drop {
-    left: 50%;
-    transform: translateX(-50%) translateY(8px);
-    width: 96vw;
-    max-width: 1200px;
+    left: 50% !important;
+    transform: translateX(-50%) translateY(8px) !important;
+    width: 92vw;
+    max-width: 1400px;
+    min-width: 900px;
+    right: auto !important;
 }
 
-.has-dropdown:hover > .mega-drop {
-    transform: translateX(-50%) translateY(0);
+.has-dropdown.mega:hover > .mega-drop {
+    transform: translateX(-50%) translateY(0) !important;
 }
 
+/* COLUMN WRAPPER */
 .drop-inner {
     display: flex;
-    padding: 22px 20px;
-    gap: 5px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 25px 30px;
 }
 
+/* INDIVIDUAL COLUMNS */
 .drop-col {
     flex: 1;
-    padding: 0 14px;
-    border-right: 1px solid #f0f0f0;
     min-width: 0;
+    padding: 0 20px;
+    border-right: 1px solid #ececec;
 }
 
-.drop-col:first-child { padding-left: 5px; }
-.drop-col:last-child  { border-right: none; padding-right: 5px; }
+.drop-col:last-child {
+    border-right: none;
+}
 
+.drop-col:first-child {
+    padding-left: 0;
+}
+
+.drop-col:last-child {
+    padding-right: 0;
+}
+
+/* COLUMN HEADINGS */
 .drop-col h4 {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 700;
     color: var(--dark-blue);
     text-transform: uppercase;
-    letter-spacing: 0.6px;
-    margin-bottom: 10px;
-    padding-bottom: 7px;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
     border-bottom: 2px solid var(--primary-red);
+    line-height: 1.4;
+    display: inline-block;
 }
 
-.drop-col ul { list-style: none; }
+/* MENU LIST */
+.drop-col ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.drop-col ul li {
+    margin: 0;
+    padding: 0;
+}
 
 .drop-col ul li a {
     display: block;
-    padding: 4px 0;
-    font-size: 12.5px;
-    color: #444;
+    padding: 6px 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #555;
     text-decoration: none;
-    line-height: 1.4;
-    transition: color 0.2s, padding-left 0.2s;
+    transition: all .2s ease;
 }
 
 .drop-col ul li a:hover {
@@ -273,9 +311,51 @@ body.mobile-menu-open .main-header {
     padding-left: 5px;
 }
 
-.company-drop  { min-width: 480px; }
-.heat-drop     { min-width: 520px; }
-.business-drop { min-width: 340px; }
+/* Spacing for sections */
+.drop-col h4 + ul {
+    margin-bottom: 18px;
+}
+
+/* OTHER DROPDOWNS */
+.company-drop {
+    min-width: 520px;
+}
+
+.heat-drop {
+    min-width: 600px;
+}
+
+.business-drop {
+    min-width: 380px;
+}
+
+/* LARGE SCREEN SUPPORT */
+@media (min-width: 1700px) {
+    .mega-drop {
+        max-width: 1650px;
+    }
+}
+
+/* LAPTOP SUPPORT */
+@media (max-width: 1400px) {
+    .mega-drop {
+        width: 95vw;
+        min-width: 780px;
+    }
+
+    .drop-inner {
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .drop-col {
+        padding: 0 12px;
+    }
+
+    .drop-col ul li a {
+        font-size: 12px;
+    }
+}
 
 .header-right {
     display: flex;

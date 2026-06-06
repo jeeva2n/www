@@ -1,6 +1,16 @@
 <?php
 // /www/includes/header.php
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Sonix NDT Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/www/assets/css/styles.css">
+</head>
+<body>
 
 <header class="main-header" id="mainHeader">
     <div class="header-inner">
@@ -55,7 +65,7 @@
                     <div class="dropdown-menu mega-drop">
                         <div class="drop-inner">
 
-                            <!-- Column 1 -->
+                            <!-- Column 1 - Advanced NDT Services -->
                             <div class="drop-col">
                                 <h4>Advanced NDT Services</h4>
                                 <ul>
@@ -76,7 +86,7 @@
                                 </ul>
                             </div>
 
-                            <!-- Column 2 -->
+                            <!-- Column 2 - Specialized NDT & Rope Access -->
                             <div class="drop-col">
                                 <h4>Specialized NDT &amp; Asset</h4>
                                 <ul>
@@ -93,7 +103,7 @@
                                     <li><a href="/www/pages/rope-access-services/rope-access-flare-stack.php">Rope Access Flare Stack Services</a></li>
                                     <li><a href="/www/pages/rope-access-services/rope-access-mt.php">Rope Access Magnetic Particle Testing (MT)</a></li>
                                     <li><a href="/www/pages/rope-access-services/rope-access-ndt.php">Rope Access NDT</a></li>
-                                    <li><a href="/www/pages/rope-access-services/rope-access-paut-tofd.php">Rope Access PAUT & TOFD</a></li>
+                                    <li><a href="/www/pages/rope-access-services/rope-access-paut-tofd.php">Rope Access PAUT &amp; TOFD</a></li>
                                     <li><a href="/www/pages/rope-access-services/rope-access-pipeline.php">Rope Access Pipeline Services</a></li>
                                     <li><a href="/www/pages/rope-access-services/rope-access-pt.php">Rope Access Penetrant Testing (PT)</a></li>
                                     <li><a href="/www/pages/rope-access-services/rope-access-rt.php">Rope Access Radiographic Testing (RT)</a></li>
@@ -102,15 +112,9 @@
                                     <li><a href="/www/pages/rope-access-services/rope-access-vt.php">Rope Access Visual Testing (VT)</a></li>
                                     <li><a href="/www/pages/rope-access-services/rope-access-wind-turbine.php">Rope Access Wind Turbine Services</a></li>
                                 </ul>
-                                <h4 style="margin-top:14px;">Third Party Inspections</h4>
-                                <ul>
-                                    <li><a href="/www/pages/third-party-inspections/vendor-inspection.php">Vendor Inspection</a></li>
-                                    <li><a href="/www/pages/third-party-inspections/expediting.php">Expediting Services</a></li>
-                                    <li><a href="/www/pages/third-party-inspections/quality-assurance.php">Quality Assurance</a></li>
-                                </ul>
                             </div>
 
-                            <!-- Column 3 -->
+                            <!-- Column 3 - Conventional NDT -->
                             <div class="drop-col">
                                 <h4>Conventional NDT Services</h4>
                                 <ul>
@@ -129,20 +133,20 @@
                                 </ul>
                             </div>
 
-                            <!-- Column 4 -->
+                            <!-- Column 4 - Lifting & Marine -->
                             <div class="drop-col">
                                 <h4>Lifting Inspection Services</h4>
                                 <ul>
                                     <li><a href="/www/pages/lifting-inspection-services/lifting-equipment-certification.php">Lifting Equipment Inspection &amp; Certification</a></li>
-                                    <li><a href="/www/pages/lifting-inspection-services/spreader-beam-inspection.php">Spreader Beam &amp;Lifting Frame Inspection</a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/spreader-beam-inspection.php">Spreader Beam &amp; Lifting Frame Inspection</a></li>
                                     <li><a href="/www/pages/lifting-inspection-services/lifting-points-inspection.php">Lifting Points &amp; Pad Eye Inspection</a></li>
-                                    <li><a href="/www/pages/lifting-inspection-services/lifting-gear-inspection.php">Lifting Gear Inspection (Accessories & Loose Lifting Equipment)</a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/lifting-gear-inspection.php">Lifting Gear Inspection (Accessories &amp; Loose Lifting Equipment)</a></li>
                                     <li><a href="/www/pages/lifting-inspection-services/mobile-crane-inspection.php">Mobile Crane &amp; Crawler Crane Inspection</a></li>
                                     <li><a href="/www/pages/lifting-inspection-services/overhead-crane-inspection.php">Overhead Crane &amp; Gantry Crane Inspection</a></li>
                                     <li><a href="/www/pages/lifting-inspection-services/load-testing-services.php">Load Testing Services</a></li>
                                     <li><a href="/www/pages/lifting-inspection-services/offshore-crane-inspection.php">Offshore Crane &amp; Derrick Inspection</a></li>
                                     <li><a href="/www/pages/lifting-inspection-services/chain-block-hoist-inspection.php">Chain Block &amp; Hoist Inspection</a></li>
-                                    <li><a href="/www/pages/lifting-inspection-services/forklift-inspection.php">Forklift & Material Handling Equipment Inspection </a></li>
+                                    <li><a href="/www/pages/lifting-inspection-services/forklift-inspection.php">Forklift &amp; Material Handling Equipment Inspection</a></li>
                                     <li><a href="/www/pages/lifting-inspection-services/man-riding-equipment.php">Man-Riding Equipment Inspection</a></li>
                                 </ul>
                                 <h4 style="margin-top:14px;">Marine &amp; Boiler</h4>
@@ -221,8 +225,6 @@
 
         <!-- ===================== HEADER RIGHT ===================== -->
         <div class="header-right">
-
-            <!-- Contact info — hidden on mobile via CSS -->
             <div class="header-contact">
                 <div class="contact-icon">
                     <i class="far fa-comments"></i>
@@ -232,30 +234,20 @@
                     <strong>Free: +91 44 4501 5884</strong>
                 </div>
             </div>
-
-            <!-- Search icon -->
             <div class="search-icon" id="searchToggle" title="Search">
                 <i class="fas fa-search"></i>
             </div>
-
-            <!-- Hamburger — shown on mobile via CSS -->
             <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu" aria-expanded="false">
                 <i class="fas fa-bars"></i>
             </button>
-
         </div>
     </div>
 
-    <!-- ===================== SEARCH BAR (slide-down) ===================== -->
+    <!-- ===================== SEARCH BAR ===================== -->
     <div class="header-search-bar" id="headerSearchBar">
         <div class="header-search-inner">
             <form action="/www/search.php" method="GET" class="header-search-form">
-                <input
-                    type="text"
-                    name="q"
-                    id="headerSearchInput"
-                    placeholder="Search services, inspections, heat treatment..."
-                    autocomplete="off" />
+                <input type="text" name="q" id="headerSearchInput" placeholder="Search services, inspections, heat treatment..." autocomplete="off" />
                 <button type="submit" aria-label="Search">
                     <i class="fas fa-search"></i>
                 </button>
@@ -265,5 +257,12 @@
             </button>
         </div>
     </div>
-
 </header>
+
+<!-- Mobile Navigation Overlay & Sidebar (empty - populated by JS) -->
+<div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+<div class="mobile-nav-sidebar" id="mobileNavSidebar"></div>
+
+<script src="/www/assets/js/script.js"></script>
+</body>
+</html>

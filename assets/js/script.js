@@ -58,41 +58,44 @@ document.addEventListener('DOMContentLoaded', function () {
                     <div class="mobile-submenu">
                         <div class="mobile-submenu-header">Advanced NDT Services</div>
                         <ul>
-                            <li><a href="/www/pages/advanced-ndt-services/paut.php">Phased Array Ultrasonic Testing (PAUT)</a></li>
-                            <li><a href="/www/pages/advanced-ndt-services/tofd.php">Time of Flight Diffraction (ToFD)</a></li>
-                            <li><a href="/www/pages/advanced-ndt-services/aut.php">Automated Ultrasonic Testing (AUT)</a></li>
-                            <li><a href="/www/pages/advanced-ndt-services/lrut.php">Long Range Ultrasonic Testing (LRUT)</a></li>
-                            <li><a href="/www/pages/advanced-ndt-services/srut.php">Short Range Ultrasonic Testing (SRUT)</a></li>
-                            <li><a href="/www/pages/advanced-ndt-services/rvi.php">Remote Visual Inspection / Videoscope</a></li>
-                            <li><a href="/www/pages/advanced-ndt-services/mfl-tank-floor.php">Magnetic Flux Leakage Tank Floor</a></li>
-                            <li><a href="/www/pages/advanced-ndt-services/rfect.php">Remote Field Eddy Current Tube</a></li>
-                            <li><a href="/www/pages/advanced-ndt-services/ect.php">Eddy Current Tube Inspection (ECT)</a></li>
-                            <li><a href="/www/pages/advanced-ndt-services/iris.php">Internal Rotary Inspection System (IRIS)</a></li>
-                            <li><a href="/www/pages/advanced-ndt-services/mfl-tube.php">Magnetic Flux Leakage Tube</a></li>
-                            <li><a href="/www/pages/advanced-ndt-services/nft-tube.php">Near-Field Testing Tube</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/phased-array-ut.php">Phased Array Ultrasonic Testing (PAUT)</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/time-of-flight-diffraction.php">Time of Flight Diffraction (ToFD)</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/automated-ut.php">Automated Ultrasonic Testing (AUT)</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/long-range-ut.php">Long Range Ultrasonic Testing (LRUT)</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/short-range-ut.php">Short Range Ultrasonic Testing (SRUT)</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/remote-visual-inspection.php">Remote Visual Inspection / Videoscope</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/magnetic-flux-leakage.php">Magnetic Flux Leakage Tank Floor</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/remote-field-eddy-current.php">Remote Field Eddy Current Tube</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/eddy-current-tube.php">Eddy Current Tube Inspection (ECT)</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/iris-tube-inspection.php">Internal Rotary Inspection System (IRIS)</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/magnetic-flux-leakage-tube.php">Magnetic Flux Leakage Tube</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/near-field-testing.php">Near-Field Testing Tube</a></li>
                             <li><a href="/www/pages/advanced-ndt-services/infrared-thermography.php">Infrared Thermography</a></li>
-                            <li><a href="/www/pages/advanced-ndt-services/acfm.php">Alternating Current Field Measurement</a></li>
+                            <li><a href="/www/pages/advanced-ndt-services/alternating-current-field-measurement.php">Alternating Current Field Measurement</a></li>
                         </ul>
                         <div class="mobile-submenu-header">Specialized NDT &amp; Asset</div>
                         <ul>
-                            <li><a href="/www/pages/specialized-ndt/painting-coating.php">Painting &amp; Coating Inspections</a></li>
+                            <li><a href="/www/pages/specialized-ndt/painting-coating-inspections.php">Painting &amp; Coating Inspections</a></li>
                             <li><a href="/www/pages/specialized-ndt/cathodic-protection.php">Cathodic Protection</a></li>
-                            <li><a href="/www/pages/specialized-ndt/asset-integrity.php">Asset Integrity Inspection</a></li>
+                            <li><a href="/www/pages/specialized-ndt/asset-integrity-inspection.php">Asset Integrity Inspection</a></li>
                             <li><a href="/www/pages/specialized-ndt/octg-inspection.php">OCTG Inspection</a></li>
-                            <li><a href="/www/pages/specialized-ndt/predictive-maintenance.php">Predictive Maintenance Survey</a></li>
+                            <li><a href="/www/pages/specialized-ndt/predictive-maintenance-survey.php">Predictive Maintenance Survey</a></li>
                             <li><a href="/www/pages/specialized-ndt/helium-leak-testing.php">Helium Leak Testing</a></li>
                         </ul>
                         <div class="mobile-submenu-header">Rope Access Services</div>
                         <ul>
+                            <li><a href="/www/pages/rope-access-services/rope-access-et.php">Rope Access Eddy Current Testing (ET)</a></li>
+                            <li><a href="/www/pages/rope-access-services/rope-access-flare-stack.php">Rope Access Flare Stack Services</a></li>
+                            <li><a href="/www/pages/rope-access-services/rope-access-mt.php">Rope Access Magnetic Particle Testing (MT)</a></li>
                             <li><a href="/www/pages/rope-access-services/rope-access-ndt.php">Rope Access NDT</a></li>
-                            <li><a href="/www/pages/rope-access-services/rope-access-inspection.php">Rope Access Inspection</a></li>
-                            <li><a href="/www/pages/rope-access-services/confined-space.php">Confined Space Entry</a></li>
-                        </ul>
-                        <div class="mobile-submenu-header">Third Party Inspections</div>
-                        <ul>
-                            <li><a href="/www/pages/third-party-inspections/vendor-inspection.php">Vendor Inspection</a></li>
-                            <li><a href="/www/pages/third-party-inspections/expediting.php">Expediting Services</a></li>
-                            <li><a href="/www/pages/third-party-inspections/quality-assurance.php">Quality Assurance</a></li>
+                            <li><a href="/www/pages/rope-access-services/rope-access-paut-tofd.php">Rope Access PAUT &amp; TOFD</a></li>
+                            <li><a href="/www/pages/rope-access-services/rope-access-pipeline.php">Rope Access Pipeline Services</a></li>
+                            <li><a href="/www/pages/rope-access-services/rope-access-pt.php">Rope Access Penetrant Testing (PT)</a></li>
+                            <li><a href="/www/pages/rope-access-services/rope-access-rt.php">Rope Access Radiographic Testing (RT)</a></li>
+                            <li><a href="/www/pages/rope-access-services/rope-access-thermal-imaging.php">Rope Access Thermal Imaging</a></li>
+                            <li><a href="/www/pages/rope-access-services/rope-access-ut.php">Rope Access Ultrasonic Testing (UT)</a></li>
+                            <li><a href="/www/pages/rope-access-services/rope-access-vt.php">Rope Access Visual Testing (VT)</a></li>
+                            <li><a href="/www/pages/rope-access-services/rope-access-wind-turbine.php">Rope Access Wind Turbine Services</a></li>
                         </ul>
                         <div class="mobile-submenu-header">Conventional NDT Services</div>
                         <ul>
@@ -111,17 +114,17 @@ document.addEventListener('DOMContentLoaded', function () {
                         </ul>
                         <div class="mobile-submenu-header">Lifting Inspection Services</div>
                         <ul>
-                            <li><a href="/www/pages/lifting-inspection/lifting-equipment.php">Lifting Equipment Certification</a></li>
-                            <li><a href="/www/pages/lifting-inspection/spreader-beam.php">Spreader Beam &amp; Lifting Frame</a></li>
-                            <li><a href="/www/pages/lifting-inspection/lifting-points.php">Lifting Points &amp; Pad Eye</a></li>
-                            <li><a href="/www/pages/lifting-inspection/lifting-gear.php">Lifting Gear Inspection</a></li>
-                            <li><a href="/www/pages/lifting-inspection/mobile-crane.php">Mobile Crane &amp; Crawler Crane</a></li>
-                            <li><a href="/www/pages/lifting-inspection/gantry-crane.php">Overhead Crane &amp; Gantry Crane</a></li>
-                            <li><a href="/www/pages/lifting-inspection/load-testing.php">Load Testing Services</a></li>
-                            <li><a href="/www/pages/lifting-inspection/offshore-crane.php">Offshore Crane &amp; Derrick</a></li>
-                            <li><a href="/www/pages/lifting-inspection/chain-block.php">Chain Block &amp; Hoist</a></li>
-                            <li><a href="/www/pages/lifting-inspection/forklift.php">Forklift &amp; Material Handling</a></li>
-                            <li><a href="/www/pages/lifting-inspection/man-riding.php">Man-Riding Equipment</a></li>
+                            <li><a href="/www/pages/lifting-inspection-services/lifting-equipment-certification.php">Lifting Equipment Inspection &amp; Certification</a></li>
+                            <li><a href="/www/pages/lifting-inspection-services/spreader-beam-inspection.php">Spreader Beam &amp; Lifting Frame Inspection</a></li>
+                            <li><a href="/www/pages/lifting-inspection-services/lifting-points-inspection.php">Lifting Points &amp; Pad Eye Inspection</a></li>
+                            <li><a href="/www/pages/lifting-inspection-services/lifting-gear-inspection.php">Lifting Gear Inspection</a></li>
+                            <li><a href="/www/pages/lifting-inspection-services/mobile-crane-inspection.php">Mobile Crane &amp; Crawler Crane</a></li>
+                            <li><a href="/www/pages/lifting-inspection-services/overhead-crane-inspection.php">Overhead Crane &amp; Gantry Crane</a></li>
+                            <li><a href="/www/pages/lifting-inspection-services/load-testing-services.php">Load Testing Services</a></li>
+                            <li><a href="/www/pages/lifting-inspection-services/offshore-crane-inspection.php">Offshore Crane &amp; Derrick</a></li>
+                            <li><a href="/www/pages/lifting-inspection-services/chain-block-hoist-inspection.php">Chain Block &amp; Hoist</a></li>
+                            <li><a href="/www/pages/lifting-inspection-services/forklift-inspection.php">Forklift &amp; Material Handling</a></li>
+                            <li><a href="/www/pages/lifting-inspection-services/man-riding-equipment.php">Man-Riding Equipment</a></li>
                         </ul>
                         <div class="mobile-submenu-header">Marine &amp; Boiler</div>
                         <ul>
@@ -182,8 +185,8 @@ document.addEventListener('DOMContentLoaded', function () {
             </ul>
         `;
 
-        body.appendChild(overlay);
-        body.appendChild(sidebar);
+        document.body.appendChild(overlay);
+        document.body.appendChild(sidebar);
         return { overlay, sidebar };
     }
 
@@ -232,7 +235,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Close button - event delegation
+    // Close button
     sidebar.addEventListener('click', function (e) {
         if (e.target.closest('#mobileNavClose')) {
             e.preventDefault();
@@ -244,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Overlay click
     overlay.addEventListener('click', closeMobileMenu);
 
-    // Dropdown triggers - event delegation
+    // Dropdown triggers
     sidebar.addEventListener('click', function (e) {
         const trigger = e.target.closest('.mobile-dropdown-trigger');
         if (!trigger) return;
@@ -252,8 +255,8 @@ document.addEventListener('DOMContentLoaded', function () {
         e.stopPropagation();
 
         const parentLi = trigger.parentElement;
-        const isOpen   = parentLi.classList.contains('mobile-open');
-        const icon     = trigger.querySelector('i');
+        const isOpen = parentLi.classList.contains('mobile-open');
+        const icon = trigger.querySelector('i');
 
         sidebar.querySelectorAll('.has-dropdown.mobile-open').forEach(function (item) {
             if (item !== parentLi) {
@@ -276,24 +279,21 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Submenu links close menu
+    // Close menu on link click
     sidebar.addEventListener('click', function (e) {
         if (e.target.closest('.mobile-submenu a')) closeMobileMenu();
     });
 
-    // Plain nav links close menu
     sidebar.addEventListener('click', function (e) {
         const link = e.target.closest('.mobile-nav-menu > li > a:not(.mobile-dropdown-trigger)');
         if (link) closeMobileMenu();
     });
 
-    // Prevent touch scroll bleed
     overlay.addEventListener('touchmove', function (e) { e.preventDefault(); }, { passive: false });
 
-
     // ===================== HERO SLIDER =====================
-    const slides  = document.querySelectorAll('.slide');
-    const dots    = document.querySelectorAll('.dot');
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
     const prevBtn = document.querySelector('.custom-prev-btn');
     const nextBtn = document.querySelector('.custom-next-btn');
 
@@ -309,9 +309,9 @@ document.addEventListener('DOMContentLoaded', function () {
             if (dots[current]) dots[current].classList.add('active');
         }
 
-        function startAuto()  { timer = setInterval(function () { goTo(current + 1); }, 5000); }
-        function stopAuto()   { clearInterval(timer); }
-        function resetAuto()  { stopAuto(); startAuto(); }
+        function startAuto() { timer = setInterval(function () { goTo(current + 1); }, 5000); }
+        function stopAuto() { clearInterval(timer); }
+        function resetAuto() { stopAuto(); startAuto(); }
 
         if (prevBtn) prevBtn.addEventListener('click', function () { goTo(current - 1); resetAuto(); });
         if (nextBtn) nextBtn.addEventListener('click', function () { goTo(current + 1); resetAuto(); });
@@ -319,7 +319,6 @@ document.addEventListener('DOMContentLoaded', function () {
             dot.addEventListener('click', function () { goTo(i); resetAuto(); });
         });
 
-        // Touch swipe
         let touchStartX = 0;
         const hero = document.querySelector('.hero');
         if (hero) {
@@ -338,7 +337,6 @@ document.addEventListener('DOMContentLoaded', function () {
         startAuto();
     }
 
-
     // ===================== ACTIVE NAV =====================
     const path = window.location.pathname;
     document.querySelectorAll('.nav-menu > li > a').forEach(function (link) {
@@ -354,7 +352,6 @@ document.addEventListener('DOMContentLoaded', function () {
             l.classList.add('active');
         });
     }
-
 
     // ===================== SCROLL ANIMATIONS =====================
     const observerOpts = { threshold: 0.12, rootMargin: '0px 0px -40px 0px' };
@@ -380,12 +377,11 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }, 100);
 
-
     // ===================== SEARCH BAR =====================
-    const searchToggle    = document.getElementById('searchToggle');
+    const searchToggle = document.getElementById('searchToggle');
     const headerSearchBar = document.getElementById('headerSearchBar');
-    const searchClose     = document.getElementById('headerSearchClose');
-    const searchInput     = document.getElementById('headerSearchInput');
+    const searchClose = document.getElementById('headerSearchClose');
+    const searchInput = document.getElementById('headerSearchInput');
 
     function openSearch() {
         if (!headerSearchBar) return;
@@ -419,15 +415,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-
     // ===================== VIDEO SECTION =====================
-    const videoSection    = document.getElementById('videoSection');
-    const bgVideo         = document.getElementById('bgVideo');
-    const videoPlayBtn    = document.getElementById('videoPlayBtn');
-    const videoModal      = document.getElementById('videoModal');
+    const videoSection = document.getElementById('videoSection');
+    const bgVideo = document.getElementById('bgVideo');
+    const videoPlayBtn = document.getElementById('videoPlayBtn');
+    const videoModal = document.getElementById('videoModal');
     const videoModalClose = document.getElementById('videoModalClose');
-    const videoModalOver  = document.getElementById('videoModalOverlay');
-    const mainVideo       = document.getElementById('mainVideo');
+    const videoModalOver = document.getElementById('videoModalOverlay');
+    const mainVideo = document.getElementById('mainVideo');
 
     function closeVideoModal() {
         if (!videoModal) return;
@@ -469,12 +464,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     if (videoModalClose) videoModalClose.addEventListener('click', closeVideoModal);
-    if (videoModalOver)  videoModalOver.addEventListener('click', closeVideoModal);
-
+    if (videoModalOver) videoModalOver.addEventListener('click', closeVideoModal);
 
     // ===================== TESTIMONIALS SLIDER =====================
     const testiTrack = document.getElementById('testiTrack');
-    const testiDots  = document.querySelectorAll('.testi-dot');
+    const testiDots = document.querySelectorAll('.testi-dot');
 
     if (testiTrack && testiDots.length) {
         let testiCurrent = 0;
@@ -501,7 +495,8 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         testiTrack.addEventListener('touchstart', function (e) {
-            dragStartX = e.touches[0].clientX; isDragging = true;
+            dragStartX = e.touches[0].clientX;
+            isDragging = true;
         }, { passive: true });
 
         testiTrack.addEventListener('touchend', function (e) {
@@ -511,8 +506,8 @@ document.addEventListener('DOMContentLoaded', function () {
             isDragging = false;
         }, { passive: true });
 
-        testiTrack.addEventListener('mousedown',  function (e) { dragStartX = e.clientX; isDragging = true; });
-        testiTrack.addEventListener('mouseup',    function (e) {
+        testiTrack.addEventListener('mousedown', function (e) { dragStartX = e.clientX; isDragging = true; });
+        testiTrack.addEventListener('mouseup', function (e) {
             if (!isDragging) return;
             const diff = dragStartX - e.clientX;
             if (Math.abs(diff) > 60) { testiGoTo(diff > 0 ? testiCurrent + 1 : testiCurrent - 1); testiResetAuto(); }
@@ -525,7 +520,6 @@ document.addEventListener('DOMContentLoaded', function () {
         testiStartAuto();
     }
 
-
     // ===================== HEADER SCROLL =====================
     const header = document.querySelector('.main-header');
     if (header) {
@@ -536,7 +530,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }, { passive: true });
     }
 
-
     // ===================== ESCAPE KEY =====================
     document.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') {
@@ -545,7 +538,6 @@ document.addEventListener('DOMContentLoaded', function () {
             closeSearch();
         }
     });
-
 
     // ===================== IMAGE LOADED =====================
     document.querySelectorAll('img').forEach(function (img) {
