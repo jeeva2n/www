@@ -188,7 +188,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/time-of-fli
                 </div>
                 <div class="what-is-visual">
                     <div class="visual-card">
-                        <img src="/www/assets/images/services/tofd-principle.jpg" alt="TOFD Principle">
+                        <img src="/www/assets/images/TOFD/tofd2.png" alt="TOFD Principle">
                         <div class="visual-caption">
                             <i class="fas fa-info-circle"></i>
                             <span>TOFD transmitter/receiver setup illustrating diffraction from defect tips</span>
