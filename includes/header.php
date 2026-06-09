@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alpha Sonix NDT Solutions</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="/www/assets/css/styles.css">
+  <link rel="stylesheet" href="/www/assets/css/company-pages.css">
+<link rel="stylesheet" href="/www/assets/css/styles.css">
 </head>
 
 <body>
@@ -253,9 +254,9 @@
                         <strong>Free: +91 44 4501 5884</strong>
                     </div>
                 </div>
-                <div class="search-icon" id="searchToggle" title="Search">
+                <!-- <div class="search-icon" id="searchToggle" title="Search">
                     <i class="fas fa-search"></i>
-                </div>
+                </div> -->
                 <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu" aria-expanded="false">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -263,7 +264,7 @@
         </div>
 
         <!-- ===================== SEARCH BAR ===================== -->
-        <div class="header-search-bar" id="headerSearchBar">
+        <!-- <div class="header-search-bar" id="headerSearchBar">
             <div class="header-search-inner">
                 <form action="/www/search.php" method="GET" class="header-search-form">
                     <input type="text" name="q" id="headerSearchInput" placeholder="Search services, inspections, heat treatment..." autocomplete="off" />
@@ -275,7 +276,7 @@
                     <i class="fas fa-times"></i>
                 </button>
             </div>
-        </div>
+        </div> -->
     </header>
 
     <!-- Mobile Navigation Overlay & Sidebar (empty - populated by JS) -->
