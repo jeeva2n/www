@@ -349,21 +349,109 @@ document.addEventListener('DOMContentLoaded', function () {
         startAuto();
     }
 
-    // ===================== ACTIVE NAV =====================
-    const path = window.location.pathname;
-    document.querySelectorAll('.nav-menu > li > a').forEach(function (link) {
-        link.classList.remove('active');
-        const href = link.getAttribute('href');
-        if (href && href !== '#' && path.endsWith(href.split('/').pop())) {
-            link.classList.add('active');
+    // ===================== ACTIVE NAV - FIXED FOR HEAT TREATMENT =====================
+    // Wait a bit to ensure PHP classes are applied
+    setTimeout(function() {
+        const currentPath = window.location.pathname;
+        
+        // Debug: Log current path
+        console.log('Current Path:', currentPath);
+        
+        // Function to check if current page is in any section
+        function isInSection(paths) {
+            for (let i = 0; i < paths.length; i++) {
+                if (currentPath.includes(paths[i])) {
+                    return true;
+                }
+            }
+            return false;
         }
-    });
-
-    if (path === '/' || path.includes('index')) {
-        document.querySelectorAll('a[href*="index.php"]').forEach(function (l) {
-            l.classList.add('active');
+        
+        // FIRST: Keep PHP-added active classes, don't remove them
+        // Only add additional active classes if needed
+        
+        // HOME PAGE - ensure home has active
+        if (currentPath === '/' || currentPath === '/www/index.php' || currentPath.includes('index.php')) {
+            const homeLink = document.querySelector('.nav-menu a[href="/www/index.php"]');
+            if (homeLink && !homeLink.classList.contains('active')) {
+                homeLink.classList.add('active');
+            }
+        }
+        
+        // CONTACT PAGE
+        if (currentPath.includes('contact.php')) {
+            const contactLink = document.querySelector('.nav-menu a[href="/www/contact.php"]');
+            if (contactLink && !contactLink.classList.contains('active')) {
+                contactLink.classList.add('active');
+            }
+        }
+        
+        // INDUSTRIAL HEAT TREATMENT SECTION - Force active class
+        if (currentPath.includes('/pages/industrial-heat-treatment/')) {
+            const heatMenu = document.querySelector('.nav-menu li.has-dropdown');
+            if (heatMenu) {
+                // Find the Industrial Heat Treatment link
+                const allNavLinks = document.querySelectorAll('.nav-menu > li > a');
+                for (let i = 0; i < allNavLinks.length; i++) {
+                    const link = allNavLinks[i];
+                    if (link.textContent.trim() === 'Industrial Heat Treatment') {
+                        link.classList.add('active');
+                        console.log('Added active to Industrial Heat Treatment');
+                        break;
+                    }
+                }
+            }
+        }
+        
+        // COMPANY SECTION
+        if (isInSection(['/pages/company/'])) {
+            const companyLinks = document.querySelectorAll('.nav-menu > li > a');
+            for (let i = 0; i < companyLinks.length; i++) {
+                if (companyLinks[i].textContent.trim() === 'Company') {
+                    companyLinks[i].classList.add('active');
+                    break;
+                }
+            }
+        }
+        
+        // INDUSTRIAL INSPECTIONS SECTION
+        if (isInSection([
+            '/pages/advanced-ndt-services/',
+            '/pages/specialized-ndt/',
+            '/pages/third-party-inspections/',
+            '/pages/lifting-inspection-services/',
+            '/pages/conventional-ndt/',
+            '/pages/rope-access-services/',
+            '/pages/marine-boiler-inspections/'
+        ])) {
+            const industrialLinks = document.querySelectorAll('.nav-menu > li > a');
+            for (let i = 0; i < industrialLinks.length; i++) {
+                if (industrialLinks[i].textContent.trim() === 'Industrial Inspections') {
+                    industrialLinks[i].classList.add('active');
+                    break;
+                }
+            }
+        }
+        
+        // BUSINESS DIVISION SECTION
+        if (isInSection(['/pages/business-division/'])) {
+            const businessLinks = document.querySelectorAll('.nav-menu > li > a');
+            for (let i = 0; i < businessLinks.length; i++) {
+                if (businessLinks[i].textContent.trim() === 'Business Division') {
+                    businessLinks[i].classList.add('active');
+                    break;
+                }
+            }
+        }
+        
+        // Debug: Log which links have active class
+        document.querySelectorAll('.nav-menu > li > a').forEach(function(link) {
+            if (link.classList.contains('active')) {
+                console.log('Active link:', link.textContent.trim());
+            }
         });
-    }
+        
+    }, 100);
 
     // ===================== SCROLL ANIMATIONS =====================
     const observerOpts = { threshold: 0.12, rootMargin: '0px 0px -40px 0px' };

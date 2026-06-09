@@ -189,7 +189,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/automated-u
                 </div>
                 <div class="what-is-visual">
                     <div class="visual-card">
-                        <img src="/www/assets/images/services/aut-system.jpg" alt="AUT System">
+                        <img src="/www/assets/images/AUT/aut2.png" alt="AUT System">
                         <div class="visual-caption">
                             <i class="fas fa-info-circle"></i>
                             <span>Mechanized scanner with encoded inspection and multi-technique probe setup (configuration depends on procedure)</span>
@@ -310,7 +310,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/automated-u
                 <!-- Pipeline Scanners -->
                 <div class="system-card">
                     <div class="system-image">
-                        <img src="/www/assets/images/services/aut-pipeline-scanner.jpg" alt="Pipeline Scanner">
+                        <img src="/www/assets/images/AUT/aut7.jpg" alt="Pipeline Scanner">
                         <div class="system-badge">Pipeline</div>
                     </div>
                     <div class="system-content">
@@ -338,7 +338,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/automated-u
                 <!-- Magnetic Crawlers -->
                 <div class="system-card">
                     <div class="system-image">
-                        <img src="/www/assets/images/services/aut-magnetic-crawler.jpg" alt="Magnetic Crawler">
+                        <img src="/www/assets/images/AUT/aut6.jpg" alt="Magnetic Crawler">
                         <div class="system-badge">Remote Access</div>
                     </div>
                     <div class="system-content">
@@ -366,7 +366,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/automated-u
                 <!-- Tank Floor Scanner -->
                 <div class="system-card">
                     <div class="system-image">
-                        <img src="/www/assets/images/services/aut-tank-scanner.jpg" alt="Tank Floor Scanner">
+                        <img src="/www/assets/images/AUT/aut4.jpg" alt="Tank Floor Scanner">
                         <div class="system-badge">Large Area</div>
                     </div>
                     <div class="system-content">
@@ -394,7 +394,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/automated-u
                 <!-- Orbital Scanners -->
                 <div class="system-card">
                     <div class="system-image">
-                        <img src="/www/assets/images/services/aut-orbital-scanner.jpg" alt="Orbital Scanner">
+                        <img src="/www/assets/images/AUT/aut5.jpg" alt="Orbital Scanner">
                         <div class="system-badge">Fabrication</div>
                     </div>
                     <div class="system-content">
@@ -422,7 +422,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/automated-u
                 <!-- Modular Scanners -->
                 <div class="system-card">
                     <div class="system-image">
-                        <img src="/www/assets/images/services/aut-modular-scanner.jpg" alt="Modular Scanner">
+                        <img src="/www/assets/images/AUT/aut3.png" alt="Modular Scanner">
                         <div class="system-badge">Portable</div>
                     </div>
                     <div class="system-content">
@@ -450,7 +450,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/automated-u
                 <!-- Specialized Systems -->
                 <div class="system-card">
                     <div class="system-image">
-                        <img src="/www/assets/images/services/aut-custom-scanner.jpg" alt="Custom Scanner">
+                        <img src="/www/assets/images/AUT/aut8.jpg" alt="Custom Scanner">
                         <div class="system-badge">Custom</div>
                     </div>
                     <div class="system-content">
@@ -500,7 +500,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/automated-u
                     <div class="tab-panel active" id="pipeline">
                         <div class="tab-grid">
                             <div class="tab-image">
-                                <img src="/www/assets/images/services/aut-pipeline-app.jpg" alt="Pipeline AUT">
+                                <img src="/www/assets/images/AUT/aut12.png" alt="Pipeline AUT">
                             </div>
                             <div class="tab-text">
                                 <h3>Pipeline Construction & Tie-Ins</h3>
@@ -546,7 +546,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/automated-u
                     <div class="tab-panel" id="manufacturing">
                         <div class="tab-grid">
                             <div class="tab-image">
-                                <img src="/www/assets/images/services/aut-manufacturing.jpg" alt="Manufacturing AUT">
+                                <img src="/www/assets/images/AUT/aut11.png" alt="Manufacturing AUT">
                             </div>
                             <div class="tab-text">
                                 <h3>Manufacturing & Fabrication QC</h3>
@@ -584,7 +584,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/automated-u
                     <div class="tab-panel" id="tank">
                         <div class="tab-grid">
                             <div class="tab-image">
-                                <img src="/www/assets/images/services/aut-tank.jpg" alt="Tank Floor AUT">
+                                <img src="/www/assets/images/AUT/aut9.png" alt="Tank Floor AUT">
                             </div>
                             <div class="tab-text">
                                 <h3>Storage Tank Floor & Shell Inspection</h3>
@@ -620,7 +620,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/automated-u
                     <div class="tab-panel" id="maintenance">
                         <div class="tab-grid">
                             <div class="tab-image">
-                                <img src="/www/assets/images/services/aut-maintenance.jpg" alt="Plant Maintenance AUT">
+                                <img src="/www/assets/images/AUT/aut10.png" alt="Plant Maintenance AUT">
                             </div>
                             <div class="tab-text">
                                 <h3>In-Service Inspection & Maintenance</h3>

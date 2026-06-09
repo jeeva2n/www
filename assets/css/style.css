@@ -165,28 +165,8 @@ body.mobile-menu-open .main-header {
     transition: color 0.25s ease;
 }
 
-.nav-menu > li > a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 3px;
-    background: #ef5a43;
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: transform 0.25s ease;
-}
+/* ===== FIXED NAVIGATION UNDERLINE ===== */
 
-.nav-menu > li > a:hover::after,
-.nav-menu > li > a.active::after {
-    transform: scaleX(1);
-}
-
-.nav-menu > li > a.active,
-.nav-menu > li > a:hover {
-    color: var(--primary-red);
-}
 
 .nav-menu > li > a i {
     font-size: 10px;
@@ -886,7 +866,7 @@ body.mobile-menu-open .main-header {
     display: block;
     font-size: 11px;
     font-weight: 700;
-    color: #00bcd4;
+    color: #c0392b;
     letter-spacing: 2.5px;
     text-transform: uppercase;
     margin-bottom: 18px;
@@ -2226,4 +2206,36 @@ body.mobile-menu-open .main-header {
     .video-title { font-size: 1.3rem; }
     .testi-slide { padding: 8px 10px 12px; }
     .footer-inner { padding: 0 8px; }
+}
+/* ===== NAVIGATION UNDERLINE - HOVER + ACTIVE ===== */
+.nav-menu > li > a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    background: #ef5a43;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.25s ease;
+}
+
+/* Show underline on HOVER */
+.nav-menu > li > a:hover::after {
+    transform: scaleX(1);
+}
+
+/* Show underline on ACTIVE page (stays permanently) */
+.nav-menu > li > a.active::after {
+    transform: scaleX(1);
+}
+
+/* Text color changes on hover and active */
+.nav-menu > li > a:hover {
+    color: var(--primary-red);
+}
+
+.nav-menu > li > a.active {
+    color: var(--primary-red);
 }

@@ -2108,14 +2108,14 @@ section:not([class*="vision-section"]) .btn-secondary:hover {
 .stat-number {
     font-size: 2.5rem;
     font-weight: 800;
-    color: var(--white);
+    color: #1a237e;
     display: block;
     margin-bottom: var(--spacing-xs);
 }
 
 .stat-label {
     font-size: 0.9rem;
-    color: var(--white);
+    color: #c0392b;
     opacity: 0.95;
 }
 

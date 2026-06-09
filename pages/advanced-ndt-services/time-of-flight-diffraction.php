@@ -394,7 +394,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/time-of-fli
                     <div class="tab-panel active" id="pipeline">
                         <div class="tab-grid">
                             <div class="tab-image">
-                                <img src="/www/assets/images/services/tofd-pipeline.jpg" alt="Pipeline TOFD Inspection">
+                                <img src="/www/assets/images/TOFD/tofd3.png" alt="Pipeline TOFD Inspection">
                             </div>
                             <div class="tab-text">
                                 <h3>Pipeline Girth Weld Inspection</h3>
@@ -434,7 +434,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/time-of-fli
                     <div class="tab-panel" id="pressure">
                         <div class="tab-grid">
                             <div class="tab-image">
-                                <img src="/www/assets/images/services/tofd-vessel.jpg" alt="Pressure Vessel TOFD">
+                                <img src="/www/assets/images/TOFD/tofd4.png" alt="Pressure Vessel TOFD">
                             </div>
                             <div class="tab-text">
                                 <h3>Pressure Vessel & Boiler Inspection</h3>
@@ -474,7 +474,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/time-of-fli
                     <div class="tab-panel" id="structural">
                         <div class="tab-grid">
                             <div class="tab-image">
-                                <img src="/www/assets/images/services/tofd-structural.jpg" alt="Structural TOFD">
+                                <img src="/www/assets/images/TOFD/tofd5.jpeg" alt="Structural TOFD">
                             </div>
                             <div class="tab-text">
                                 <h3>Structural Steel Weld Inspection</h3>
@@ -514,7 +514,7 @@ $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/time-of-fli
                     <div class="tab-panel" id="isi">
                         <div class="tab-grid">
                             <div class="tab-image">
-                                <img src="/www/assets/images/services/tofd-isi.jpg" alt="In-Service TOFD">
+                                <img src="/www/assets/images/TOFD/tofd6.png" alt="In-Service TOFD">
                             </div>
                             <div class="tab-text">
                                 <h3>In-Service & Risk-Based Inspection</h3>

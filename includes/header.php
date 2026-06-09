@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alpha Sonix NDT Solutions</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="/www/assets/css/company-pages.css">
-<link rel="stylesheet" href="/www/assets/css/styles.css">
+    <link rel="stylesheet" href="/www/assets/css/company-pages.css">
+    <link rel="stylesheet" href="/www/assets/css/styles.css">
 </head>
 
 <body>
@@ -31,15 +31,17 @@
 
                     <!-- HOME -->
                     <li>
-                        <a href="/www/index.php"
-                            <?php echo basename($_SERVER['PHP_SELF']) === 'index.php' ? 'class="active"' : ''; ?>>
+                        <a href="/www/index.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'index.php' ? 'active' : ''; ?>">
                             Home
                         </a>
                     </li>
 
                     <!-- COMPANY -->
-                    <li class="has-dropdown">
-                        <a href="#">Company <i class="fas fa-chevron-down"></i></a>
+                    <?php $isCompanyActive = (strpos($_SERVER['REQUEST_URI'], '/pages/company/') !== false); ?>
+                    <li class="has-dropdown <?php echo $isCompanyActive ? 'active-parent' : ''; ?>">
+                        <a href="#" class="<?php echo $isCompanyActive ? 'active' : ''; ?>">
+                            Company <i class="fas fa-chevron-down"></i>
+                        </a>
                         <div class="dropdown-menu company-drop">
                             <div class="drop-inner">
                                 <div class="drop-col">
@@ -62,12 +64,22 @@
                         </div>
                     </li>
 
-                    <!-- INDUSTRIAL INSPECTIONS MEGA MENU - FIXED -->
-                    <li class="has-dropdown mega">
-                        <a href="#">Industrial Inspections <i class="fas fa-chevron-down"></i></a>
+                    <!-- INDUSTRIAL INSPECTIONS MEGA MENU -->
+                    <?php 
+                    $isIndustrialActive = (strpos($_SERVER['REQUEST_URI'], '/pages/advanced-ndt-services/') !== false ||
+                                          strpos($_SERVER['REQUEST_URI'], '/pages/specialized-ndt/') !== false ||
+                                          strpos($_SERVER['REQUEST_URI'], '/pages/third-party-inspections/') !== false ||
+                                          strpos($_SERVER['REQUEST_URI'], '/pages/lifting-inspection-services/') !== false ||
+                                          strpos($_SERVER['REQUEST_URI'], '/pages/conventional-ndt/') !== false ||
+                                          strpos($_SERVER['REQUEST_URI'], '/pages/rope-access-services/') !== false ||
+                                          strpos($_SERVER['REQUEST_URI'], '/pages/marine-boiler-inspections/') !== false);
+                    ?>
+                    <li class="has-dropdown mega <?php echo $isIndustrialActive ? 'active-parent' : ''; ?>">
+                        <a href="#" class="<?php echo $isIndustrialActive ? 'active' : ''; ?>">
+                            Industrial Inspections <i class="fas fa-chevron-down"></i>
+                        </a>
                         <div class="dropdown-menu mega-drop">
                             <div class="drop-inner">
-
                                 <!-- Column 1 - Advanced NDT Services -->
                                 <div class="drop-col">
                                     <h4>Advanced NDT Services</h4>
@@ -117,7 +129,7 @@
                                     </ul>
                                 </div>
 
-                                <!-- Column 3 - Conventional NDT -->
+                                <!-- Column 3 - Third Party Inspection Services -->
                                 <div class="drop-col">
                                     <h4>Third Party Inspection Services</h4>
                                     <ul>
@@ -145,7 +157,7 @@
                                     </ul>
                                 </div>
 
-                                <!-- Column 4 - Lifting & Marine -->
+                                <!-- Column 4 - Lifting Inspection Services -->
                                 <div class="drop-col">
                                     <h4>Lifting Inspection Services</h4>
                                     <ul>
@@ -161,10 +173,9 @@
                                         <li><a href="/www/pages/lifting-inspection-services/forklift-inspection.php">Forklift &amp; Material Handling Equipment Inspection</a></li>
                                         <li><a href="/www/pages/lifting-inspection-services/man-riding-equipment.php">Man-Riding Equipment Inspection</a></li>
                                     </ul>
-
                                 </div>
 
-                                <!-- Column 5 - Inspection Services (NOW INSIDE drop-inner) -->
+                                <!-- Column 5 - Conventional NDT Services -->
                                 <div class="drop-col">
                                     <h4>Conventional NDT Services</h4>
                                     <ul>
@@ -182,14 +193,19 @@
                                         <li><a href="/www/pages/conventional-ndt/holiday-inspection.php">Holiday Inspection</a></li>
                                     </ul>
                                 </div>
-
                             </div> <!-- END drop-inner -->
                         </div> <!-- END mega-drop -->
                     </li> <!-- END Industrial Inspections -->
 
                     <!-- INDUSTRIAL HEAT TREATMENT -->
+                   <?php 
+                    $currentUrl = $_SERVER['REQUEST_URI'];
+                    $isHeatActive = (strpos($currentUrl, '/pages/industrial-heat-treatment/') !== false);
+                    ?>
                     <li class="has-dropdown">
-                        <a href="#">Industrial Heat Treatment <i class="fas fa-chevron-down"></i></a>
+                        <a href="#" <?php echo $isHeatActive ? 'class="active"' : ''; ?>>
+                            Industrial Heat Treatment <i class="fas fa-chevron-down"></i>
+                        </a>
                         <div class="dropdown-menu heat-drop">
                             <div class="drop-inner">
                                 <div class="drop-col">
@@ -216,8 +232,11 @@
                     </li>
 
                     <!-- BUSINESS DIVISION -->
+                    <?php $isBusinessActive = (strpos($_SERVER['REQUEST_URI'], '/pages/business-division/') !== false); ?>
                     <li class="has-dropdown">
-                        <a href="#">Business Division <i class="fas fa-chevron-down"></i></a>
+                        <a href="#" class="<?php echo $isBusinessActive ? 'active' : ''; ?>">
+                            Business Division <i class="fas fa-chevron-down"></i>
+                        </a>
                         <div class="dropdown-menu business-drop">
                             <div class="drop-inner">
                                 <div class="drop-col">
@@ -234,8 +253,7 @@
 
                     <!-- CONTACT -->
                     <li>
-                        <a href="/www/contact.php"
-                            <?php echo basename($_SERVER['PHP_SELF']) === 'contact.php' ? 'class="active"' : ''; ?>>
+                        <a href="/www/contact.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'contact.php' ? 'active' : ''; ?>">
                             Contact Us
                         </a>
                     </li>
@@ -254,32 +272,15 @@
                         <strong>Free: +91 44 4501 5884</strong>
                     </div>
                 </div>
-                <!-- <div class="search-icon" id="searchToggle" title="Search">
-                    <i class="fas fa-search"></i>
-                </div> -->
                 <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu" aria-expanded="false">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
         </div>
-
-        <!-- ===================== SEARCH BAR ===================== -->
-        <!-- <div class="header-search-bar" id="headerSearchBar">
-            <div class="header-search-inner">
-                <form action="/www/search.php" method="GET" class="header-search-form">
-                    <input type="text" name="q" id="headerSearchInput" placeholder="Search services, inspections, heat treatment..." autocomplete="off" />
-                    <button type="submit" aria-label="Search">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </form>
-                <button class="header-search-close" id="headerSearchClose" aria-label="Close Search">
-                    <i class="fas fa-times"></i>
-                </button>
-            </div>
-        </div> -->
     </header>
 
-    <!-- Mobile Navigation Overlay & Sidebar (empty - populated by JS) -->
+
+    <!-- Mobile Navigation Overlay & Sidebar -->
     <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
     <div class="mobile-nav-sidebar" id="mobileNavSidebar"></div>
 
