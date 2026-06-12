@@ -8,6 +8,7 @@ $meta_description = "Professional painting and coating inspection services for c
 $meta_keywords = "painting inspection, coating inspection, NACE CIP, SSPC coating inspection, DFT measurement, holiday detection, surface preparation inspection, protective coating inspection, corrosion protection, ISO 12944, NACE inspector, coating thickness measurement";
 $canonical_url = "https://alphasonix.com/pages/specialized-inspection/painting-coating-inspection.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

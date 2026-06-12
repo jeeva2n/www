@@ -1,9 +1,21 @@
 <?php
 // /www/includes/header.php
 ?>
+<?php
+// Display success/error messages
+if (isset($_SESSION['success'])) {
+    echo '<div class="alert alert-success">' . $_SESSION['success'] . '</div>';
+    unset($_SESSION['success']);
+}
+
+if (isset($_SESSION['error'])) {
+    echo '<div class="alert alert-error">' . $_SESSION['error'] . '</div>';
+    unset($_SESSION['error']);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
-
+<link rel="stylesheet" href="/www/assets/css/style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -242,9 +254,9 @@
                                 <div class="drop-col">
                                     <ul>
                                         <li><a href="/www/pages/business-division/inspection-ndt.php">Inspection &amp; NDT Services</a></li>
-                                        <li><a href="/www/pages/business-division/ndt-products.php">NDT Products &amp; Accessories</a></li>
+                                        <li><a href="/www/pages/business-division/ndt-products-accessories.php">NDT Products &amp; Accessories</a></li>
                                         <li><a href="/www/pages/business-division/reference-standards.php">Reference Standards &amp; Flawed Specimens</a></li>
-                                        <li><a href="/www/pages/business-division/ndt-automation.php">NDT Automations &amp; Systems</a></li>
+                                        <li><a href="/www/pages/business-division/ndt-automations-systems.php">NDT Automations &amp; Systems</a></li>
                                     </ul>
                                 </div>
                             </div>

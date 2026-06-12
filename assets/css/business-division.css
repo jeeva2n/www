@@ -1,0 +1,2896 @@
+/* ============================================================================
+   ALPHA SONIX BUSINESS DIVISION STYLES
+   Modern Industrial Alternating Mosaic Grid Design
+   Version: 1.0
+   ============================================================================ */
+
+/* ============================================================================
+   BASE STYLES & RESET
+   ============================================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* ============================================================================
+   HERO SECTIONS (All Pages)
+   ============================================================================ */
+
+.company-hero-section,
+.services-hero-section,
+.automation-hero-section,
+.standards-hero-section,
+.products-hero-section {
+    height: 600px;
+    background: linear-gradient(135deg, #003B73 0%, #004d8f 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.company-hero-section::before,
+.services-hero-section::before,
+.automation-hero-section::before,
+.standards-hero-section::before,
+.products-hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+    opacity: 0.5;
+}
+
+.hero-content {
+    max-width: 1000px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title {
+    font-size: 72px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.hero-subtitle {
+    font-size: 22px;
+    opacity: 0.95;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.hero-badges {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.hero-badge {
+    padding: 10px 25px;
+    background: rgba(229, 193, 91, 0.2);
+    border: 2px solid #E5C15B;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* ============================================================================
+   STATS & INFO BARS
+   ============================================================================ */
+
+.stats-bar,
+.trust-bar,
+.importance-bar,
+.categories-bar,
+.capabilities-bar {
+    background: #1a1a1a;
+    padding: 3rem 2rem;
+}
+
+.stats-grid,
+.trust-grid,
+.importance-grid,
+.categories-grid,
+.capabilities-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.trust-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.importance-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.categories-grid {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.capabilities-grid {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.stat-box,
+.trust-item,
+.importance-item,
+.category-item,
+.capability-item {
+    padding: 1.5rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.category-item:hover,
+.capability-item:hover {
+    background: rgba(229, 193, 91, 0.1);
+    transform: translateY(-5px);
+}
+
+.stat-icon,
+.trust-icon,
+.importance-icon,
+.category-icon,
+.capability-icon {
+    font-size: 42px;
+    margin-bottom: 1rem;
+}
+
+.capability-icon,
+.category-icon {
+    font-size: 36px;
+    margin-bottom: 0.8rem;
+}
+
+.stat-number {
+    font-size: 48px;
+    font-weight: 800;
+    color: #E5C15B;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.stat-label,
+.trust-item p,
+.importance-text,
+.category-name,
+.capability-name {
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+
+.trust-item h3,
+.importance-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #E5C15B;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.importance-title {
+    font-size: 18px;
+}
+
+.category-name,
+.capability-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #E5C15B;
+}
+
+/* ============================================================================
+   MOSAIC SECTIONS (Alternating Layout)
+   ============================================================================ */
+
+.mosaic-section {
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+}
+
+.mosaic-section > * {
+    flex: 1;
+    min-height: 600px;
+}
+
+/* Content Blocks */
+.content-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 6rem;
+}
+
+.content-block.yellow {
+    background-color: #E5C15B;
+    color: #1a1a1a;
+}
+
+.content-block.blue {
+    background-color: #003B73;
+    color: #ffffff;
+}
+
+.content-block.dark {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Section Titles */
+.section-title-main {
+    font-size: 56px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+.title-underline {
+    width: 80px;
+    height: 5px;
+    background: #E5C15B;
+    margin-bottom: 2rem;
+}
+
+.blue .title-underline {
+    background: #E5C15B;
+}
+
+.yellow .title-underline {
+    background: #003B73;
+}
+
+.dark .title-underline {
+    background: #E5C15B;
+}
+
+/* Content Text */
+.content-text {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    opacity: 0.95;
+}
+
+/* Image Blocks */
+.image-block {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.image-block:hover img {
+    transform: scale(1.05);
+}
+
+/* ============================================================================
+   FEATURE BOXES & HIGHLIGHTS
+   ============================================================================ */
+
+.features-grid,
+.philosophy-principles,
+.focus-highlights,
+.why-highlights,
+.cert-highlights,
+.diff-highlights {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.feature-box,
+.feature-item,
+.principle-item,
+.focus-item,
+.why-item,
+.cert-highlight-item,
+.diff-highlight-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+}
+
+.yellow .feature-box,
+.yellow .feature-item,
+.yellow .why-item,
+.yellow .cert-highlight-item,
+.yellow .diff-highlight-item {
+    background: rgba(0, 59, 115, 0.1);
+}
+
+.feature-icon,
+.focus-icon-small,
+.principle-icon,
+.why-icon-small,
+.cert-highlight-icon,
+.diff-highlight-icon {
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.feature-content h4,
+.focus-item-content h4,
+.why-item-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+}
+
+.feature-content p,
+.focus-item-content p,
+.why-item-content p {
+    font-size: 15px;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+/* ============================================================================
+   LISTS
+   ============================================================================ */
+
+.applications-list,
+.capabilities-list,
+.commitment-list,
+.expertise-list,
+.achievements-list,
+.standards-list,
+.products-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.applications-list li,
+.capabilities-list li,
+.commitment-list li,
+.standards-list li,
+.products-list li {
+    padding: 0.6rem 0 0.6rem 1.8rem;
+    position: relative;
+    font-size: 17px;
+    line-height: 1.7;
+    font-weight: 600;
+}
+
+.expertise-list,
+.achievements-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.expertise-list li,
+.achievements-list li {
+    padding: 0.5rem 0 0.5rem 1.8rem;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.7;
+    opacity: 0.95;
+}
+
+.applications-list li::before,
+.capabilities-list li::before,
+.commitment-list li::before,
+.standards-list li::before,
+.products-list li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: #E5C15B;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.expertise-list li::before,
+.achievements-list li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    color: #E5C15B;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.yellow .applications-list li::before,
+.yellow .capabilities-list li::before,
+.yellow .commitment-list li::before,
+.yellow .standards-list li::before,
+.yellow .products-list li::before,
+.yellow .expertise-list li::before,
+.yellow .achievements-list li::before {
+    color: #003B73;
+}
+
+/* ============================================================================
+   INLINE STATS
+   ============================================================================ */
+
+.stats-inline,
+.csr-stats-grid,
+.project-impact-grid,
+.vision-goals-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.vision-goals-list {
+    grid-template-columns: 1fr;
+}
+
+.stat-inline-item,
+.stat-item {
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.yellow .stat-inline-item,
+.yellow .stat-item {
+    background: rgba(0, 59, 115, 0.1);
+}
+
+.stat-inline-number,
+.stat-number {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.stat-inline-label,
+.stat-label {
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    font-weight: 600;
+}
+
+.vision-goal-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.yellow .vision-goal-item {
+    background: rgba(0, 59, 115, 0.1);
+}
+
+.vision-icon {
+    font-size: 36px;
+    flex-shrink: 0;
+}
+
+.vision-goal-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.vision-goal-content p {
+    font-size: 16px;
+    line-height: 1.7;
+    opacity: 0.95;
+}
+
+/* ============================================================================
+   GRID SECTIONS (Common Layout)
+   ============================================================================ */
+
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 52px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #003B73;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.title-underline.center {
+    width: 80px;
+    height: 5px;
+    background: #E5C15B;
+    margin: 1rem auto 1.5rem;
+}
+
+.section-subtitle {
+    font-size: 18px;
+    color: #666;
+}
+
+/* ============================================================================
+   CARD SECTIONS
+   ============================================================================ */
+
+/* Generic Card Grids */
+.values-grid,
+.pillars-grid,
+.focus-grid,
+.cert-grid,
+.personnel-grid,
+.standards-grid,
+.codes-grid,
+.services-grid,
+.systems-grid,
+.products-grid,
+.differentiators-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.personnel-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* Generic Cards */
+.value-card,
+.pillar-card,
+.focus-card,
+.cert-card,
+.personnel-card,
+.standard-card,
+.code-card,
+.service-card,
+.system-card,
+.product-card,
+.diff-card {
+    background: #fff;
+    padding: 3rem 2.5rem;
+    transition: all 0.3s ease;
+    border-bottom: 4px solid transparent;
+}
+
+.value-card:hover,
+.pillar-card:hover,
+.focus-card:hover,
+.cert-card:hover,
+.standard-card:hover,
+.service-card:hover,
+.system-card:hover,
+.product-card:hover,
+.diff-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 59, 115, 0.12);
+    border-bottom-color: #E5C15B;
+}
+
+.personnel-card {
+    background: #f8f9fa;
+    padding: 2.5rem 2rem;
+    text-align: center;
+}
+
+.code-card {
+    background: #f8f9fa;
+    padding: 2.5rem;
+    border-left: 4px solid #E5C15B;
+    border-bottom: none;
+}
+
+.code-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 10px 30px rgba(0, 59, 115, 0.1);
+    border-bottom-color: transparent;
+}
+
+/* Card Icons */
+.value-icon-wrapper,
+.diff-icon-wrapper {
+    margin-bottom: 1.5rem;
+}
+
+.value-icon,
+.pillar-icon,
+.focus-icon,
+.diff-icon,
+.service-card-icon,
+.system-icon,
+.product-icon,
+.standard-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #E5C15B;
+    color: #003B73;
+}
+
+.value-icon svg,
+.pillar-icon svg,
+.focus-icon svg,
+.diff-icon svg {
+    width: 40px;
+    height: 40px;
+    stroke-width: 2.5;
+}
+
+.service-card-icon,
+.system-icon,
+.product-icon {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.standard-icon {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.diff-number,
+.quality-number {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 48px;
+    font-weight: 800;
+    color: #E5C15B;
+    opacity: 0.2;
+    line-height: 1;
+}
+
+/* Card Headings */
+.value-card h3,
+.pillar-card h3,
+.focus-card h3,
+.cert-card h3,
+.personnel-card h3,
+.standard-card h3,
+.service-card h3,
+.system-card h3,
+.product-card h3,
+.diff-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.personnel-card h3 {
+    font-size: 20px;
+}
+
+.value-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+/* Card Content */
+.value-description,
+.cert-description,
+.personnel-description,
+.value-card p,
+.pillar-card p,
+.focus-card > p,
+.cert-card > p,
+.personnel-card > p,
+.standard-card > p,
+.service-card > p,
+.system-card > p,
+.product-card > p,
+.diff-card > p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+/* Certification Badges */
+.cert-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.iso-badge {
+    background: #4CAF50;
+    color: #fff;
+}
+
+.safety-badge {
+    background: #2196F3;
+    color: #fff;
+}
+
+.env-badge {
+    background: #8BC34A;
+    color: #fff;
+}
+
+.badge-icon {
+    font-size: 20px;
+}
+
+/* Card Specs/Details */
+.cert-details,
+.service-specs,
+.system-specs,
+.product-specs,
+.standard-specs {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+}
+
+.cert-detail-item {
+    margin-bottom: 0.8rem;
+    font-size: 15px;
+}
+
+.cert-detail-item:last-child {
+    margin-bottom: 0;
+}
+
+.cert-detail-item strong,
+.cert-details strong {
+    color: #003B73;
+    font-weight: 700;
+}
+
+.cert-benefits h5,
+.service-specs h5,
+.system-specs h5,
+.product-specs h5,
+.standard-specs h5,
+.personnel-methods h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+}
+
+.cert-benefits ul,
+.focus-initiatives,
+.service-specs ul,
+.system-specs ul,
+.product-specs ul,
+.standard-specs ul,
+.code-requirements {
+    list-style: none;
+    padding: 0;
+}
+
+.cert-benefits ul li,
+.focus-initiatives li,
+.service-specs ul li,
+.system-specs ul li,
+.product-specs ul li,
+.standard-specs ul li,
+.code-requirements li {
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.focus-initiatives li {
+    font-size: 15px;
+    padding: 0.5rem 0 0.5rem 1.8rem;
+}
+
+.cert-benefits ul li::before,
+.service-specs ul li::before,
+.system-specs ul li::before,
+.product-specs ul li::before,
+.standard-specs ul li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #4CAF50;
+    font-weight: 700;
+}
+
+.focus-initiatives li::before,
+.code-requirements li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: #E5C15B;
+    font-weight: 700;
+}
+
+/* Method Tags */
+.method-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.method-tag {
+    padding: 4px 12px;
+    background: #003B73;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Code Logos */
+.code-logo,
+.standard-logo {
+    font-size: 32px;
+    font-weight: 800;
+    color: #003B73;
+    margin-bottom: 1rem;
+}
+
+.code-card h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.code-card > p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+/* ============================================================================
+   PERSONNEL/LEADERSHIP CARDS
+   ============================================================================ */
+
+.personnel-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.personnel-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.personnel-card > p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* Leader Profile Container */
+.leader-profile-container {
+    width: 100%;
+}
+
+.leader-header {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.leader-image-circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    flex-shrink: 0;
+    position: relative;
+    background: linear-gradient(135deg, #003B73 0%, #004d8f 100%);
+}
+
+.yellow .leader-image-circle {
+    border-color: rgba(0, 59, 115, 0.3);
+    background: linear-gradient(135deg, #E5C15B 0%, #d4b34a 100%);
+}
+
+.leader-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.leader-initials {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 800;
+    color: #E5C15B;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.yellow .leader-initials {
+    color: #003B73;
+}
+
+.leader-header-info {
+    flex: 1;
+}
+
+.leader-name {
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.leader-designation {
+    font-size: 18px;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.leader-specialization {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.specialization-tag {
+    display: inline-block;
+    padding: 6px 16px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.yellow .specialization-tag {
+    background: rgba(0, 59, 115, 0.2);
+}
+
+.leader-bio {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    opacity: 0.95;
+}
+
+.leader-expertise,
+.leader-achievements {
+    margin-top: 2rem;
+}
+
+.leader-expertise h4,
+.leader-achievements h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.leader-quote {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid #E5C15B;
+    position: relative;
+}
+
+.yellow .leader-quote {
+    background: rgba(0, 59, 115, 0.1);
+    border-left-color: #003B73;
+}
+
+.quote-icon {
+    width: 30px;
+    height: 30px;
+    opacity: 0.3;
+    margin-bottom: 1rem;
+}
+
+.leader-quote p {
+    font-size: 16px;
+    line-height: 1.8;
+    font-style: italic;
+    opacity: 0.95;
+    margin: 0;
+}
+
+.leader-contact-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 14px 35px;
+    background: rgba(255, 255, 255, 0.2);
+    color: inherit;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    margin-top: 2rem;
+}
+
+.leader-contact-btn:hover {
+    background: #E5C15B;
+    color: #003B73;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(229, 193, 91, 0.3);
+}
+
+.yellow .leader-contact-btn:hover {
+    background: #003B73;
+    color: #fff;
+}
+
+.leader-contact-btn svg {
+    flex-shrink: 0;
+}
+
+/* ============================================================================
+   PROJECT/IMPACT SECTIONS
+   ============================================================================ */
+
+.project-content {
+    margin-bottom: 2rem;
+}
+
+.project-year {
+    display: inline-block;
+    padding: 6px 16px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.yellow .project-year {
+    background: rgba(0, 59, 115, 0.2);
+}
+
+.project-title {
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.project-description {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+}
+
+.project-impact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.impact-box {
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.yellow .impact-box {
+    background: rgba(0, 59, 115, 0.1);
+}
+
+.impact-number {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.impact-label {
+    font-size: 13px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    font-weight: 600;
+}
+
+/* ============================================================================
+   JOB/CAREER SECTIONS
+   ============================================================================ */
+
+.jobs-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 3rem auto 0;
+}
+
+.job-card {
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    padding: 2.5rem;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.job-card:hover {
+    border-color: #E5C15B;
+    box-shadow: 0 15px 40px rgba(0, 59, 115, 0.1);
+    transform: translateY(-5px);
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.job-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #003B73;
+    text-transform: uppercase;
+    line-height: 1.3;
+    flex: 1;
+}
+
+.job-badge {
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background: #e0e0e0;
+    color: #666;
+}
+
+.job-badge.urgent {
+    background: #ff4444;
+    color: #fff;
+}
+
+.job-badge.featured {
+    background: #E5C15B;
+    color: #003B73;
+}
+
+.job-badge.entry-level {
+    background: #4CAF50;
+    color: #fff;
+}
+
+.job-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 14px;
+    color: #666;
+}
+
+.meta-item svg {
+    color: #E5C15B;
+    flex-shrink: 0;
+}
+
+.job-description {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.job-requirements {
+    margin-bottom: 1.5rem;
+}
+
+.job-requirements strong {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+}
+
+.job-requirements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.job-requirements ul li {
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.job-requirements ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #E5C15B;
+    font-weight: 700;
+}
+
+.job-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.job-salary {
+    font-size: 18px;
+    font-weight: 700;
+    color: #003B73;
+}
+
+/* Benefits Section */
+.benefits-section {
+    background: #f8f9fa;
+    padding: 6rem 4rem;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.benefit-item {
+    background: #fff;
+    padding: 3rem 2.5rem;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.benefit-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 59, 115, 0.12);
+    border-bottom-color: #E5C15B;
+}
+
+.benefit-icon {
+    font-size: 48px;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.benefit-item h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.benefit-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefit-item ul li {
+    padding: 0.5rem 0 0.5rem 1.8rem;
+    position: relative;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.benefit-item ul li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: #E5C15B;
+    font-weight: 700;
+}
+
+/* Qualities/Benefits Cards */
+.qualities-section,
+.benefits-section {
+    background: #f8f9fa;
+    padding: 6rem 4rem;
+}
+
+.qualities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.quality-card {
+    background: #fff;
+    padding: 2.5rem;
+    position: relative;
+    transition: all 0.3s ease;
+    border-bottom: 4px solid transparent;
+}
+
+.quality-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 59, 115, 0.12);
+    border-bottom-color: #E5C15B;
+}
+
+.quality-card h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+
+.quality-card p,
+.benefit-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666;
+}
+
+/* ============================================================================
+   INDUSTRIES/APPLICATIONS SECTIONS
+   ============================================================================ */
+
+.industries-section {
+    background: #fff;
+    padding: 6rem 4rem;
+}
+
+.industries-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 3rem auto 0;
+}
+
+.industry-card {
+    background: #f8f9fa;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-bottom: 4px solid transparent;
+}
+
+.industry-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 59, 115, 0.12);
+    border-bottom-color: #E5C15B;
+}
+
+.industry-icon {
+    font-size: 48px;
+    margin-bottom: 1.5rem;
+}
+
+.industry-card h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.industry-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* ============================================================================
+   PROCESS/STEPS SECTIONS
+   ============================================================================ */
+
+.process-section,
+.custom-section {
+    background: #f8f9fa;
+    padding: 6rem 4rem;
+}
+
+.process-steps,
+.custom-process {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 3rem auto 0;
+}
+/* 
+.process-step {
+    background: #fff;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+} */
+
+.process-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 59, 115, 0.1);
+}
+
+.step-number {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1.5rem;
+    border-radius: 50%;
+    background: #E5C15B;
+    color: #003B73;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.process-step h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+}
+
+.process-step p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Process Timeline (Alternative Style) */
+.process-timeline {
+    max-width: 1000px;
+    margin: 3rem auto 0;
+}
+
+.process-step {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.process-step::before {
+    content: '';
+    position: absolute;
+    left: 2rem;
+    top: 4rem;
+    bottom: -3rem;
+    width: 2px;
+    background: #E5C15B;
+}
+
+.process-step:last-child::before {
+    display: none;
+}
+
+.step-content {
+    flex: 1;
+    padding-top: 0.5rem;
+}
+
+.step-content h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+}
+
+.step-content p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #666;
+}
+
+/* ============================================================================
+   SUCCESS STORIES/TESTIMONIALS
+   ============================================================================ */
+
+.success-section,
+.testimonials-section {
+    background: #f8f9fa;
+    padding: 6rem 4rem;
+}
+
+.testimonials-section {
+    background: #003B73;
+    color: #fff;
+}
+
+.testimonials-section .section-title {
+    color: #fff;
+}
+
+.success-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 3rem auto 0;
+}
+
+.success-card {
+    background: #fff;
+    padding: 2.5rem;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.success-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 59, 115, 0.12);
+    border-bottom-color: #E5C15B;
+}
+
+.success-card h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.success-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.success-card strong {
+    color: #003B73;
+}
+
+.success-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.metric {
+    padding: 6px 14px;
+    background: #E5C15B;
+    color: #003B73;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* Testimonials */
+.testimonials-slider,
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 3rem auto 0;
+}
+
+.testimonial-item,
+.testimonial-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 3rem 2.5rem;
+    border-left: 4px solid #E5C15B;
+    transition: all 0.3s ease;
+}
+
+.testimonial-card {
+    background: #fff;
+    color: #333;
+}
+
+.testimonial-card:hover,
+.testimonial-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 59, 115, 0.1);
+}
+
+.testimonial-quote,
+.quote-mark {
+    font-size: 72px;
+    font-weight: 800;
+    color: #E5C15B;
+    opacity: 0.3;
+    line-height: 0.5;
+    margin-bottom: 1rem;
+}
+
+.testimonial-content,
+.testimonial-text {
+    font-size: 16px;
+    line-height: 1.8;
+    font-style: italic;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+}
+
+.testimonial-card .testimonial-text {
+    color: #555;
+}
+
+.testimonial-author .author-info h5,
+.testimonial-author strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 0.3rem;
+    color: #E5C15B;
+    font-weight: 700;
+}
+
+.testimonial-card .testimonial-author strong {
+    color: #003B73;
+}
+
+.testimonial-author .author-info p,
+.testimonial-author span {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.author-tenure {
+    font-size: 13px;
+    color: #E5C15B;
+    font-weight: 600;
+}
+
+/* ============================================================================
+   COMPARISON TABLE
+   ============================================================================ */
+
+.comparison-section {
+    background: #fff;
+    padding: 6rem 4rem;
+}
+
+.comparison-table-wrapper {
+    max-width: 1200px;
+    margin: 3rem auto 0;
+    overflow-x: auto;
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.comparison-table thead {
+    background: #003B73;
+    color: #fff;
+}
+
+.comparison-table th {
+    padding: 1.5rem;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.comparison-table th.highlight-column {
+    background: #E5C15B;
+    color: #003B73;
+}
+
+.comparison-table td {
+    padding: 1.2rem 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 15px;
+}
+
+.comparison-table td.highlight-column {
+    background: rgba(229, 193, 91, 0.1);
+    font-weight: 600;
+}
+
+.check-icon {
+    color: #4CAF50;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 0.5rem;
+}
+
+.cross-icon {
+    color: #f44336;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 0.5rem;
+}
+
+.warning-icon {
+    color: #ff9800;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 0.5rem;
+}
+
+/* ============================================================================
+   QUALITY POLICY SECTION
+   ============================================================================ */
+
+.quality-policy-section {
+    background: #f8f9fa;
+    padding: 6rem 4rem;
+}
+
+.policy-card {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    border: 3px solid #E5C15B;
+}
+
+.policy-header {
+    background: #003B73;
+    color: #fff;
+    padding: 3rem;
+    text-align: center;
+    position: relative;
+}
+
+.policy-header h2 {
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.policy-stamp {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: #E5C15B;
+    color: #003B73;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.policy-content {
+    padding: 3rem;
+}
+
+.policy-statement {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.policy-commitments {
+    margin-bottom: 3rem;
+}
+
+.commitment-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-left: 4px solid #E5C15B;
+}
+
+.commitment-number {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #003B73;
+    color: #E5C15B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.commitment-item p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.policy-signature {
+    border-top: 2px solid #e0e0e0;
+    padding-top: 2rem;
+    text-align: right;
+}
+
+.policy-signature p {
+    margin-bottom: 0.3rem;
+    color: #666;
+}
+
+.signature-date {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+/* ============================================================================
+   DOWNLOADS SECTION
+   ============================================================================ */
+
+.downloads-section {
+    background: #fff;
+    padding: 6rem 4rem;
+}
+
+.downloads-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 3rem auto 0;
+}
+
+.download-card {
+    background: #f8f9fa;
+    padding: 2.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-bottom: 4px solid transparent;
+}
+
+.download-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 59, 115, 0.12);
+    border-bottom-color: #E5C15B;
+}
+
+.download-icon {
+    font-size: 48px;
+    margin-bottom: 1rem;
+}
+
+.download-card h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.download-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+/* ============================================================================
+   BRANDS/CLASSIFICATION SOCIETIES
+   ============================================================================ */
+
+.class-society-section,
+.brands-section {
+    background: #fff;
+    padding: 6rem 4rem;
+}
+
+.class-society-grid,
+.brands-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 3rem auto 0;
+}
+
+.brands-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3rem;
+    align-items: center;
+}
+
+.society-card,
+.brand-card {
+    background: #f8f9fa;
+    padding: 2.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-bottom: 4px solid transparent;
+}
+
+.society-card:hover,
+.brand-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 59, 115, 0.12);
+    border-bottom-color: #E5C15B;
+}
+
+.brand-card {
+    border-radius: 8px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+}
+
+.brand-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 59, 115, 0.1);
+    border-bottom-color: transparent;
+}
+
+.society-logo {
+    margin-bottom: 1.5rem;
+}
+
+.logo-placeholder,
+.brand-logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #003B73;
+    color: #E5C15B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.brand-logo {
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    background: transparent;
+    color: #003B73;
+}
+
+.society-card h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 0.8rem;
+}
+
+.society-card p {
+    font-size: 15px;
+    color: #666;
+}
+
+/* ============================================================================
+   APPLICATION FORM
+   ============================================================================ */
+
+.application-section {
+    background: #fff;
+    padding: 6rem 4rem;
+}
+
+.application-form-wrapper {
+    max-width: 1200px;
+    margin: 3rem auto 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+}
+
+.career-application-form {
+    background: #f8f9fa;
+    padding: 3rem;
+    border-radius: 8px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #003B73;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #E5C15B;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+}
+
+.checkbox-group input[type="checkbox"] {
+    width: auto;
+    margin-top: 0.2rem;
+}
+
+.form-submit {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.application-info {
+    background: #003B73;
+    color: #fff;
+    padding: 3rem;
+    border-radius: 8px;
+}
+
+.application-info h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    color: #E5C15B;
+}
+
+.process-steps {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2.5rem;
+}
+
+.process-steps li {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.process-steps li strong {
+    color: #E5C15B;
+}
+
+.contact-hr {
+    padding-top: 2rem;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-hr p {
+    margin: 0.5rem 0;
+    font-size: 15px;
+}
+
+.contact-hr a {
+    color: #E5C15B;
+    text-decoration: none;
+}
+
+.contact-hr a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================================================
+   CALIBRATION/EQUIPMENT SECTIONS
+   ============================================================================ */
+
+.calibration-section {
+    background: #fff;
+    padding: 6rem 4rem;
+}
+
+.calibration-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 4rem;
+}
+
+.calibration-info h3 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #003B73;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.calibration-text {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.calibration-features {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.cal-feature {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.cal-feature-icon {
+    font-size: 32px;
+    flex-shrink: 0;
+}
+
+.cal-feature-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.cal-feature-content p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.calibration-stats-box {
+    background: #003B73;
+    color: #fff;
+    padding: 3rem;
+    border-radius: 8px;
+}
+
+.calibration-stats-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #E5C15B;
+    text-transform: uppercase;
+}
+
+.cal-stats {
+    display: grid;
+    gap: 2rem;
+}
+
+.cal-stat-item {
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.cal-stat-number {
+    font-size: 36px;
+    font-weight: 800;
+    color: #E5C15B;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.cal-stat-label {
+    font-size: 13px;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+
+/* ============================================================================
+   MANAGEMENT TEAM
+   ============================================================================ */
+
+.management-section {
+    background: #fff;
+    padding: 6rem 4rem;
+}
+
+.management-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 3rem auto 0;
+}
+
+.management-card {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.management-card:hover {
+    background: #f8f9fa;
+    transform: translateY(-5px);
+}
+
+.management-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1.5rem;
+    border: 4px solid #E5C15B;
+    position: relative;
+    background: linear-gradient(135deg, #003B73 0%, #004d8f 100%);
+}
+
+.management-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.management-initials {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #E5C15B;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.management-card h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #003B73;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.management-role {
+    font-size: 14px;
+    color: #E5C15B;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.management-desc {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* ============================================================================
+   BUTTONS & CTAs
+   ============================================================================ */
+
+.btn {
+    display: inline-block;
+    padding: 16px 45px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-lg {
+    padding: 18px 50px;
+    font-size: 16px;
+}
+
+.btn-sm {
+    padding: 12px 30px;
+    font-size: 13px;
+}
+
+.btn-primary {
+    background: #E5C15B;
+    color: #003B73;
+}
+
+.btn-primary:hover {
+    background: #f0d070;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(229, 193, 91, 0.4);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-secondary:hover {
+    background: #fff;
+    color: #003B73;
+    transform: translateY(-3px);
+}
+
+.service-cta,
+.product-cta {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #003B73;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.service-cta:hover,
+.product-cta:hover {
+    background: #002a52;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 59, 115, 0.3);
+}
+
+/* CTA Sections */
+.services-cta-section,
+.automation-cta-section,
+.standards-cta-section,
+.why-cta-section,
+.credibility-cta-section,
+.careers-cta-section,
+.mvv-cta-section,
+.csr-cta-section,
+.leadership-cta-section,
+.products-cta-section {
+    padding: 5rem 4rem;
+    text-align: center;
+    color: #fff;
+}
+
+.services-cta-section,
+.standards-cta-section,
+.why-cta-section {
+    background: linear-gradient(135deg, #003B73 0%, #004d8f 100%);
+}
+
+.automation-cta-section,
+.products-cta-section,
+.credibility-cta-section,
+.careers-cta-section,
+.csr-cta-section {
+    background: linear-gradient(135deg, #E5C15B 0%, #d4b34a 100%);
+    color: #003B73;
+}
+
+.mvv-cta-section,
+.leadership-cta-section {
+    background: linear-gradient(135deg, #003B73 0%, #004d8f 100%);
+}
+
+.cta-content h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.cta-content p {
+    font-size: 20px;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.automation-cta-section .btn-primary,
+.products-cta-section .btn-primary,
+.credibility-cta-section .btn-primary,
+.careers-cta-section .btn-primary,
+.csr-cta-section .btn-primary {
+    background: #003B73;
+    color: #fff;
+}
+
+.automation-cta-section .btn-primary:hover,
+.products-cta-section .btn-primary:hover,
+.credibility-cta-section .btn-primary:hover,
+.careers-cta-section .btn-primary:hover,
+.csr-cta-section .btn-primary:hover {
+    background: #002a52;
+}
+
+.automation-cta-section .btn-secondary,
+.products-cta-section .btn-secondary,
+.credibility-cta-section .btn-secondary,
+.careers-cta-section .btn-secondary,
+.csr-cta-section .btn-secondary {
+    background: transparent;
+    color: #003B73;
+    border: 2px solid #003B73;
+}
+
+.automation-cta-section .btn-secondary:hover,
+.products-cta-section .btn-secondary:hover,
+.credibility-cta-section .btn-secondary:hover,
+.careers-cta-section .btn-secondary:hover,
+.csr-cta-section .btn-secondary:hover {
+    background: #003B73;
+    color: #fff;
+}
+
+/* ============================================================================
+   RESPONSIVE DESIGN
+   ============================================================================ */
+
+@media (max-width: 1200px) {
+    .content-block {
+        padding: 4rem 3rem;
+    }
+
+    .section-title-main {
+        font-size: 48px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .values-grid,
+    .pillars-grid,
+    .focus-grid,
+    .cert-grid,
+    .standards-grid,
+    .codes-grid,
+    .services-grid,
+    .systems-grid,
+    .products-grid,
+    .differentiators-grid,
+    .benefits-grid,
+    .qualities-grid,
+    .success-grid,
+    .testimonials-slider,
+    .testimonials-grid,
+    .downloads-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .personnel-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .industries-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .process-steps,
+    .custom-process {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .categories-grid,
+    .capabilities-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .brands-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .application-form-wrapper,
+    .calibration-content {
+        grid-template-columns: 1fr;
+    }
+
+    .jobs-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .mosaic-section {
+        flex-direction: column;
+    }
+
+    .mosaic-section > * {
+        min-height: auto;
+    }
+
+    .content-block {
+        padding: 3rem 2rem;
+    }
+
+    .hero-title {
+        font-size: 42px;
+    }
+
+    .section-title-main {
+        font-size: 36px;
+    }
+
+    .features-grid,
+    .philosophy-principles,
+    .focus-highlights,
+    .why-highlights,
+    .cert-highlights,
+    .diff-highlights,
+    .stats-inline,
+    .csr-stats-grid,
+    .project-impact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-grid,
+    .trust-grid,
+    .importance-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .categories-grid,
+    .capabilities-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .values-grid,
+    .pillars-grid,
+    .focus-grid,
+    .cert-grid,
+    .personnel-grid,
+    .standards-grid,
+    .codes-grid,
+    .services-grid,
+    .systems-grid,
+    .products-grid,
+    .differentiators-grid,
+    .benefits-grid,
+    .qualities-grid,
+    .industries-grid,
+    .process-steps,
+    .custom-process,
+    .success-grid,
+    .testimonials-slider,
+    .testimonials-grid,
+    .downloads-grid,
+    .brands-grid,
+    .class-society-grid,
+    .management-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .section-title {
+        font-size: 36px;
+    }
+
+    .leader-header {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .leader-name {
+        font-size: 28px;
+    }
+
+    .leader-specialization {
+        justify-content: center;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .vision-goals-list {
+        grid-template-columns: 1fr;
+    }
+
+    .certifications-section,
+    .personnel-section,
+    .standards-section,
+    .class-society-section,
+    .quality-policy-section,
+    .downloads-section,
+    .services-grid-section,
+    .systems-grid-section,
+    .products-grid-section,
+    .benefits-section,
+    .qualities-section,
+    .industries-section,
+    .process-section,
+    .custom-section,
+    .success-section,
+    .testimonials-section,
+    .comparison-section,
+    .calibration-section,
+    .brands-section,
+    .application-section,
+    .management-section {
+        padding: 4rem 2rem;
+    }
+
+    .policy-header,
+    .policy-content {
+        padding: 2rem;
+    }
+
+    .comparison-table-wrapper {
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .section-title-main {
+        font-size: 28px;
+    }
+
+    .content-block {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .stats-grid,
+    .trust-grid,
+    .importance-grid,
+    .categories-grid,
+    .capabilities-grid,
+    .brands-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-number {
+        font-size: 36px;
+    }
+
+    .hero-badges {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leader-image-circle {
+        width: 110px;
+        height: 110px;
+    }
+
+    .leader-initials span {
+        font-size: 36px;
+    }
+
+    .leader-name {
+        font-size: 24px;
+    }
+
+    .career-application-form {
+        padding: 2rem;
+    }
+
+    .application-info {
+        padding: 2rem;
+    }
+
+    .policy-header h2 {
+        font-size: 28px;
+    }
+
+    .cta-content h2 {
+        font-size: 32px;
+    }
+
+    .certifications-section,
+    .personnel-section,
+    .standards-section,
+    .class-society-section,
+    .quality-policy-section,
+    .downloads-section,
+    .services-grid-section,
+    .systems-grid-section,
+    .products-grid-section,
+    .benefits-section,
+    .qualities-section,
+    .industries-section,
+    .process-section,
+    .custom-section,
+    .success-section,
+    .testimonials-section,
+    .comparison-section,
+    .calibration-section,
+    .brands-section,
+    .application-section,
+    .management-section,
+    .services-cta-section,
+    .automation-cta-section,
+    .standards-cta-section,
+    .why-cta-section,
+    .credibility-cta-section,
+    .careers-cta-section,
+    .mvv-cta-section,
+    .csr-cta-section,
+    .leadership-cta-section,
+    .products-cta-section {
+        padding: 3rem 1.5rem;
+    }
+}
+
+/* ============================================================================
+   UTILITY CLASSES
+   ============================================================================ */
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* ============================================================================
+   ANIMATIONS
+   ============================================================================ */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* ============================================================================
+   PRINT STYLES
+   ============================================================================ */
+
+@media print {
+    .navbar,
+    .hero,
+    .cta-section,
+    .footer {
+        display: none;
+    }
+
+    .mosaic-section {
+        page-break-inside: avoid;
+    }
+}

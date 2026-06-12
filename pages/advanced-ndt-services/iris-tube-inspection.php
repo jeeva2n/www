@@ -8,6 +8,7 @@ $meta_description = "IRIS ultrasonic tube inspection for absolute wall thickness
 $meta_keywords = "IRIS, internal rotary inspection, ultrasonic tube testing, IRIS inspection, absolute thickness measurement, tube profiling, heat exchanger tube inspection, boiler tube testing, condenser tube inspection, C‑scan, tube wall thickness, NDT tube inspection";
 $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/iris-tube-inspection.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

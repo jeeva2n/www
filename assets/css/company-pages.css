@@ -273,7 +273,7 @@ body {
     align-items: center;
     gap: var(--spacing-sm);
     padding: var(--spacing-md);
-    background: #f7fafc;
+    background: #000000;
     border-radius: var(--radius-md);
     border-left: 4px solid var(--primary-color);
 }
@@ -494,7 +494,7 @@ body {
     align-items: center;
     gap: var(--spacing-sm);
     padding: var(--spacing-md);
-    background: #f7fafc;
+    background: #000000;
     border-radius: var(--radius-md);
     text-align: left;
 }
@@ -1720,7 +1720,7 @@ body {
     content: counter(step);
     counter-increment: step;
     position: absolute;
-    left: 0;
+    left: -62px;
     width: 30px;
     height: 30px;
     background: var(--primary-gradient);
@@ -2562,7 +2562,6 @@ section:not([class*="vision-section"]) .btn-secondary:hover {
     font-size: 1rem;
     font-style: italic;
     line-height: 1.7;
-    color: var(--gray);
     margin-bottom: var(--spacing-md);
 }
 
@@ -2579,7 +2578,6 @@ section:not([class*="vision-section"]) .btn-secondary:hover {
 
 .testimonial-author span {
     font-size: 0.9rem;
-    color: var(--gray);
 }
 
 /* =====================================================
@@ -2884,8 +2882,8 @@ section:not([class*="vision-section"]) .btn-secondary:hover {
 }
 
 .standard-logo {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     background: var(--primary-gradient);
     color: var(--white);
     border-radius: 50%;

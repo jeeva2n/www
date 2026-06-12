@@ -8,6 +8,7 @@ $meta_description = "Professional Eddy Current Tube Testing (ECT) for heat excha
 $meta_keywords = "eddy current testing, ECT, eddy current tube testing, heat exchanger tube inspection, condenser tube testing, boiler tube inspection, ACHE tube testing, bobbin probe, rotating pancake coil, RPC, array eddy current, ASME Section V Article 8";
 $canonical_url = "https://alphasonix.com/pages/advanced-ndt-services/eddy-current-tube.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
