@@ -59,7 +59,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/www/includes/header.php';
         </div>
     </div>
     <div class="image-block">
-        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&h=800&fit=crop&q=80" alt="Leadership Team Meeting">
+        <img src="../../assets/images/public/alpha-philosophy.png" alt="Leadership Team Meeting">
     </div>
 </section>
 

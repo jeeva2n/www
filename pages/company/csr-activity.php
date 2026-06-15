@@ -57,14 +57,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/www/includes/header.php';
         </div>
     </div>
     <div class="image-block">
-        <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1200&h=800&fit=crop&q=80" alt="Community Development">
+        <img src="../../assets/images/public/commitment-society.png" alt="Community Development">
     </div>
 </section>
 
 <!-- Section 2: Focus Areas Overview - Image Left | Content Right (Yellow) -->
 <section class="mosaic-section">
     <div class="image-block">
-        <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=1200&h=800&fit=crop&q=80" alt="Education and Training">
+        <img src="../../assets/images/public/CSR Focus Areas.png" alt="Education and Training">
     </div>
     <div class="content-block yellow">
         <h2 class="section-title-main">Our CSR Focus Areas</h2>
@@ -262,7 +262,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/www/includes/header.php';
 <!-- Section 4: Featured Project 2 - Image Left | Content Right (Yellow) -->
 <section class="mosaic-section">
     <div class="image-block">
-        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&h=800&fit=crop&q=80" alt="Green Alpha Initiative">
+        <img src="../../assets/images/public/green-alpha-initative.jpg" alt="Green Alpha Initiative">
     </div>
     <div class="content-block yellow">
         <div class="project-content">
@@ -319,14 +319,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/www/includes/header.php';
         </div>
     </div>
     <div class="image-block">
-        <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1200&h=800&fit=crop&q=80" alt="Safety First Campaign">
+        <img src="../../assets/images/public/safety-first.jpg" alt="Safety First Campaign">
     </div>
 </section>
 
 <!-- Section 6: CSR Vision - Image Left | Content Right (Yellow) -->
 <section class="mosaic-section">
     <div class="image-block">
-        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=800&fit=crop&q=80" alt="CSR Vision Future">
+        <img src="../../assets/images/public/alpha-csr.jpg" alt="CSR Vision Future">
     </div>
     <div class="content-block yellow">
         <h2 class="section-title-main">Our CSR Vision for 2027</h2>

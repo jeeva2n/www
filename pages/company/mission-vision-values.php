@@ -722,7 +722,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/www/includes/header.php';
         </p>
     </div>
     <div class="image-block">
-        <img src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=1200&h=800&fit=crop&q=80" alt="Advanced NDT Testing Equipment">
+        <img src="../../assets/images/public/alpha-setus-apart.png" alt="Advanced NDT Testing Equipment">
     </div>
 </section>
 

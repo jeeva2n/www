@@ -35,7 +35,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/www/includes/header.php';
 </section>
 
 <!-- Stats Bar -->
-<section class="stats-bar">
+<section class="stats-bar" text-align="center">
     <div class="stats-grid">
         <div class="stat-box">
             <div class="stat-icon">⚡</div>

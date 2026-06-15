@@ -647,13 +647,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/www/includes/header.php';
 
         <div class="application-info">
             <h4>Application Process:</h4>
-            <ol class="process-steps">
-                <li><strong>Submit Application:</strong> Fill out the form and upload your resume</li>
-                <li><strong>Initial Screening:</strong> Our HR team reviews your application within 48 hours</li>
-                <li><strong>Technical Interview:</strong> Shortlisted candidates undergo technical assessment</li>
-                <li><strong>Final Discussion:</strong> HR round to discuss role, expectations, and compensation</li>
+           
+                <li><strong>Submit Application:</strong> Fill out the form and upload your resume</li>  <br>
+                <li><strong>Initial Screening:</strong> Our HR team reviews your application within 48 hours</li> <br>
+                <li><strong>Technical Interview:</strong> Shortlisted candidates undergo technical assessment</li> <br>
+                <li><strong>Final Discussion:</strong> HR round to discuss role, expectations, and compensation</li> <br>
                 <li><strong>Offer:</strong> Selected candidates receive formal offer letter</li>
-            </ol>
+            
 
             <div class="contact-hr">
                 <h4>Have Questions?</h4>
